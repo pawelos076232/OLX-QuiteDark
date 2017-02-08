@@ -1,7 +1,7 @@
 $c-fff: #191919;
 $c-000: #fff;
 $c-5b5b5b: #ccc;
-$c-f1f1f1: #232323;
+$c-f1f1f1: #242424;
 $c-f2f2f2: #222;
 $c-f3f3f3: #212121;
 $c-f4f4f4: #212121;
@@ -204,8 +204,8 @@ $c-f8f8f8: #1d1d1d;
   .brf3, form.settings.invoicedata .fblock.submit {
     border-color: $c-f3f3f3;
   }
-  .brbott-7 {
-    border-bottom-color: $c-dadada;
+  .brbott-7, .choosecat .box>div .inner {
+    border-color: $c-dadada;
   }
   #answerMenu {
     background: $c-fafafa;
@@ -299,7 +299,7 @@ $c-f8f8f8: #1d1d1d;
     -o-box-shadow: 0 1px 2px 0 $c-ccc;
     box-shadow: 0 1px 2px 0 $c-ccc;
   }
-  .icon.f_checkbox {
+  .icon.f_checkbox, .icon.f_radio {
     background-color: $c-fff;
     border-color: $c-d1d1d1;
     box-shadow: 0 1px 0 0 $c-fff;
@@ -315,7 +315,8 @@ $c-f8f8f8: #1d1d1d;
   #fancybox-close, .icon.loupeplus,
   .maincategories .maincategories-list .li .item a.selected:before,
   .bottombox .submittarget, form.adding .submittarget, .userbox-dd .target,
-  .subnav2 li .icon.abs, div.suggest .target, img.margintop40 {
+  .subnav2 li .icon.abs, div.suggest .target, img.margintop40,
+  .choosecat .box>div .categoryTitle .target {
     filter: invert(.903) grayscale(1);
   }
   div.suggest.error .target {
@@ -383,6 +384,9 @@ $c-f8f8f8: #1d1d1d;
   .photos-show-mini li.empty.first-child div {
     background: #242424; /* #e8f4de */
     border-color: #3d3d3d; /* #c5d7b5 */
+  }
+  .choosecat .box>div.selected .categoryTitle, .choosecat .box>div.selected .inner {
+    background: $c-f1f1f1;
   }
 
   /* AD REMOVE */
