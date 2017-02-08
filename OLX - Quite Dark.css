@@ -3,7 +3,7 @@
     || Name: OLX - Quite Dark                                 ||
     || Author: pawelos076232                                  ||
     || License: CC BY-ND                                      ||
-    || Version: 0.0.3                                         ||
+    || Version: 0.0.4                                         ||
     || Userstyles: https://userstyles.org/styles/138633       ||
     || Github: https://github.com/pawelos076232/OLX-QuiteDark ||
     */
@@ -18,7 +18,7 @@
   .maincategories .maincategories-list .li .item .cat-icon,
   form.quickcontact input.light, form.quickcontact select.light, form.quickcontact textarea.light,
   .offer-user__address, .bgfff, .myaccountview #header-container .navi, .myaccountview .container .wrapper,
-  .dropdown dd ul, .dropdown dt a.focus, .toplinks .all a, .button.add:after, .button.add:before,
+  .dropdown dd ul, .dropdown dt a.focus, .toplinks .all a,
   form.useranswer fieldset.editspace textarea, ul.categorySelectList li {
     background: #191919; }
 
@@ -251,6 +251,13 @@
     border-left-color: #444;
     /* #c8c8c8 */ }
 
+  .subnav2 li.selected {
+    color: #959595;
+    /* #656565 */ }
+
+  table.mywalletnew thead th {
+    border-color: #212121; }
+
   /* FANCY BOX */
   .moreLevels, .moreLevels > div {
     background: #191919; }
@@ -362,6 +369,7 @@
   .link.gray2 > * {
     color: #bbb; }
 
+  .c41,
   .link.gray > *,
   .link.spoiler.graydot > *,
   .notification-center li .cell-label strong {
@@ -430,6 +438,13 @@
   .listOverlay > div {
     background-image: url(https://goo.gl/1jYkmg);
     background-size: 35px; }
+
+  ul.categorySelectList li a .counter,
+  form.search .multifilters .category-item a.search-choose .counter {
+    color: #949494 !important;
+    /* #686666 */
+    background: #232323;
+    /* #f4f3f1 */ }
 
   /* OFFER */
   .offer-user__image {
