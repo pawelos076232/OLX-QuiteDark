@@ -37,13 +37,15 @@ $c-f8f8f8: #1d1d1d;
 $c-5b5b5b: #9d9d9d;
 $c-e5e5e5: #2e2e2e;
 $c-434343: #b0b0b0;
+$c-e3e3e3: #303030;
+$c-e7e7e7: #2c2c2c;
 
-@-moz-document regexp("https?://www.olx.([a-z]{2})(.[a-z]{2})?/((?!bezpieczenstwo).*)") {
+@-moz-document regexp("https?://www.olx.([a-z]{2})(.[a-z]{2})?/((?!bezpieczenstwo|advertising|topfeature|payment|plata-prin-olx|livrare-cu-verificare|courier|safetyuser|mobil|mobile|mobilne).*)") {
   /*!
     || Name: OLX - Quite Dark                                 ||
     || Author: pawelos076232                                  ||
     || License: CC BY-ND                                      ||
-    || Version: 0.0.7                                         ||
+    || Version: 0.0.8                                         ||
     || Userstyles: https://userstyles.org/styles/138633       ||
     || Github: https://github.com/pawelos076232/OLX-QuiteDark ||
     */
@@ -63,7 +65,8 @@ $c-434343: #b0b0b0;
   .gallerywide .courierbadge {
     background: $c-fff;
   }
-  #searchbox, .thumb.scale1, .thumb.scale4, .t-new_sidebar .offer-section, .myaccountview, .popular-searches {
+  #searchbox, .thumb.scale1, .thumb.scale4, .t-new_sidebar .offer-section, .myaccountview, .popular-searches,
+  table.priceoptions tbody .even td {
     background: $c-f7f7f7;
   }
   ul.categorySelectList li a {
@@ -85,12 +88,12 @@ $c-434343: #b0b0b0;
     border-color: #444; /* #dfdedd */
   }
   .brbott-5, .brtop-1, .homepage #footer-container .siteinfobox {
-    border-color: #383838; /* #e3e3e3 */
+    border-color: $c-e3e3e3;
   }
   .brbott-6, .brtope5, .userbox-dd h5 {
     border-color: #2c2c2c; /* #e5e5e5 */
   }
-  .brbott-8, .maincategories .subcategories-title {
+  .brbott-8, .maincategories .subcategories-title, .popular-headline {
     border-color: $c-e8e8e8;
   }
   .usersearch-list {
@@ -171,7 +174,7 @@ $c-434343: #b0b0b0;
   .favsearchgallerybox li .card .details,
   .usersearch-list .box .details {
     background: $c-fff;
-    border-bottom-color: #353535; /* #e7e7e7 */
+    border-bottom-color: $c-e7e7e7;
   }
   .favsearchgallerybox li .card,
   .usersearch-list .box {
@@ -220,6 +223,9 @@ $c-434343: #b0b0b0;
   }
   .br-1 {
     border-color: #575757; /* #d7d7d7 */
+  }
+  #footer-container .siteinfobox .socialsbox+.text {
+    border-color: $c-e3e3e3;
   }
 
   /* MY ACCOUNT */
@@ -273,6 +279,12 @@ $c-434343: #b0b0b0;
   table.mywalletnew thead th {
     border-color: $c-f1f1f1;
   }
+  .whypromotelist>li, .halfgrid.whypromoteoptions {
+    border-color: #383838; /* #d9d9d9 */
+  }
+  .halfgrid.whypromoteoptions .half:first-child>div.inner:before {
+    background: $c-f7f7f7;
+  }
 
   /* FANCY BOX */
   .moreLevels, .moreLevels>div {
@@ -322,7 +334,7 @@ $c-434343: #b0b0b0;
   .mainpage-gallery header h3 {
     color: $c-5b5b5b;
   }
-  .dropdown.readonly dt a, .user-box__photo {
+  .bgef, .dropdown.readonly dt a, .user-box__photo, table.tablestats th {
     background-color: $c-efefef;
   }
   .dropdown dd ul {
@@ -379,7 +391,7 @@ $c-434343: #b0b0b0;
   .color-5 {
     color: $c-525252;
   }
-  .link.gray2>* {
+  .c62, .content.text, .link.gray2>*, .popular-headline h2, .sitemap-headline h2 {
     color: $c-626262;
   }
   .c41,
@@ -518,6 +530,27 @@ $c-434343: #b0b0b0;
     background: $c-f6f6f6;
   }
 
+  /* POPULAR & SITEMAP */
+  .popular-map .col-regions {
+    background: $c-f8f8f8;
+  }
+  .popular-map h3, .site-map h3 {
+    border-color: $c-e8e8e8;
+    color: $c-626262;
+  }
+
+  /* POLICY */
+  table.priceoptions,
+  table.priceoptions .space+.space,
+  table.priceoptions thead th,
+  table.priceoptions tbody td, table.priceoptions thead th,
+  table.priceoptions tbody td, table.priceoptions thead th {
+    border-color: $c-e7e7e7;
+  }
+  table.tablestats td, table.tablestats th {
+    border-color: $c-ccc;
+  }
+
   /* AD REMOVE */
   #cookiesBar, #mobileAppsbadge, .delivery-sticky, .dfp-db-wallpaper__bg, #wrapperpolko,
   div[id^=div-gpt-ad], .adsbygoogle {
@@ -529,7 +562,8 @@ $c-434343: #b0b0b0;
 @-moz-document domain("olx.bg") {
   /* Bulgaria */
   #footer-container {
-    background-image: url(https://goo.gl/x46bg3);
+    border-color: #313131; /* #e2e2e2 */
+    background: url(https://goo.gl/x46bg3) bottom center no-repeat;
   }
 }
 @-moz-document regexp("https?://(www|.*)?.olx.com.(ar|bo|co|cr|ec|sv|gt|ni|pa|py|pe|uy|ve)/.*") {
