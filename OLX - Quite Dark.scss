@@ -39,7 +39,7 @@ $c-e5e5e5: #2e2e2e;
     || Name: OLX - Quite Dark                                 ||
     || Author: pawelos076232                                  ||
     || License: CC BY-ND                                      ||
-    || Version: 0.0.1                                         ||
+    || Version: 0.0.2                                         ||
     || Userstyles: https://userstyles.org/styles/138633       ||
     || Github: https://github.com/pawelos076232/OLX-QuiteDark ||
     */
@@ -343,7 +343,8 @@ $c-e5e5e5: #2e2e2e;
   /*  color: $c-fff; */
   }
   .c000, .view-lists ul li a.selected, .view-lists ul li a.selected span,
-  .view-lists ul li, form.adding, .dropdown a, .dropdown a:visited, .headlinebox .icon-slide:after {
+  .view-lists ul li, form.adding, .dropdown a, .dropdown a:visited, .headlinebox .icon-slide:after,
+  .otokredytbox-vivus-ui form.otokredyt fieldset input[type="text"] {
     color: $c-000;
   }
   .c73 {
@@ -455,6 +456,13 @@ $c-e5e5e5: #2e2e2e;
   .pricelabel {
     background: $c-f7f6f6;
     text-shadow: 0 1px 0 $c-fff;
+  }
+  .detailpage .photo-glow {
+    background: #1d1d1d;
+  }
+  .otokredytbox-vivus-ui form.otokredyt .ui-widget-content,
+  .otokredytbox-vivus-ui .text-note {
+    background: $c-fff;
   }
 
   /* AD REMOVE */
