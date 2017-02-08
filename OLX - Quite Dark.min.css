@@ -1,4 +1,4 @@
-@-moz-document domain("olx.pl"),regexp("https?://www.olx.([a-z]{2})(.[a-z]{2})?/((?!bezpieczenstwo).*)"){/*!
+@-moz-document regexp("https?://www.olx.([a-z]{2})(.[a-z]{2})?/((?!bezpieczenstwo).*)"){/*!
     || Name: OLX - Quite Dark                                 ||
     || Author: pawelos076232                                  ||
     || License: CC BY-ND                                      ||
