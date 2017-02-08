@@ -3,7 +3,7 @@
     || Name: OLX - Quite Dark                                 ||
     || Author: pawelos076232                                  ||
     || License: CC BY-ND                                      ||
-    || Version: 0.0.4                                         ||
+    || Version: 0.0.5                                         ||
     || Userstyles: https://userstyles.org/styles/138633       ||
     || Github: https://github.com/pawelos076232/OLX-QuiteDark ||
     */
@@ -350,7 +350,8 @@
   /* .cfff {color: $c-fff;} */
   .c000, .view-lists ul li a.selected, .view-lists ul li a.selected span,
   .view-lists ul li, form.adding, .dropdown a, .dropdown a:visited, .headlinebox .icon-slide:after,
-  .otokredytbox-vivus-ui form.otokredyt fieldset input[type="text"], .locationrequest .cityfield.bold {
+  .otokredytbox-vivus-ui form.otokredyt fieldset input[type="text"], .locationrequest .cityfield.bold,
+  form.search .multifilters a.button.fbold {
     color: #fff; }
 
   .c73 {
@@ -375,8 +376,12 @@
   .notification-center li .cell-label strong {
     color: #ccc; }
 
-  form.searchmain .button input[type=submit] {
+  form.searchmain .button input[type=submit], form.search .multifilters label.num-input input[type=text] {
     color: #fff; }
+
+  .offersview div.section h2 {
+    color: #9d9d9d;
+    /* #5b5b5b */ }
 
   /* USER DROPDOWN MENU */
   .userbox-dd {
@@ -445,6 +450,9 @@
     /* #686666 */
     background: #232323;
     /* #f4f3f1 */ }
+
+  form.search .multifilters .button .icon.mini.clear {
+    border-color: #191919; }
 
   /* OFFER */
   .offer-user__image {
