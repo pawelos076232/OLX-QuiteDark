@@ -568,6 +568,42 @@ $c-e7e7e7: #2c2c2c;
 }
 @-moz-document regexp("https?://(www|.*)?.olx.com.(ar|bo|co|cr|ec|sv|gt|ni|pa|py|pe|uy|ve)/.*") {
   /* Argentina, Bolivia, Colombia, Costa Rica, Ecuador, El Salvador, Guatemala, Nicaragua, Panama, Paraguay, Peru, Uruguay, Venezuela */
+  $c-eceff1: #262626;
+  $c-e3e6e9: #2e2e2e;
+  $c-c5c5c5: #484848;
+  $c-607d8b: #868686;
+
+  /* MAIN */
+  body {
+    background: $c-eceff1;
+  }
+  h3, .home_partials_categories_view .categories .category-wrapper .category h2 a {
+    color: $c-000;
+  }
+  .home_partials_items_view .list .item-wrapper .item {
+    background-color: $c-fff;
+    -webkit-box-shadow: 1px 1px 1px $c-ccc;
+    -moz-box-shadow: 1px 1px 1px $c-ccc;
+    box-shadow: 1px 1px 1px $c-ccc;
+    color: $c-000;
+  }
+  .home_partials_categories_view .categories .category-wrapper .category {
+    background-color: $c-fff;
+    -webkit-box-shadow: 1px 1px 1px $c-ccc;
+    -moz-box-shadow: 1px 1px 1px $c-ccc;
+    box-shadow: 1px 1px 1px $c-ccc;
+  }
+  .footer-view {
+    background-color: $c-e3e6e9;
+    border-top: 1px solid $c-eceff1;
+    outline: 1px solid $c-c5c5c5;
+  }
+  .footer-view .columns .column .column-links .column-item .modal-link {
+    border-color: $c-ccc;
+  }
+  a, .footer-view .columns .column .column-links .column-item > a {
+    color: $c-607d8b;
+  }
 
 }
 @-moz-document domain("olx.af") {

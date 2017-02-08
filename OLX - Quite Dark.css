@@ -554,7 +554,37 @@
     /* #e2e2e2 */
     background: url(https://goo.gl/x46bg3) bottom center no-repeat; } }
 @-moz-document regexp("https?://(www|.*)?.olx.com.(ar|bo|co|cr|ec|sv|gt|ni|pa|py|pe|uy|ve)/.*") {
-  /* Argentina, Bolivia, Colombia, Costa Rica, Ecuador, El Salvador, Guatemala, Nicaragua, Panama, Paraguay, Peru, Uruguay, Venezuela */ }
+  /* Argentina, Bolivia, Colombia, Costa Rica, Ecuador, El Salvador, Guatemala, Nicaragua, Panama, Paraguay, Peru, Uruguay, Venezuela */
+  /* MAIN */
+  body {
+    background: #262626; }
+
+  h3, .home_partials_categories_view .categories .category-wrapper .category h2 a {
+    color: #fff; }
+
+  .home_partials_items_view .list .item-wrapper .item {
+    background-color: #191919;
+    -webkit-box-shadow: 1px 1px 1px #585858;
+    -moz-box-shadow: 1px 1px 1px #585858;
+    box-shadow: 1px 1px 1px #585858;
+    color: #fff; }
+
+  .home_partials_categories_view .categories .category-wrapper .category {
+    background-color: #191919;
+    -webkit-box-shadow: 1px 1px 1px #585858;
+    -moz-box-shadow: 1px 1px 1px #585858;
+    box-shadow: 1px 1px 1px #585858; }
+
+  .footer-view {
+    background-color: #2e2e2e;
+    border-top: 1px solid #262626;
+    outline: 1px solid #484848; }
+
+  .footer-view .columns .column .column-links .column-item .modal-link {
+    border-color: #585858; }
+
+  a, .footer-view .columns .column .column-links .column-item > a {
+    color: #868686; } }
 @-moz-document domain("olx.af") {
   /* Macedonia */ }
 @-moz-document domain("olx.com.pk") {
