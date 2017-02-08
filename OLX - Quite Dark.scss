@@ -7,6 +7,7 @@ $c-f3f3f3: #212121;
 $c-f4f4f4: #212121;
 $c-f7f7f7: #202020;
 $c-f0f0f0: #333;
+$c-fdfdfd: #1b1b1b;
 $c-eaeaea: #444;
 $c-efefef: #282828;
 $c-d1d1d1: #3d3d3d;
@@ -17,6 +18,7 @@ $c-737373: #aaa;
 $c-626262: #bbb;
 $c-414141: #ccc;
 $c-2b2b2b: #eee;
+$c-dcdcdc: #1d1d1d;
 $c-dedede: #303030;
 $c-b3b3b3: #565656;
 $c-fafafa: #1c1c1c;
@@ -132,6 +134,9 @@ $c-5b5b5b: #9d9d9d;
   .locationrequest.smallBox .distancelist dt a,
   form.search .multifilters .filter-both-item .filter-item:first-child:before {
     border-color: $c-d1d1d1;
+  }
+  .locationrequest.smallBox .distanceseparator {
+    background:  $c-d1d1d1;
   }
   form.search a.select {
     background: $c-fff;
@@ -323,7 +328,7 @@ $c-5b5b5b: #9d9d9d;
   .bottombox .submittarget, form.adding .submittarget, .userbox-dd .target,
   .subnav2 li .icon.abs, div.suggest .target, img.margintop40,
   .choosecat .box>div .categoryTitle .target {
-    filter: invert(.903) grayscale(1);
+    filter: invert(.901) grayscale(1);
   }
   div.suggest.error .target {
     filter: none;
@@ -373,6 +378,17 @@ $c-5b5b5b: #9d9d9d;
     background: $c-b3b3b3;
   }
 
+  /* SEARCHING RADIUS DROPDOWN MENU */
+  .locationrequest .distancelist dd ul {
+    border-color: $c-dcdcdc;
+    background-color: $c-fff;
+    -webkit-box-shadow: 0 1px 1px -1px $c-dadada;
+    -moz-box-shadow: 0 1px 1px -1px $c-dadada;
+    -ms-box-shadow: 0 1px 1px -1px $c-dadada;
+    -o-box-shadow: 0 1px 1px -1px $c-dadada;
+    box-shadow: 0 1px 1px -1px $c-dadada;
+  }
+
   /* DODAJ OGLOSZENIE */
   form input.light[disabled], form textarea.light[disabled] {
     background-color: $c-f8f8f8;
@@ -396,6 +412,14 @@ $c-5b5b5b: #9d9d9d;
   }
   .choosecat .box>div.selected .categoryTitle, .choosecat .box>div.selected .inner {
     background: $c-f1f1f1;
+  }
+
+  /* OFFERS */
+  form.search .option-search-clear:hover, form.search .option-search-criteria a:hover {
+    background: $c-fdfdfd;
+  }
+  .listOverlay {
+    background: rgba(32, 32, 32, .9);
   }
 
   /* AD REMOVE */

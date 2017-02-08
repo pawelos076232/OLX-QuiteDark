@@ -110,6 +110,9 @@
   form.search .multifilters .filter-both-item .filter-item:first-child:before {
     border-color: #3d3d3d; }
 
+  .locationrequest.smallBox .distanceseparator {
+    background: #3d3d3d; }
+
   form.search a.select {
     background: #191919;
     border-color: #585858;
@@ -319,7 +322,7 @@
   .bottombox .submittarget, form.adding .submittarget, .userbox-dd .target,
   .subnav2 li .icon.abs, div.suggest .target, img.margintop40,
   .choosecat .box > div .categoryTitle .target {
-    filter: invert(0.903) grayscale(1); }
+    filter: invert(0.901) grayscale(1); }
 
   div.suggest.error .target {
     filter: none; }
@@ -367,6 +370,16 @@
   .notifycircle {
     background: #565656; }
 
+  /* SEARCHING RADIUS DROPDOWN MENU */
+  .locationrequest .distancelist dd ul {
+    border-color: #1d1d1d;
+    background-color: #191919;
+    -webkit-box-shadow: 0 1px 1px -1px #363636;
+    -moz-box-shadow: 0 1px 1px -1px #363636;
+    -ms-box-shadow: 0 1px 1px -1px #363636;
+    -o-box-shadow: 0 1px 1px -1px #363636;
+    box-shadow: 0 1px 1px -1px #363636; }
+
   /* DODAJ OGLOSZENIE */
   form input.light[disabled], form textarea.light[disabled] {
     background-color: #1d1d1d; }
@@ -395,6 +408,13 @@
 
   .choosecat .box > div.selected .categoryTitle, .choosecat .box > div.selected .inner {
     background: #242424; }
+
+  /* OFFERS */
+  form.search .option-search-clear:hover, form.search .option-search-criteria a:hover {
+    background: #1b1b1b; }
+
+  .listOverlay {
+    background: rgba(32, 32, 32, 0.9); }
 
   /* AD REMOVE */
   #cookiesBar, #mobileAppsbadge, .delivery-sticky, .dfp-db-wallpaper__bg, #wrapperpolko,
