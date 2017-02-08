@@ -38,12 +38,12 @@ $c-5b5b5b: #9d9d9d;
 $c-e5e5e5: #2e2e2e;
 $c-434343: #b0b0b0;
 
-@-moz-document domain("olx.pl"), regexp("https?://www.olx.([a-z]{2})(.[a-z]{2})?/.*") {
+@-moz-document domain("olx.pl"), regexp("https?://www.olx.([a-z]{2})(.[a-z]{2})?/((?!bezpieczenstwo).*)") {
   /*!
     || Name: OLX - Quite Dark                                 ||
     || Author: pawelos076232                                  ||
     || License: CC BY-ND                                      ||
-    || Version: 0.0.6                                         ||
+    || Version: 0.0.7                                         ||
     || Userstyles: https://userstyles.org/styles/138633       ||
     || Github: https://github.com/pawelos076232/OLX-QuiteDark ||
     */
@@ -59,7 +59,8 @@ $c-434343: #b0b0b0;
   form.quickcontact input.light, form.quickcontact select.light, form.quickcontact textarea.light,
   .offer-user__address, .bgfff, .myaccountview #header-container .navi, .myaccountview .container .wrapper,
   .dropdown dd ul, .dropdown dt a.focus, .toplinks .all a,
-  form.useranswer fieldset.editspace textarea, ul.categorySelectList li {
+  form.useranswer fieldset.editspace textarea, ul.categorySelectList li,
+  .gallerywide .courierbadge {
     background: $c-fff;
   }
   #searchbox, .thumb.scale1, .thumb.scale4, .t-new_sidebar .offer-section, .myaccountview, .popular-searches {
@@ -366,7 +367,7 @@ $c-434343: #b0b0b0;
   .locationrequest .distancelist.bold dd ul a {
     color: $c-000;
   }
-  .c73 {
+  .c73, .link.gray3 {
     color: $c-737373;
   }
   .c27 {
@@ -524,6 +525,12 @@ $c-434343: #b0b0b0;
   }
 
   /* http://www.olx.hn (Honduras) */
+}
+@-moz-document domain("olx.bg") {
+  /* Bulgaria */
+  #footer-container {
+    background-image: url(https://goo.gl/x46bg3);
+  }
 }
 @-moz-document regexp("https?://(www|.*)?.olx.com.(ar|bo|co|cr|ec|sv|gt|ni|pa|py|pe|uy|ve)/.*") {
   /* Argentina, Bolivia, Colombia, Costa Rica, Ecuador, El Salvador, Guatemala, Nicaragua, Panama, Paraguay, Peru, Uruguay, Venezuela */

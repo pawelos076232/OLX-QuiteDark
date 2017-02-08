@@ -1,9 +1,9 @@
-@-moz-document domain("olx.pl"), regexp("https?://www.olx.([a-z]{2})(.[a-z]{2})?/.*") {
+@-moz-document domain("olx.pl"), regexp("https?://www.olx.([a-z]{2})(.[a-z]{2})?/((?!bezpieczenstwo).*)") {
   /*!
     || Name: OLX - Quite Dark                                 ||
     || Author: pawelos076232                                  ||
     || License: CC BY-ND                                      ||
-    || Version: 0.0.6                                         ||
+    || Version: 0.0.7                                         ||
     || Userstyles: https://userstyles.org/styles/138633       ||
     || Github: https://github.com/pawelos076232/OLX-QuiteDark ||
     */
@@ -19,7 +19,8 @@
   form.quickcontact input.light, form.quickcontact select.light, form.quickcontact textarea.light,
   .offer-user__address, .bgfff, .myaccountview #header-container .navi, .myaccountview .container .wrapper,
   .dropdown dd ul, .dropdown dt a.focus, .toplinks .all a,
-  form.useranswer fieldset.editspace textarea, ul.categorySelectList li {
+  form.useranswer fieldset.editspace textarea, ul.categorySelectList li,
+  .gallerywide .courierbadge {
     background: #191919; }
 
   #searchbox, .thumb.scale1, .thumb.scale4, .t-new_sidebar .offer-section, .myaccountview, .popular-searches {
@@ -355,7 +356,7 @@
   .locationrequest .distancelist.bold dd ul a {
     color: #fff; }
 
-  .c73 {
+  .c73, .link.gray3 {
     color: #aaa; }
 
   .c27 {
@@ -518,6 +519,10 @@
     display: none !important; }
 
   /* http://www.olx.hn (Honduras) */ }
+@-moz-document domain("olx.bg") {
+  /* Bulgaria */
+  #footer-container {
+    background-image: url(https://goo.gl/x46bg3); } }
 @-moz-document regexp("https?://(www|.*)?.olx.com.(ar|bo|co|cr|ec|sv|gt|ni|pa|py|pe|uy|ve)/.*") {
   /* Argentina, Bolivia, Colombia, Costa Rica, Ecuador, El Salvador, Guatemala, Nicaragua, Panama, Paraguay, Peru, Uruguay, Venezuela */ }
 @-moz-document domain("olx.af") {
