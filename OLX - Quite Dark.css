@@ -19,11 +19,14 @@
   form.quickcontact input.light, form.quickcontact select.light, form.quickcontact textarea.light,
   .offer-user__address, .bgfff, .myaccountview #header-container .navi, .myaccountview .container .wrapper,
   .dropdown dd ul, .dropdown dt a.focus, .toplinks .all a, .button.add:after, .button.add:before,
-  form.useranswer fieldset.editspace textarea {
+  form.useranswer fieldset.editspace textarea, ul.categorySelectList li {
     background: #191919; }
 
   #searchbox, .thumb.scale1, .thumb.scale4, .t-new_sidebar .offer-section, .myaccountview, .popular-searches {
     background: #202020; }
+
+  ul.categorySelectList li a {
+    color: #9d9d9d; }
 
   #searchmain-container {
     background: #202020;
@@ -285,7 +288,7 @@
     /* #ededed */ }
 
   .mainpage-gallery header h3 {
-    color: #ccc; }
+    color: #9d9d9d; }
 
   .dropdown.readonly dt a, .user-box__photo {
     background-color: #282828; }
@@ -349,6 +352,9 @@
   .link.spoiler.graydot > *,
   .notification-center li .cell-label strong {
     color: #ccc; }
+
+  form.searchmain .button input[type=submit] {
+    color: #fff; }
 
   /* USER DROPDOWN MENU */
   .userbox-dd {

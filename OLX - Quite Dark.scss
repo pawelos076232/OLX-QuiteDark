@@ -27,6 +27,7 @@ $c-b6e469: #242e15;
 $c-f1f5fc: #212121;
 $c-dadada: #363636;
 $c-f8f8f8: #1d1d1d;
+$c-5b5b5b: #9d9d9d;
 
 @-moz-document domain("olx.pl"), regexp("https?://www.olx.([a-z]{2})(.[a-z]{2})?/.*") {
   /*!
@@ -49,11 +50,14 @@ $c-f8f8f8: #1d1d1d;
   form.quickcontact input.light, form.quickcontact select.light, form.quickcontact textarea.light,
   .offer-user__address, .bgfff, .myaccountview #header-container .navi, .myaccountview .container .wrapper,
   .dropdown dd ul, .dropdown dt a.focus, .toplinks .all a, .button.add:after, .button.add:before,
-  form.useranswer fieldset.editspace textarea {
+  form.useranswer fieldset.editspace textarea, ul.categorySelectList li {
     background: $c-fff;
   }
   #searchbox, .thumb.scale1, .thumb.scale4, .t-new_sidebar .offer-section, .myaccountview, .popular-searches {
     background: $c-f7f7f7;
+  }
+  ul.categorySelectList li a {
+    color: $c-5b5b5b;
   }
   #searchmain-container {
     background: $c-f7f7f7;
@@ -352,6 +356,9 @@ $c-f8f8f8: #1d1d1d;
   .link.spoiler.graydot>*,
   .notification-center li .cell-label strong {
     color: $c-414141;
+  }
+  form.searchmain .button input[type=submit] {
+    color: #fff;
   }
 
   /* USER DROPDOWN MENU */
