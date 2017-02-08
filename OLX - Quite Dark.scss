@@ -5,13 +5,15 @@ $c-f1f1f1: #212121;
 $c-f2f2f2: #242424;
 $c-f3f3f3: #232323;
 $c-f4f4f4: #222;
+$c-f6f6f6: #202020;
 $c-f7f7f7: #202020;
 $c-f7f6f6: #202020;
 $c-f0f0f0: #333;
 $c-fdfdfd: #1b1b1b;
 $c-eaeaea: #444;
 $c-efefef: #282828;
-$c-d1d1d1: #3d3d3d;
+$c-d1d1d1: #3e3e3e;
+$c-d2d2d2: #3d3d3d;
 $c-ccc: #585858;
 $c-cfcfcf: #404040;
 $c-e8e8e8: #303030;
@@ -339,12 +341,10 @@ $c-e5e5e5: #2e2e2e;
   }
 
   /* TEXT COLORS */
-  .cfff {
-  /*  color: $c-fff; */
-  }
+  /* .cfff {color: $c-fff;} */
   .c000, .view-lists ul li a.selected, .view-lists ul li a.selected span,
   .view-lists ul li, form.adding, .dropdown a, .dropdown a:visited, .headlinebox .icon-slide:after,
-  .otokredytbox-vivus-ui form.otokredyt fieldset input[type="text"] {
+  .otokredytbox-vivus-ui form.otokredyt fieldset input[type="text"], .locationrequest .cityfield.bold {
     color: $c-000;
   }
   .c73 {
@@ -463,6 +463,21 @@ $c-e5e5e5: #2e2e2e;
   .otokredytbox-vivus-ui form.otokredyt .ui-widget-content,
   .otokredytbox-vivus-ui .text-note {
     background: $c-fff;
+  }
+
+  /* LOGIN / REGISTER */
+  .login-tabs__navigation li a.active {
+    background: $c-fff;
+  }
+  .login-box {
+    border-color: $c-fff;
+    background: $c-fff;
+  }
+  .login-form [type=text], .login-form [type=password] {
+    border-color: $c-d2d2d2;
+  }
+  .login-tabs__navigation li a {
+    background: $c-f6f6f6;
   }
 
   /* AD REMOVE */

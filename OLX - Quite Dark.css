@@ -90,16 +90,16 @@
   form input.light, form select.light, form textarea.light,
   .dropdown dt a {
     background: #191919;
-    border-color: #3d3d3d;
+    border-color: #3e3e3e;
     color: #fff; }
 
   .subnav2, form.myaccount-search .button {
     background: #191919;
-    border-color: #3d3d3d; }
+    border-color: #3e3e3e; }
 
   form.search .multifilters a.button, form.search .multifilters label.num-input {
     background: #191919;
-    border-color: #3d3d3d;
+    border-color: #3e3e3e;
     -webkit-box-shadow: 0 1px 0 0 #191919;
     -moz-box-shadow: 0 1px 0 0 #191919;
     -ms-box-shadow: 0 1px 0 0 #191919;
@@ -108,10 +108,10 @@
 
   .locationrequest.smallBox .distancelist dt a,
   form.search .multifilters .filter-both-item .filter-item:first-child:before {
-    border-color: #3d3d3d; }
+    border-color: #3e3e3e; }
 
   .locationrequest.smallBox .distanceseparator {
-    background: #3d3d3d; }
+    background: #3e3e3e; }
 
   form.search a.select {
     background: #191919;
@@ -297,7 +297,7 @@
     background-color: #282828; }
 
   .dropdown dd ul {
-    border-color: #3d3d3d;
+    border-color: #3e3e3e;
     -webkit-box-shadow: 0 1px 2px 0 #585858;
     -moz-box-shadow: 0 1px 2px 0 #585858;
     -ms-box-shadow: 0 1px 2px 0 #585858;
@@ -306,7 +306,7 @@
 
   .icon.f_checkbox, .icon.f_radio {
     background-color: #191919;
-    border-color: #3d3d3d;
+    border-color: #3e3e3e;
     box-shadow: 0 1px 0 0 #191919; }
 
   div.pageinfo, .suggest.photos {
@@ -329,12 +329,10 @@
     filter: none; }
 
   /* TEXT COLORS */
-  .cfff {
-    /*  color: $c-fff; */ }
-
+  /* .cfff {color: $c-fff;} */
   .c000, .view-lists ul li a.selected, .view-lists ul li a.selected span,
   .view-lists ul li, form.adding, .dropdown a, .dropdown a:visited, .headlinebox .icon-slide:after,
-  .otokredytbox-vivus-ui form.otokredyt fieldset input[type="text"] {
+  .otokredytbox-vivus-ui form.otokredyt fieldset input[type="text"], .locationrequest .cityfield.bold {
     color: #fff; }
 
   .c73 {
@@ -457,6 +455,20 @@
   .otokredytbox-vivus-ui form.otokredyt .ui-widget-content,
   .otokredytbox-vivus-ui .text-note {
     background: #191919; }
+
+  /* LOGIN / REGISTER */
+  .login-tabs__navigation li a.active {
+    background: #191919; }
+
+  .login-box {
+    border-color: #191919;
+    background: #191919; }
+
+  .login-form [type=text], .login-form [type=password] {
+    border-color: #3d3d3d; }
+
+  .login-tabs__navigation li a {
+    background: #202020; }
 
   /* AD REMOVE */
   #cookiesBar, #mobileAppsbadge, .delivery-sticky, .dfp-db-wallpaper__bg, #wrapperpolko,
