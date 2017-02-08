@@ -23,6 +23,7 @@ $c-626262: #bbb;
 $c-414141: #ccc;
 $c-2b2b2b: #eee;
 $c-dcdcdc: #1d1d1d;
+$c-dddcda: #353535;
 $c-dedede: #303030;
 $c-b3b3b3: #565656;
 $c-fafafa: #1c1c1c;
@@ -35,13 +36,14 @@ $c-dadada: #363636;
 $c-f8f8f8: #1d1d1d;
 $c-5b5b5b: #9d9d9d;
 $c-e5e5e5: #2e2e2e;
+$c-434343: #b0b0b0;
 
 @-moz-document domain("olx.pl"), regexp("https?://www.olx.([a-z]{2})(.[a-z]{2})?/.*") {
   /*!
     || Name: OLX - Quite Dark                                 ||
     || Author: pawelos076232                                  ||
     || License: CC BY-ND                                      ||
-    || Version: 0.0.2                                         ||
+    || Version: 0.0.3                                         ||
     || Userstyles: https://userstyles.org/styles/138633       ||
     || Github: https://github.com/pawelos076232/OLX-QuiteDark ||
     */
@@ -95,6 +97,14 @@ $c-e5e5e5: #2e2e2e;
   }
   .brbott-12 {
     border-color: $c-fff;
+  }
+  .social-links {
+    border-color: $c-dddcda;
+    color: #878787; /* #687981 */
+  }
+  div.suggesttitle, span.suggesttitle {
+    border-color: #4e4e4e; /* #bdbdbb */
+    background: $c-fff;
   }
   ul.tabsfav .tab.selected {
     background: $c-fff;
@@ -200,6 +210,7 @@ $c-e5e5e5: #2e2e2e;
     background: #191919; /* #fff7c5 */
   }
   #gotop {
+    bottom: -1px;
     -webkit-box-shadow: 0 0 3px $c-e8e8e8; /* #e8e8e8 */
     -moz-box-shadow: 0 0 3px $c-e8e8e8; /* #e8e8e8 */
     -ms-box-shadow: 0 0 3px $c-e8e8e8; /* #e8e8e8 */
@@ -333,7 +344,7 @@ $c-e5e5e5: #2e2e2e;
   .bottombox .submittarget, form.adding .submittarget, .userbox-dd .target,
   .subnav2 li .icon.abs, div.suggest .target, img.margintop40,
   .choosecat .box>div .categoryTitle .target, .offer-sidebar .price-label:before,
-  .pricelabel:before {
+  .pricelabel:before, div.suggesttitle:before, span.suggesttitle:before {
     filter: invert(.901) grayscale(1);
   }
   div.suggest.error .target {
@@ -459,6 +470,9 @@ $c-e5e5e5: #2e2e2e;
   }
   .detailpage .photo-glow {
     background: #1d1d1d;
+  }
+  .offer-titlebox__details a, .offer-titlebox__details {
+    color: $c-434343;
   }
   .otokredytbox-vivus-ui form.otokredyt .ui-widget-content,
   .otokredytbox-vivus-ui .text-note {

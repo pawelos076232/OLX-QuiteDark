@@ -3,7 +3,7 @@
     || Name: OLX - Quite Dark                                 ||
     || Author: pawelos076232                                  ||
     || License: CC BY-ND                                      ||
-    || Version: 0.0.2                                         ||
+    || Version: 0.0.3                                         ||
     || Userstyles: https://userstyles.org/styles/138633       ||
     || Github: https://github.com/pawelos076232/OLX-QuiteDark ||
     */
@@ -61,6 +61,16 @@
 
   .brbott-12 {
     border-color: #191919; }
+
+  .social-links {
+    border-color: #353535;
+    color: #878787;
+    /* #687981 */ }
+
+  div.suggesttitle, span.suggesttitle {
+    border-color: #4e4e4e;
+    /* #bdbdbb */
+    background: #191919; }
 
   ul.tabsfav .tab.selected {
     background: #191919;
@@ -178,6 +188,7 @@
     /* #fff7c5 */ }
 
   #gotop {
+    bottom: -1px;
     -webkit-box-shadow: 0 0 3px #303030;
     /* #e8e8e8 */
     -moz-box-shadow: 0 0 3px #303030;
@@ -322,7 +333,7 @@
   .bottombox .submittarget, form.adding .submittarget, .userbox-dd .target,
   .subnav2 li .icon.abs, div.suggest .target, img.margintop40,
   .choosecat .box > div .categoryTitle .target, .offer-sidebar .price-label:before,
-  .pricelabel:before {
+  .pricelabel:before, div.suggesttitle:before, span.suggesttitle:before {
     filter: invert(0.901) grayscale(1); }
 
   div.suggest.error .target {
@@ -451,6 +462,9 @@
 
   .detailpage .photo-glow {
     background: #1d1d1d; }
+
+  .offer-titlebox__details a, .offer-titlebox__details {
+    color: #b0b0b0; }
 
   .otokredytbox-vivus-ui form.otokredyt .ui-widget-content,
   .otokredytbox-vivus-ui .text-note {
