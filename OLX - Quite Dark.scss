@@ -1,17 +1,19 @@
 $c-fff: #191919;
 $c-000: #fff;
 $c-5b5b5b: #ccc;
-$c-f1f1f1: #242424;
-$c-f2f2f2: #222;
-$c-f3f3f3: #212121;
-$c-f4f4f4: #212121;
+$c-f1f1f1: #212121;
+$c-f2f2f2: #242424;
+$c-f3f3f3: #232323;
+$c-f4f4f4: #222;
 $c-f7f7f7: #202020;
+$c-f7f6f6: #202020;
 $c-f0f0f0: #333;
 $c-fdfdfd: #1b1b1b;
 $c-eaeaea: #444;
 $c-efefef: #282828;
 $c-d1d1d1: #3d3d3d;
 $c-ccc: #585858;
+$c-cfcfcf: #404040;
 $c-e8e8e8: #303030;
 $c-959595: #a5a5a5;
 $c-737373: #aaa;
@@ -30,6 +32,7 @@ $c-f1f5fc: #212121;
 $c-dadada: #363636;
 $c-f8f8f8: #1d1d1d;
 $c-5b5b5b: #9d9d9d;
+$c-e5e5e5: #2e2e2e;
 
 @-moz-document domain("olx.pl"), regexp("https?://www.olx.([a-z]{2})(.[a-z]{2})?/.*") {
   /*!
@@ -186,7 +189,7 @@ $c-5b5b5b: #9d9d9d;
   }
   .offer-sidebar__buttons .contact-button {
     border-color: $c-efefef;
-    color: $c-fff;
+    /* color: $c-fff; */
   }
   .similarads>div>table .offer, .similarads>div {
     border-color: #303030; /* #ededea */
@@ -327,7 +330,8 @@ $c-5b5b5b: #9d9d9d;
   .maincategories .maincategories-list .li .item a.selected:before,
   .bottombox .submittarget, form.adding .submittarget, .userbox-dd .target,
   .subnav2 li .icon.abs, div.suggest .target, img.margintop40,
-  .choosecat .box>div .categoryTitle .target {
+  .choosecat .box>div .categoryTitle .target, .offer-sidebar .price-label:before,
+  .pricelabel:before {
     filter: invert(.901) grayscale(1);
   }
   div.suggest.error .target {
@@ -336,7 +340,7 @@ $c-5b5b5b: #9d9d9d;
 
   /* TEXT COLORS */
   .cfff {
-    color: $c-fff;
+  /*  color: $c-fff; */
   }
   .c000, .view-lists ul li a.selected, .view-lists ul li a.selected span,
   .view-lists ul li, form.adding, .dropdown a, .dropdown a:visited, .headlinebox .icon-slide:after {
@@ -419,7 +423,38 @@ $c-5b5b5b: #9d9d9d;
     background: $c-fdfdfd;
   }
   .listOverlay {
-    background: rgba(32, 32, 32, .9);
+    background: rgba(25,25,25,.9);
+  }
+  .listOverlay>div {
+    background-image: url(https://goo.gl/1jYkmg);
+    background-size: 35px;
+  }
+
+  /* OFFER */
+  .offer-user__image {
+    border-color: $c-fff;
+    background: $c-efefef;
+  }
+  .offer-user__details .user-offers {
+    border-color: $c-cfcfcf;
+  }
+  .button.white {
+    background-color: $c-fff;
+    border-color: $c-e5e5e5;
+  }
+  .quickcontact .safety-label {
+    border-color: $c-efefef;
+    background: #1f1f1f; /* #f5f8fd */
+    color: #959595; /* #60647d */
+  }
+  .offer-sidebar .price-label {
+    border-color: $c-efefef;
+    background: $c-fff;
+    color: #aaa; /* #414e41 */
+  }
+  .pricelabel {
+    background: $c-f7f6f6;
+    text-shadow: 0 1px 0 $c-fff;
   }
 
   /* AD REMOVE */
