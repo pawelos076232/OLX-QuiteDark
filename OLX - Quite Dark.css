@@ -1,0 +1,398 @@
+@-moz-document regexp("https?://www.olx.([a-z]{2})(.[a-z]{2})?/.*") {
+  /*!
+    || Name: OLX - Quite Dark     ||
+    || Author: pawelos076232      ||
+    || License: No Redistribution ||
+    || Version: 0.0.1             ||
+    */
+  /* MAIN */
+  body {
+    color: #ddd;
+    /* #3f4c52 */
+    background: #191919; }
+
+  table.offers, form.search input[type=text], .locationrequest .distancelist dt a,
+  form.searchmain .input-container, form.searchmain input[type=text],
+  .maincategories .maincategories-list .li .item .cat-icon,
+  form.quickcontact input.light, form.quickcontact select.light, form.quickcontact textarea.light,
+  .offer-user__address, .bgfff, .myaccountview #header-container .navi, .myaccountview .container .wrapper,
+  .dropdown dd ul, .dropdown dt a.focus, .toplinks .all a, .button.add:after, .button.add:before,
+  form.useranswer fieldset.editspace textarea {
+    background: #191919; }
+
+  #searchbox, .thumb.scale1, .thumb.scale4, .t-new_sidebar .offer-section, .myaccountview, .popular-searches {
+    background: #202020; }
+
+  #searchmain-container {
+    background: #202020;
+    border-bottom-color: #333; }
+
+  #tabs-container {
+    background: #202020;
+    border-color: #333; }
+
+  .breadcrumb.offerslist, #header-container .navi, table.offers .offer, .accountview #footer-container > .wrapper,
+  .toplinks .all {
+    border-color: #333; }
+
+  .brbott-1 {
+    border-color: #444;
+    /* #dfdedd */ }
+
+  .brbott-5, .brtop-1, .homepage #footer-container .siteinfobox {
+    border-color: #383838;
+    /* #e3e3e3 */ }
+
+  .brbott-6, .brtope5, .userbox-dd h5 {
+    border-color: #2c2c2c;
+    /* #e5e5e5 */ }
+
+  .brbott-8, .maincategories .subcategories-title {
+    border-color: #303030; }
+
+  .usersearch-list {
+    border-color: #393939;
+    /* #e9e9e9 */ }
+
+  .brbott-12 {
+    border-color: #191919; }
+
+  ul.tabsfav .tab.selected {
+    background: #191919;
+    color: #ccc;
+    border-color: #353535;
+    /* #e1e1e1 */ }
+
+  ul.tabs2 .tab.selected {
+    background: #191919;
+    border-color: #353535;
+    /* #e1e1e1 */ }
+
+  .favbottombox {
+    border-top-color: #353535;
+    /* #e1e1e1 */ }
+
+  ul.tabs .tab.selected {
+    background: #191919;
+    border-color: #323232;
+    /* #ececec */ }
+
+  h1, h2, h3, h4, h5, h6,
+  .quickcontact h3, .c2b {
+    color: #eee; }
+
+  form.search .clearbox, .locationrequest .input-container,
+  form input.light, form select.light, form textarea.light,
+  .dropdown dt a {
+    background: #191919;
+    border-color: #3d3d3d;
+    color: #fff; }
+
+  .subnav2, form.myaccount-search .button {
+    background: #191919;
+    border-color: #3d3d3d; }
+
+  form.search .multifilters a.button, form.search .multifilters label.num-input {
+    background: #191919;
+    border-color: #3d3d3d;
+    -webkit-box-shadow: 0 1px 0 0 #191919;
+    -moz-box-shadow: 0 1px 0 0 #191919;
+    -ms-box-shadow: 0 1px 0 0 #191919;
+    -o-box-shadow: 0 1px 0 0 #191919;
+    box-shadow: 0 1px 0 0 #191919; }
+
+  .locationrequest.smallBox .distancelist dt a,
+  form.search .multifilters .filter-both-item .filter-item:first-child:before {
+    border-color: #3d3d3d; }
+
+  form.search a.select {
+    background: #191919;
+    border-color: #585858;
+    /* #d4d4d4 */
+    color: #fff; }
+
+  #footer-container .footer-partners span:after {
+    border-color: #fff transparent transparent; }
+
+  #footer-container .footer-partners.active span:after {
+    border-color: transparent transparent #fff; }
+
+  form.search .button.search {
+    box-shadow: 0 1px 0 0 #191919; }
+
+  .favsearchgallerybox li .card .details,
+  .usersearch-list .box .details {
+    background: #191919;
+    border-bottom-color: #353535;
+    /* #e7e7e7 */ }
+
+  .favsearchgallerybox li .card,
+  .usersearch-list .box {
+    border-color: #343434;
+    /* #dfdfdf */
+    background: #212121;
+    /* #f5f5f5; */ }
+
+  .link:hover > *, a.tdnone:hover .link > *,
+  table.breadcrumb ul .link:hover > * {
+    color: #191919; }
+
+  .t-new_sidebar .offer__innerbox,
+  .offer-sidebar__box,
+  .maincategories .subcategories-list {
+    border-color: #282828;
+    background: #191919; }
+
+  .offer-titlebox, .offer-titlebox__details em {
+    border-color: #282828; }
+
+  .t-new_sidebar .offercontent table.details {
+    border-color: #272727;
+    /* #ebeae9 */ }
+
+  .t-new_sidebar .offercontent table.details td {
+    border-left-color: #191919 !important; }
+
+  .breadcrumbbox .wrapper, .container .wrapper {
+    border-color: #303030;
+    /* #ededed */ }
+
+  .offer-sidebar__buttons .contact-button {
+    border-color: #282828;
+    color: #191919; }
+
+  .similarads > div > table .offer, .similarads > div {
+    border-color: #303030;
+    /* #ededea */ }
+
+  .bg-3 {
+    background: #191919;
+    /* #fff7c5 */ }
+
+  #gotop {
+    -webkit-box-shadow: 0 0 3px #303030;
+    /* #e8e8e8 */
+    -moz-box-shadow: 0 0 3px #303030;
+    /* #e8e8e8 */
+    -ms-box-shadow: 0 0 3px #303030;
+    /* #e8e8e8 */
+    -o-box-shadow: 0 0 3px #303030;
+    /* #e8e8e8 */
+    box-shadow: 0 0 3px #303030;
+    /* #e8e8e8 */ }
+
+  .br-1 {
+    border-color: #575757;
+    /* #d7d7d7 */ }
+
+  /* MY ACCOUNT */
+  .accounthead {
+    background: #1c1c1c; }
+
+  .bgf3 {
+    background: #212121; }
+
+  .brf3, form.settings.invoicedata .fblock.submit {
+    border-color: #212121; }
+
+  .brbott-7 {
+    border-bottom-color: #363636; }
+
+  #answerMenu {
+    background: #1c1c1c;
+    border-bottom-color: #282828; }
+
+  #answerMenu.fix {
+    background: rgba(25, 25, 25, 0.9);
+    border-bottom-color: #585858; }
+
+  table.adanswersnew thead th {
+    color: #a5a5a5;
+    border-top-color: #232323;
+    border-bottom-color: #282828; }
+
+  table.adanswersnew tbody tr.row-desc > td {
+    border-bottom-color: #282828; }
+
+  ul.conversationnew > li .cloud {
+    background: #222; }
+
+  ul.conversationnew > li.my .cloud,
+  form.useranswer {
+    background: #242e15; }
+
+  div.suggest {
+    background: #212121; }
+
+  .bgfef8b5 {
+    background: #202020;
+    /* #fef8b5 */ }
+
+  .brleftdashc8 {
+    border-left-color: #444;
+    /* #c8c8c8 */ }
+
+  /* FANCY BOX */
+  .moreLevels, .moreLevels > div {
+    background: #191919; }
+
+  #fancybox-content {
+    border-color: #232323 !important; }
+
+  #fancybox-title.fancybox-title-inside {
+    border-color: #232323;
+    background: #191919 !important; }
+
+  #fancybox-title.fancybox-title-inside div {
+    background: #191919;
+    border-bottom-color: #222;
+    /* #eee */ }
+
+  #masterAccountDiv .inner, #saveFavDiv .inner, #synchroFavDiv .inner {
+    background: #202020;
+    /* #f6f6f6 */ }
+
+  #fancybox-outer {
+    background: #191919;
+    border-color: #202020;
+    /* #f6f6f6 */ }
+
+  .button {
+    -webkit-box-shadow: 0 0 0 2px #191919;
+    -moz-box-shadow: 0 0 0 2px #191919;
+    -ms-box-shadow: 0 0 0 2px #191919;
+    -o-box-shadow: 0 0 0 2px #191919;
+    box-shadow: 0 0 0 2px #191919; }
+
+  form.default .fblock.active .focusbox input.light, form.default .fblock.active .focusbox select.light, form.default .fblock.active .focusbox textarea.light {
+    border-color: #444;
+    -webkit-box-shadow: 0 0 0 2px #444;
+    -moz-box-shadow: 0 0 0 2px #444;
+    -ms-box-shadow: 0 0 0 2px #444;
+    -o-box-shadow: 0 0 0 2px #444;
+    box-shadow: 0 0 0 2px #444; }
+
+  .fancybox-title-inside {
+    color: #ccc;
+    /* #333 */
+    background: #191919; }
+
+  .paybalance-box {
+    background: #191919;
+    border-color: #303030;
+    /* #ededed */ }
+
+  .mainpage-gallery header h3 {
+    color: #ccc; }
+
+  .dropdown.readonly dt a, .user-box__photo {
+    background-color: #282828; }
+
+  .dropdown dd ul {
+    border-color: #3d3d3d;
+    -webkit-box-shadow: 0 1px 2px 0 #585858;
+    -moz-box-shadow: 0 1px 2px 0 #585858;
+    -ms-box-shadow: 0 1px 2px 0 #585858;
+    -o-box-shadow: 0 1px 2px 0 #585858;
+    box-shadow: 0 1px 2px 0 #585858; }
+
+  .icon.f_checkbox {
+    background-color: #191919;
+    border-color: #3d3d3d;
+    box-shadow: 0 1px 0 0 #191919; }
+
+  div.pageinfo, .suggest.photos {
+    text-shadow: 0 1px 0 #191919; }
+
+  .choosecat .categoryTitle {
+    border-color: #3a3a3a;
+    /* #d5d5d5 */ }
+
+  /* INVERTING COLORS */
+  #fancybox-close, .icon.loupeplus,
+  .maincategories .maincategories-list .li .item a.selected:before,
+  .bottombox .submittarget, form.adding .submittarget, .userbox-dd .target,
+  .subnav2 li .icon.abs, div.suggest .target, img.margintop40 {
+    filter: invert(0.903) grayscale(1); }
+
+  div.suggest.error .target {
+    filter: none; }
+
+  /* TEXT COLORS */
+  .cfff {
+    color: #191919; }
+
+  .c000, .view-lists ul li a.selected, .view-lists ul li a.selected span,
+  .view-lists ul li, form.adding, .dropdown a, .dropdown a:visited, .headlinebox .icon-slide:after {
+    color: #fff; }
+
+  .c73 {
+    color: #aaa; }
+
+  .c27 {
+    color: #ebeae9;
+    /* #272727 */ }
+
+  .color-1 {
+    color: #595959; }
+
+  .color-5 {
+    color: #a5a5a5; }
+
+  .link.gray2 > * {
+    color: #bbb; }
+
+  .link.gray > *,
+  .link.spoiler.graydot > *,
+  .notification-center li .cell-label strong {
+    color: #ccc; }
+
+  /* USER DROPDOWN MENU */
+  .userbox-dd {
+    border-color: #303030;
+    background: #191919; }
+
+  .userbox-dd ul.last {
+    background: #222; }
+
+  .notifycircle {
+    background: #565656; }
+
+  /* DODAJ OGLOSZENIE */
+  form input.light[disabled], form textarea.light[disabled] {
+    background-color: #1d1d1d; }
+
+  form.adding div.suggest {
+    background: #252525;
+    /* #e8f4de */ }
+
+  .suggest.photos strong {
+    color: #4baf2e;
+    /* #1d3516 */ }
+
+  .photos-show-mini li.empty.progress > div > span, .photos-show-mini li.empty > div > a {
+    border-color: #191919; }
+
+  .photos-show-mini li.empty > div {
+    background: #212121;
+    border-color: #423c38;
+    /* #cbd2d7 */ }
+
+  .photos-show-mini li.empty.first-child div {
+    background: #242424;
+    /* #e8f4de */
+    border-color: #3d3d3d;
+    /* #c5d7b5 */ }
+
+  /* AD REMOVE */
+  #cookiesBar, #mobileAppsbadge, .delivery-sticky, .dfp-db-wallpaper__bg, #wrapperpolko,
+  div[id^=div-gpt-ad], .adsbygoogle {
+    display: none !important; }
+
+  /* http://www.olx.hn (Honduras) */ }
+@-moz-document regexp("https?://(www|.*)?.olx.com.(ar|bo|co|cr|ec|sv|gt|ni|pa|py|pe|uy|ve)/.*") {
+  /* Argentina, Bolivia, Colombia, Costa Rica, Ecuador, El Salvador, Guatemala, Nicaragua, Panama, Paraguay, Peru, Uruguay, Venezuela */ }
+@-moz-document domain("olx.af") {
+  /* Macedonia */ }
+@-moz-document domain("olx.com.pk") {
+  /* Pakistan */ }

@@ -1,0 +1,407 @@
+$c-fff: #191919;
+$c-000: #fff;
+$c-5b5b5b: #ccc;
+$c-f1f1f1: #232323;
+$c-f2f2f2: #222;
+$c-f3f3f3: #212121;
+$c-f4f4f4: #212121;
+$c-f7f7f7: #202020;
+$c-f0f0f0: #333;
+$c-eaeaea: #444;
+$c-efefef: #282828;
+$c-d1d1d1: #3d3d3d;
+$c-ccc: #585858;
+$c-e8e8e8: #303030;
+$c-959595: #a5a5a5;
+$c-737373: #aaa;
+$c-626262: #bbb;
+$c-414141: #ccc;
+$c-2b2b2b: #eee;
+$c-dedede: #303030;
+$c-b3b3b3: #565656;
+$c-fafafa: #1c1c1c;
+$c-ebebeb: #282828;
+$c-a0a0a0: #595959;
+$c-525252: #a5a5a5;
+$c-b6e469: #242e15;
+$c-f1f5fc: #212121;
+$c-dadada: #363636;
+$c-f8f8f8: #1d1d1d;
+
+@-moz-document regexp("https?://www.olx.([a-z]{2})(.[a-z]{2})?/.*") {
+  /*!
+    || Name: OLX - Quite Dark     ||
+    || Author: pawelos076232      ||
+    || License: No Redistribution ||
+    || Version: 0.0.1             ||
+    */
+
+  /* MAIN */
+  body {
+    color: #ddd; /* #3f4c52 */
+    background: $c-fff;
+  }
+  table.offers, form.search input[type=text], .locationrequest .distancelist dt a,
+  form.searchmain .input-container, form.searchmain input[type=text],
+  .maincategories .maincategories-list .li .item .cat-icon,
+  form.quickcontact input.light, form.quickcontact select.light, form.quickcontact textarea.light,
+  .offer-user__address, .bgfff, .myaccountview #header-container .navi, .myaccountview .container .wrapper,
+  .dropdown dd ul, .dropdown dt a.focus, .toplinks .all a, .button.add:after, .button.add:before,
+  form.useranswer fieldset.editspace textarea {
+    background: $c-fff;
+  }
+  #searchbox, .thumb.scale1, .thumb.scale4, .t-new_sidebar .offer-section, .myaccountview, .popular-searches {
+    background: $c-f7f7f7;
+  }
+  #searchmain-container {
+    background: $c-f7f7f7;
+    border-bottom-color: $c-f0f0f0;
+  }
+  #tabs-container {
+    background: $c-f7f7f7;
+    border-color: $c-f0f0f0;
+  }
+  .breadcrumb.offerslist, #header-container .navi, table.offers .offer, .accountview #footer-container>.wrapper,
+  .toplinks .all {
+    border-color: $c-f0f0f0;
+  }
+  .brbott-1 {
+    border-color: #444; /* #dfdedd */
+  }
+  .brbott-5, .brtop-1, .homepage #footer-container .siteinfobox {
+    border-color: #383838; /* #e3e3e3 */
+  }
+  .brbott-6, .brtope5, .userbox-dd h5 {
+    border-color: #2c2c2c; /* #e5e5e5 */
+  }
+  .brbott-8, .maincategories .subcategories-title {
+    border-color: $c-e8e8e8;
+  }
+  .usersearch-list {
+    border-color: #393939; /* #e9e9e9 */
+  }
+  .brbott-12 {
+    border-color: $c-fff;
+  }
+  ul.tabsfav .tab.selected {
+    background: $c-fff;
+    color: $c-414141;
+    border-color: #353535; /* #e1e1e1 */
+  }
+  ul.tabs2 .tab.selected {
+    background: $c-fff;
+    border-color: #353535; /* #e1e1e1 */
+  }
+  .favbottombox {
+    border-top-color: #353535; /* #e1e1e1 */
+  }
+  ul.tabs .tab.selected {
+    background: $c-fff;
+    border-color: #323232; /* #ececec */
+  }
+  h1, h2, h3, h4, h5, h6,
+  .quickcontact h3, .c2b {
+    color: $c-2b2b2b;
+  }
+  form.search .clearbox, .locationrequest .input-container,
+  form input.light, form select.light, form textarea.light,
+  .dropdown dt a {
+    background: $c-fff;
+    border-color: $c-d1d1d1;
+    color: $c-000;
+  }
+  .subnav2, form.myaccount-search .button {
+    background: $c-fff;
+    border-color: $c-d1d1d1;
+  }
+  form.search .multifilters a.button, form.search .multifilters label.num-input {
+    background: $c-fff;
+    border-color: $c-d1d1d1;
+    -webkit-box-shadow: 0 1px 0 0 $c-fff;
+    -moz-box-shadow: 0 1px 0 0 $c-fff;
+    -ms-box-shadow: 0 1px 0 0 $c-fff;
+    -o-box-shadow: 0 1px 0 0 $c-fff;
+    box-shadow: 0 1px 0 0 $c-fff;
+  }
+  .locationrequest.smallBox .distancelist dt a,
+  form.search .multifilters .filter-both-item .filter-item:first-child:before {
+    border-color: $c-d1d1d1;
+  }
+  form.search a.select {
+    background: $c-fff;
+    border-color: #585858; /* #d4d4d4 */
+    color: $c-000;
+  }
+  #footer-container .footer-partners span:after {
+    border-color: $c-000 transparent transparent;
+  }
+  #footer-container .footer-partners.active span:after {
+    border-color: transparent transparent $c-000;
+  }
+  form.search .button.search {
+    box-shadow: 0 1px 0 0 $c-fff;
+  }
+  .favsearchgallerybox li .card .details,
+  .usersearch-list .box .details {
+    background: $c-fff;
+    border-bottom-color: #353535; /* #e7e7e7 */
+  }
+  .favsearchgallerybox li .card,
+  .usersearch-list .box {
+    border-color: #343434; /* #dfdfdf */
+    background: #212121; /* #f5f5f5; */
+  }
+  .link:hover>*, a.tdnone:hover .link>*,
+  table.breadcrumb ul .link:hover>* {
+    color: $c-fff;
+  }
+  .t-new_sidebar .offer__innerbox,
+  .offer-sidebar__box,
+  .maincategories .subcategories-list {
+    border-color: $c-efefef;
+    background: $c-fff;
+  }
+  .offer-titlebox, .offer-titlebox__details em {
+    border-color: $c-efefef;
+  }
+  .t-new_sidebar .offercontent table.details {
+    border-color: #272727; /* #ebeae9 */
+  }
+  .t-new_sidebar .offercontent table.details td {
+    border-left-color: $c-fff!important;
+  }
+  .breadcrumbbox .wrapper, .container .wrapper {
+    border-color: #303030; /* #ededed */
+  }
+  .offer-sidebar__buttons .contact-button {
+    border-color: $c-efefef;
+    color: $c-fff;
+  }
+  .similarads>div>table .offer, .similarads>div {
+    border-color: #303030; /* #ededea */
+  }
+  .bg-3 {
+    background: #191919; /* #fff7c5 */
+  }
+  #gotop {
+    -webkit-box-shadow: 0 0 3px $c-e8e8e8; /* #e8e8e8 */
+    -moz-box-shadow: 0 0 3px $c-e8e8e8; /* #e8e8e8 */
+    -ms-box-shadow: 0 0 3px $c-e8e8e8; /* #e8e8e8 */
+    -o-box-shadow: 0 0 3px $c-e8e8e8; /* #e8e8e8 */
+    box-shadow: 0 0 3px $c-e8e8e8; /* #e8e8e8 */
+  }
+  .br-1 {
+    border-color: #575757; /* #d7d7d7 */
+  }
+
+  /* MY ACCOUNT */
+  .accounthead {
+    background: $c-fafafa;
+  }
+  .bgf3 {
+    background: $c-f3f3f3;
+  }
+  .brf3, form.settings.invoicedata .fblock.submit {
+    border-color: $c-f3f3f3;
+  }
+  .brbott-7 {
+    border-bottom-color: $c-dadada;
+  }
+  #answerMenu {
+    background: $c-fafafa;
+    border-bottom-color: $c-ebebeb;
+  }
+  #answerMenu.fix {
+    background: rgba(25,25,25,.9);
+    border-bottom-color: $c-ccc;
+  }
+  table.adanswersnew thead th {
+    color: $c-959595;
+    border-top-color: $c-f1f1f1;
+    border-bottom-color: $c-ebebeb;
+  }
+  table.adanswersnew tbody tr.row-desc>td {
+    border-bottom-color: $c-ebebeb;
+  }
+  ul.conversationnew>li .cloud {
+    background: $c-f2f2f2;
+  }
+  ul.conversationnew>li.my .cloud,
+  form.useranswer {
+    background: $c-b6e469;
+  }
+  div.suggest {
+    background: $c-f1f5fc;
+  }
+  .bgfef8b5 {
+    background: #202020; /* #fef8b5 */
+  }
+  .brleftdashc8 {
+    border-left-color: #444; /* #c8c8c8 */
+  }
+
+  /* FANCY BOX */
+  .moreLevels, .moreLevels>div {
+    background: $c-fff;
+  }
+  #fancybox-content {
+    border-color: $c-f1f1f1 !important;
+  }
+  #fancybox-title.fancybox-title-inside {
+    border-color: $c-f1f1f1;
+    background: $c-fff !important;
+  }
+  #fancybox-title.fancybox-title-inside div {
+    background: $c-fff;
+    border-bottom-color: #222; /* #eee */
+  }
+  #masterAccountDiv .inner, #saveFavDiv .inner, #synchroFavDiv .inner {
+    background: #202020; /* #f6f6f6 */
+  }
+  #fancybox-outer {
+    background: $c-fff;
+    border-color: #202020; /* #f6f6f6 */
+  }
+  .button {
+    -webkit-box-shadow: 0 0 0 2px $c-fff;
+    -moz-box-shadow: 0 0 0 2px $c-fff;
+    -ms-box-shadow: 0 0 0 2px $c-fff;
+    -o-box-shadow: 0 0 0 2px $c-fff;
+    box-shadow: 0 0 0 2px $c-fff;
+  }
+  form.default .fblock.active .focusbox input.light, form.default .fblock.active .focusbox select.light, form.default .fblock.active .focusbox textarea.light {
+    border-color: $c-eaeaea;
+    -webkit-box-shadow: 0 0 0 2px $c-eaeaea;
+    -moz-box-shadow: 0 0 0 2px $c-eaeaea;
+    -ms-box-shadow: 0 0 0 2px $c-eaeaea;
+    -o-box-shadow: 0 0 0 2px $c-eaeaea;
+    box-shadow: 0 0 0 2px $c-eaeaea;
+  }
+  .fancybox-title-inside {
+    color:  #ccc; /* #333 */
+    background: $c-fff;
+  }
+  .paybalance-box {
+    background: $c-fff;
+    border-color: #303030; /* #ededed */
+  }
+  .mainpage-gallery header h3 {
+    color: $c-5b5b5b;
+  }
+  .dropdown.readonly dt a, .user-box__photo {
+    background-color: $c-efefef;
+  }
+  .dropdown dd ul {
+    border-color: $c-d1d1d1;
+    -webkit-box-shadow: 0 1px 2px 0 $c-ccc;
+    -moz-box-shadow: 0 1px 2px 0 $c-ccc;
+    -ms-box-shadow: 0 1px 2px 0 $c-ccc;
+    -o-box-shadow: 0 1px 2px 0 $c-ccc;
+    box-shadow: 0 1px 2px 0 $c-ccc;
+  }
+  .icon.f_checkbox {
+    background-color: $c-fff;
+    border-color: $c-d1d1d1;
+    box-shadow: 0 1px 0 0 $c-fff;
+  }
+  div.pageinfo, .suggest.photos {
+    text-shadow: 0 1px 0 $c-fff;
+  }
+  .choosecat .categoryTitle {
+    border-color: #3a3a3a; /* #d5d5d5 */
+  }
+
+  /* INVERTING COLORS */
+  #fancybox-close, .icon.loupeplus,
+  .maincategories .maincategories-list .li .item a.selected:before,
+  .bottombox .submittarget, form.adding .submittarget, .userbox-dd .target,
+  .subnav2 li .icon.abs, div.suggest .target, img.margintop40 {
+    filter: invert(.903) grayscale(1);
+  }
+  div.suggest.error .target {
+    filter: none;
+  }
+
+  /* TEXT COLORS */
+  .cfff {
+    color: $c-fff;
+  }
+  .c000, .view-lists ul li a.selected, .view-lists ul li a.selected span,
+  .view-lists ul li, form.adding, .dropdown a, .dropdown a:visited, .headlinebox .icon-slide:after {
+    color: $c-000;
+  }
+  .c73 {
+    color: $c-737373;
+  }
+  .c27 {
+    color: #ebeae9; /* #272727 */
+  }
+  .color-1 {
+    color: $c-a0a0a0;
+  }
+  .color-5 {
+    color: $c-525252;
+  }
+  .link.gray2>* {
+    color: $c-626262;
+  }
+  .link.gray>*,
+  .link.spoiler.graydot>*,
+  .notification-center li .cell-label strong {
+    color: $c-414141;
+  }
+
+  /* USER DROPDOWN MENU */
+  .userbox-dd {
+    border-color: $c-dedede;
+    background: $c-fff;
+  }
+  .userbox-dd ul.last {
+    background: $c-f2f2f2;
+  }
+  .notifycircle {
+    background: $c-b3b3b3;
+  }
+
+  /* DODAJ OGLOSZENIE */
+  form input.light[disabled], form textarea.light[disabled] {
+    background-color: $c-f8f8f8;
+  }
+  form.adding div.suggest {
+    background: #252525; /* #e8f4de */
+  }
+  .suggest.photos strong {
+    color: #4baf2e; /* #1d3516 */
+  }
+  .photos-show-mini li.empty.progress>div>span, .photos-show-mini li.empty>div>a {
+    border-color: $c-fff;
+  }
+  .photos-show-mini li.empty>div {
+    background: $c-f4f4f4;
+    border-color: #423c38; /* #cbd2d7 */
+  }
+  .photos-show-mini li.empty.first-child div {
+    background: #242424; /* #e8f4de */
+    border-color: #3d3d3d; /* #c5d7b5 */
+  }
+
+  /* AD REMOVE */
+  #cookiesBar, #mobileAppsbadge, .delivery-sticky, .dfp-db-wallpaper__bg, #wrapperpolko,
+  div[id^=div-gpt-ad], .adsbygoogle {
+    display: none!important;
+  }
+
+  /* http://www.olx.hn (Honduras) */
+}
+@-moz-document regexp("https?://(www|.*)?.olx.com.(ar|bo|co|cr|ec|sv|gt|ni|pa|py|pe|uy|ve)/.*") {
+  /* Argentina, Bolivia, Colombia, Costa Rica, Ecuador, El Salvador, Guatemala, Nicaragua, Panama, Paraguay, Peru, Uruguay, Venezuela */
+
+}
+@-moz-document domain("olx.af") {
+  /* Macedonia */
+
+}
+@-moz-document domain("olx.com.pk") {
+  /* Pakistan */
+
+}
