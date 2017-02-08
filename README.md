@@ -7,7 +7,7 @@
 * http://www.olx.com.ar , etc (Argentina, Bolivia, Colombia, Costa Rica, Ecuador, El Salvador, Guatemala, Nicaragua, Panama, Paraguay, Peru, Uruguay, Venezuela)
 * http://www.olx.af (Macedonia)
 * http://www.olx.com.pk (Pakistan)
-* http://www.olx.hn (Honduras) - maby?
+* http://www.olx.hn (Honduras) - mabye?
 
 ## UserStyles:
 https://userstyles.org/styles/138633
