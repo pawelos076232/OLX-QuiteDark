@@ -28,7 +28,7 @@ $c-f1f5fc: #212121;
 $c-dadada: #363636;
 $c-f8f8f8: #1d1d1d;
 
-@-moz-document regexp("https?://www.olx.([a-z]{2})(.[a-z]{2})?/.*") {
+@-moz-document domain("olx.pl"), regexp("https?://www.olx.([a-z]{2})(.[a-z]{2})?/.*") {
   /*!
     || Name: OLX - Quite Dark     ||
     || Author: pawelos076232      ||
