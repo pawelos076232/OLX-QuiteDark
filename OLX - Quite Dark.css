@@ -3,7 +3,7 @@
     || Name: OLX - Quite Dark                                 ||
     || Author: pawelos076232                                  ||
     || License: CC BY-ND                                      ||
-    || Version: 0.0.5                                         ||
+    || Version: 0.0.6                                         ||
     || Userstyles: https://userstyles.org/styles/138633       ||
     || Github: https://github.com/pawelos076232/OLX-QuiteDark ||
     */
@@ -188,7 +188,7 @@
     /* #fff7c5 */ }
 
   #gotop {
-    bottom: -1px;
+    bottom: -1px !important;
     -webkit-box-shadow: 0 0 3px #303030;
     /* #e8e8e8 */
     -moz-box-shadow: 0 0 3px #303030;
@@ -351,7 +351,8 @@
   .c000, .view-lists ul li a.selected, .view-lists ul li a.selected span,
   .view-lists ul li, form.adding, .dropdown a, .dropdown a:visited, .headlinebox .icon-slide:after,
   .otokredytbox-vivus-ui form.otokredyt fieldset input[type="text"], .locationrequest .cityfield.bold,
-  form.search .multifilters a.button.fbold {
+  form.search .multifilters a.button.fbold, .locationrequest .distancelist.bold dt a,
+  .locationrequest .distancelist.bold dd ul a {
     color: #fff; }
 
   .c73 {
@@ -375,6 +376,10 @@
   .link.spoiler.graydot > *,
   .notification-center li .cell-label strong {
     color: #ccc; }
+
+  .creditbox .c41 {
+    color: #414141;
+    /* Vivus FIX */ }
 
   form.searchmain .button input[type=submit], form.search .multifilters label.num-input input[type=text] {
     color: #fff; }
@@ -490,7 +495,7 @@
     color: #b0b0b0; }
 
   .otokredytbox-vivus-ui form.otokredyt .ui-widget-content,
-  .otokredytbox-vivus-ui .text-note {
+  .otokredytbox-vivus-ui .text-note, table.breadcrumb .next .cloud {
     background: #191919; }
 
   /* LOGIN / REGISTER */
