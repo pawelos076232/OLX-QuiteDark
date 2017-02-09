@@ -553,7 +553,7 @@
     border-color: #313131;
     /* #e2e2e2 */
     background: url(https://goo.gl/x46bg3) bottom center no-repeat; } }
-@-moz-document regexp("https?://(www|.*)?.olx.com.(ar|bo|co|cr|ec|sv|gt|ni|pa|py|pe|uy|ve)/.*") {
+@-moz-document regexp("https?://(www|(?!help).*)?.olx.com.(ar|bo|co|cr|ec|sv|gt|ni|pa|py|pe|uy|ve)/(?!payment).*") {
   /* Argentina, Bolivia, Colombia, Costa Rica, Ecuador, El Salvador, Guatemala, Nicaragua, Panama, Paraguay, Peru, Uruguay, Venezuela */
   /* MAIN */
   body, .item_index_view > article, .item_partials_navigation_view {
@@ -581,13 +581,19 @@
   .footer-view .columns .column .column-links .column-item .modal-link,
   .item_partials_optionals_view.compact li strong, .item_partials_optionals_view.compact li span,
   .item_partials_navigation_view .prev,
-  .item_partials_seo_view nav {
+  .item_partials_seo_view nav,
+  .users_lostpassword_view .title, .users_login_view .title,
+  .footer-view .columns .column .column-links .column-item .modal-container .modal-header {
     border-color: #585858; }
+
+  .dividing-line .line {
+    background: #585858; }
 
   a, .footer-view .columns .column .column-links .column-item > a {
     color: #868686; }
 
-  .item_index_view > article > div .content {
+  .item_index_view > article > div .content,
+  .users_lostpassword_view form .wrapper, .users_login_view form .wrapper {
     background: #191919; }
 
   .home_partials_categories_view .categories .category-wrapper .category h2 a,
@@ -596,6 +602,14 @@
 
   .item_partials_user_view, .item_partials_reply_view, .item_partials_tips_view {
     background-color: #2e2e2e; }
+
+  .users_lostpassword_view .lostpassword_view, .users_login_view .lostpassword_view, .users_lostpassword_view .login_view, .users_login_view .login_view,
+  .footer-view .columns .column .column-links .column-item .modal-container {
+    background: #191919;
+    border-color: #585858; }
+
+  .footer-view .columns .column .column-links .column-item .modal-container .modal-column-item {
+    border-color: #232323; }
 
   /* AD REMOVE */
   .adserving {
