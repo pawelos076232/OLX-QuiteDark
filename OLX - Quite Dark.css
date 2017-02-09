@@ -1,4 +1,4 @@
-@-moz-document regexp("https?://(|www.).olx(liban)?.([a-z]{2})(.[a-z]{2})?/((?!bezpieczenstwo|advertising|topfeature|payment|plata-prin-olx|livrare-cu-verificare|courier|safetyuser|mobil|mobile|mobilne).*)") {
+@-moz-document regexp("https?://(|www.).olx(liban)?.([a-z]{2,3})(.[a-z]{2,3})?/((?!bezpieczenstwo|advertising|topfeature|payment|plata-prin-olx|livrare-cu-verificare|courier|safetyuser|mobil|mobile|mobilne).*)") {
   /*!
     || Name: OLX - Quite Dark                                 ||
     || Author: pawelos076232                                  ||
@@ -206,6 +206,10 @@
 
   #footer-container .siteinfobox .socialsbox + .text {
     border-color: #303030; }
+
+  .homepage #body-container {
+    background-color: #333;
+    border-color: #2c2c2c; }
 
   /* MY ACCOUNT */
   .accounthead {
@@ -543,7 +547,8 @@
 
   /* AD REMOVE */
   #cookiesBar, #mobileAppsbadge, .delivery-sticky, .dfp-db-wallpaper__bg, #wrapperpolko,
-  div[id^=div-gpt-ad], .adsbygoogle {
+  div[id^=div-gpt-ad], .adsbygoogle, #div-gpt-homepage-wideboard_bottom, #div-gpt-ad-wideboard_bottom,
+  .leftBranding, .rightBranding {
     display: none !important; }
 
   /* http://www.olx.hn (Honduras) */ }
