@@ -3,7 +3,7 @@
     || Name: OLX - Quite Dark                                 ||
     || Author: pawelos076232                                  ||
     || License: CC BY-ND                                      ||
-    || Version: 0.1.6                                         ||
+    || Version: 0.1.7                                         ||
     || Userstyles: https://userstyles.org/styles/138633       ||
     || Github: https://github.com/pawelos076232/OLX-QuiteDark ||
     */
@@ -717,13 +717,29 @@
   .footer-view .columns .column .column-links .column-item .modal-container .modal-column-item {
     border-color: #232323; }
 
+  .item_partials_location_view .action > p .show {
+    background-color: #262626;
+    color: #666;
+    /* #666 */
+    border-color: #999;
+    /* #999 */ }
+
   /* TEXT COLORS */
-  .items-list .item .items-price, #listing-nav .title, #breadcrumb, #listing-breadcrumb, .listing-tabs .tabs li a:hover {
+  .items-list .item .items-price, #listing-nav .title, #breadcrumb, #listing-breadcrumb, .listing-tabs .tabs li a:hover,
+  .partnerships-view .partner .partner-info h6 {
     color: #fff; }
 
   /* OFFER */
-  .item_partials_location_view {
+  .item_partials_location_view, .partnerships-view .partner {
     background-color: #262626; }
+
+  .item_partials_optionals_view li:first-child strong, .item_partials_optionals_view li:first-child span,
+  .item_partials_optionals_view li strong, .item_partials_optionals_view li span,
+  .item_partials_navigation_view .back {
+    border-color: #585858; }
+
+  .item_partials_images_view figure {
+    background-color: #272727; }
 
   /* OFFERS */
   .wrapper-main, .wrapper, #breadcrumb, #listing-breadcrumb {
@@ -745,7 +761,11 @@
 
   /* AD REMOVE */
   .adserving .adserving-afs {
-    height: 0 !important; } }
+    display: none !important; }
+
+  /* FIXEX AFTER AD REMOVE */
+  .adserving {
+    margin-top: 10px; } }
 @-moz-document regexp("https?://(|www.)olx.(com|co)(.(gh|ke|ng|za|tz|ug))?/.*") {
   /* Ghana, Kenya, Nigeria, South Africa, Tanzania, Uganda */
   /* MAIN */
