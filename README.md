@@ -12,6 +12,7 @@
 
 ## In development:
 * http://www.olx.com.ar , etc (Argentina, Bolivia, Colombia, Costa Rica, Ecuador, El Salvador, Guatemala, Nicaragua, Panama, Paraguay, Peru, Uruguay, Venezuela)
+* https://www.olx.com.gh , etc (Ghana, Kenya, Nigeria, South Africa, Tanzania, Uganda)
 
 ## Works already nice on OLX sites:
 ![Russian Federation](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ru.png "Russian Federation OLX.ro")
