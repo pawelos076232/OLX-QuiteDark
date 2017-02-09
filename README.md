@@ -8,6 +8,7 @@
 * http://www.olx.af (Macedonia)
 * http://www.olx.com.pk (Pakistan)
 * http://www.olx.ba (Bosnia)
+* http://www.olx.ph (Philippines)
 * http://www.olx.hn (Honduras) - mabye?
 
 ## UserStyles:
