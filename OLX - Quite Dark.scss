@@ -55,7 +55,7 @@ $c-eee: #272727;
     || Name: OLX - Quite Dark                                 ||
     || Author: pawelos076232                                  ||
     || License: CC BY-ND                                      ||
-    || Version: 0.1.5                                         ||
+    || Version: 0.1.6                                         ||
     || Userstyles: https://userstyles.org/styles/138633       ||
     || Github: https://github.com/pawelos076232/OLX-QuiteDark ||
     */
@@ -142,8 +142,8 @@ $c-eee: #272727;
   .regions-layer .column .letter a:first-letter {
     color: #fff;
   }
-  .regions-layer a {
-    color: #eee; /* #808080 */
+  .regions-layer a, .regions-layer .title a>* {
+    color: #eee; /* #808080 & #cecece */
   }
 
   .social-links, #footer-container .siteinfobox .socialsbox + .text > div {
@@ -699,7 +699,8 @@ $c-eee: #272727;
   .item_partials_navigation_view .prev,
   .item_partials_seo_view nav,
   .users_lostpassword_view .title, .users_login_view .title,
-  .footer-view .columns .column .column-links .column-item .modal-container .modal-header {
+  .footer-view .columns .column .column-links .column-item .modal-container .modal-header,
+  .users_register_view .title {
     border-color: $c-ccc;
   }
   .dividing-line .line {
@@ -709,8 +710,15 @@ $c-eee: #272727;
     color: $c-607d8b;
   }
   .item_index_view > article > div .content,
-  .users_lostpassword_view form .wrapper, .users_login_view form .wrapper {
+  .users_lostpassword_view form .wrapper, .users_login_view form .wrapper,
+  .users_register_view form .wrapper, .posting-categories-list .child-categories-list, #listing-nav .sub-categories {
     background: $c-fff;
+  }
+  .posting-categories-list {
+    background: $c-f5f5f5;
+  }
+  .posting-view .field-wrapper.focus, .users-edituserprofile-view .field-wrapper.focus, .users-editpersonalinfo-view .field-wrapper.focus, .users_myolx_view .field-wrapper.focus {
+    background-color: $c-eceff1;
   }
   .home_partials_categories_view .categories .category-wrapper .category h2 a,
   .item_partials_optionals_view li span {
@@ -720,7 +728,8 @@ $c-eee: #272727;
     background-color: $c-e3e6e9;
   }
   .users_lostpassword_view .lostpassword_view, .users_login_view .lostpassword_view, .users_lostpassword_view .login_view, .users_login_view .login_view,
-  .footer-view .columns .column .column-links .column-item .modal-container {
+  .footer-view .columns .column .column-links .column-item .modal-container, .users_register_view, #seo-box, .posting-item-information, .posting-profile-view,
+  .items-locations .locations-list, .items-locations .locations-tabs li:only-child, .items-list .item {
     background: $c-fff;
     border-color: $c-ccc;
   }
@@ -728,9 +737,37 @@ $c-eee: #272727;
     border-color: $c-f3f3f3;
   }
 
+  /* TEXT COLORS */
+  .items-list .item .items-price, #listing-nav .title, #breadcrumb, #listing-breadcrumb, .listing-tabs .tabs li a:hover {
+    color: $c-000;
+  }
+
+  /* OFFER */
+  .item_partials_location_view {
+    background-color: $c-eceff1;
+  }
+
+  /* OFFERS */
+  .wrapper-main, .wrapper, #breadcrumb, #listing-breadcrumb {
+    background-color: $c-eceff1;
+  }
+  #listing-nav {
+    background: #2b2b2b; /* #e7e9ec */
+    border-color: $c-ccc;
+  }
+  .listing-tabs .tabs li a.active, .listing-tabs .tabs li span.active {
+    color: $c-000;
+    border-bottom-color: $c-eceff1;
+  }
+  .listing-tabs .tabs li a, .listing-tabs .tabs li span, .listing-tabs, .items-list .item:hover,
+  #breadcrumb .breadcrumb-pagination a[rel="prev"], #listing-breadcrumb .breadcrumb-pagination a[rel="prev"],
+  #listing-nav .title.filter-title {
+    border-color: $c-ccc;
+  }
+
   /* AD REMOVE */
-  .adserving {
-    display: none!important;
+  .adserving .adserving-afs {
+    height: 0!important;
   }
 
 }

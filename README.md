@@ -4,12 +4,14 @@
 
 ## TO DO LIST:
 
-* http://www.olx.com.ar , etc (Argentina, Bolivia, Colombia, Costa Rica, Ecuador, El Salvador, Guatemala, Nicaragua, Panama, Paraguay, Peru, Uruguay, Venezuela)
 * http://www.olx.af (Macedonia)
 * http://www.olx.com.pk (Pakistan)
 * http://www.olx.ba (Bosnia)
 * http://www.olx.ph (Philippines)
 * http://www.olx.hn (Honduras) - mabye?
+
+## In development:
+* http://www.olx.com.ar , etc (Argentina, Bolivia, Colombia, Costa Rica, Ecuador, El Salvador, Guatemala, Nicaragua, Panama, Paraguay, Peru, Uruguay, Venezuela)
 
 ## Works already nice on OLX sites:
 ![Russian Federation](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ru.png "Russian Federation OLX.ro")
