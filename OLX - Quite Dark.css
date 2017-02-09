@@ -1,4 +1,4 @@
-@-moz-document regexp("https?://(|www.).olx(liban)?.([a-z]{2,3})(.[a-z]{2,3})?/((?!bezpieczenstwo|advertising|topfeature|payment|plata-prin-olx|livrare-cu-verificare|courier|safetyuser|mobil|mobile|mobilne).*)") {
+@-moz-document regexp("https?://(|www.)olx(liban)?.([a-z]{2,3})(.[a-z]{2,3})?/((?!bezpieczenstwo|advertising|topfeature|payment|plata-prin-olx|livrare-cu-verificare|courier|safetyuser|mobil|mobile|mobilne).*)") {
   /*!
     || Name: OLX - Quite Dark                                 ||
     || Author: pawelos076232                                  ||
