@@ -55,7 +55,7 @@ $c-eee: #272727;
     || Name: OLX - Quite Dark                                 ||
     || Author: pawelos076232                                  ||
     || License: CC BY-ND                                      ||
-    || Version: 0.1.3                                         ||
+    || Version: 0.1.4                                         ||
     || Userstyles: https://userstyles.org/styles/138633       ||
     || Github: https://github.com/pawelos076232/OLX-QuiteDark ||
     */
@@ -82,6 +82,7 @@ $c-eee: #272727;
   .locationrequest .proposals {
     color: $c-989898;
     background-color: $c-fff;
+    border-color: $c-d1d1d1;
   }
   .locationrequest .proposals .lastbox, .locationrequest .proposals .mapbox {
     border-color: $c-eaeaea;
@@ -102,7 +103,7 @@ $c-eee: #272727;
     border-color: $c-f0f0f0;
   }
   .breadcrumb.offerslist, #header-container .navi, table.offers .offer, .accountview #footer-container>.wrapper,
-  .toplinks .all {
+  .toplinks .all, div.favsearchbox {
     border-color: $c-f0f0f0;
   }
   .brbott-1 {
@@ -123,7 +124,17 @@ $c-eee: #272727;
   .brbott-12 {
     border-color: $c-fff;
   }
-  .social-links {
+  .regions-layer {
+     border-color: $c-ccc;
+     background: $c-fff;
+  }
+  .regions-layer .column, .regions-layer .title {
+    border-color: $c-ccc;
+  }
+  .regions-layer .column li a>* {
+    color: #8c8c8c; /* #707070 */
+  }
+  .social-links, #footer-container .siteinfobox .socialsbox + .text > div {
     border-color: $c-dddcda;
     color: #878787; /* #687981 */
   }
@@ -400,7 +411,8 @@ $c-eee: #272727;
   .choosecat .box>div .categoryTitle .target, .offer-sidebar .price-label:before,
   .pricelabel:before, div.suggesttitle:before, span.suggesttitle:before,
   .icon.mini.down4, .icon.mini.up4, .choosecat .box > div .scrollbar,
-  .choosecat .box > div a.block:hover .target, .choosecat .box > div a.block.selected .target {
+  .choosecat .box > div a.block:hover .target, .choosecat .box > div a.block.selected .target,
+  .regions-layer:before {
     filter: invert(.901) grayscale(1);
   }
   div.suggest.error .target {
@@ -520,7 +532,7 @@ $c-eee: #272727;
     background: #232323; /* #f4f3f1 */
   }
   .toplinks .counter {
-    background: $c-eee;
+    background: $c-fff; /* #eee */
   }
   form.search .multifilters .button .icon.mini.clear {
     border-color: $c-fff;
@@ -569,11 +581,18 @@ $c-eee: #272727;
     border-color: $c-f5f5f5;
   }
   form.quickcontact .inner {
-    background-color: $c-fff;
+    background-color: #222; /* #f1f5fc */
     border-color: $c-e7e7e7;
+  }
+  form.quickcontact h3 {
+    color: $c-2b2b2b;
   }
   .detailpage .offercontent table.details .item {
     border-color: #2a2a2a; /* #ebeae9 */
+  }
+  .similarads + .actionbar {
+    border-color: #2b2b2b; /* #e9e9e9 */
+    color: #9a9a9a; /* #5e5e5d */
   }
 
   /* LOGIN / REGISTER */
@@ -762,6 +781,14 @@ $c-eee: #272727;
   }
   .pricelabel:before {
     filter: none;
+  }
+  #gotop {
+    bottom: 0px !important;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
   }
 
   /* AD REMOVE */
