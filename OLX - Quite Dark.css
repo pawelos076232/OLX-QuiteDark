@@ -556,10 +556,8 @@
 @-moz-document regexp("https?://(www|.*)?.olx.com.(ar|bo|co|cr|ec|sv|gt|ni|pa|py|pe|uy|ve)/.*") {
   /* Argentina, Bolivia, Colombia, Costa Rica, Ecuador, El Salvador, Guatemala, Nicaragua, Panama, Paraguay, Peru, Uruguay, Venezuela */
   /* MAIN */
-  body {
-    background: #262626; }
-
-  h3, .home_partials_categories_view .categories .category-wrapper .category h2 a {
+  body, .item_index_view > article, .item_partials_navigation_view {
+    background: #262626;
     color: #fff; }
 
   .home_partials_items_view .list .item-wrapper .item {
@@ -580,11 +578,28 @@
     border-top: 1px solid #262626;
     outline: 1px solid #484848; }
 
-  .footer-view .columns .column .column-links .column-item .modal-link {
+  .footer-view .columns .column .column-links .column-item .modal-link,
+  .item_partials_optionals_view.compact li strong, .item_partials_optionals_view.compact li span,
+  .item_partials_navigation_view .prev,
+  .item_partials_seo_view nav {
     border-color: #585858; }
 
   a, .footer-view .columns .column .column-links .column-item > a {
-    color: #868686; } }
+    color: #868686; }
+
+  .item_index_view > article > div .content {
+    background: #191919; }
+
+  .home_partials_categories_view .categories .category-wrapper .category h2 a,
+  .item_partials_optionals_view li span {
+    color: #fff; }
+
+  .item_partials_user_view, .item_partials_reply_view, .item_partials_tips_view {
+    background-color: #2e2e2e; }
+
+  /* AD REMOVE */
+  .adserving {
+    display: none !important; } }
 @-moz-document domain("olx.af") {
   /* Macedonia */ }
 @-moz-document domain("olx.com.pk") {
