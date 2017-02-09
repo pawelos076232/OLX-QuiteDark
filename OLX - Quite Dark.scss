@@ -1,7 +1,7 @@
 $c-fff: #191919;
 $c-000: #fff;
 $c-5b5b5b: #ccc;
-$c-f1f1f1: #212121;
+$c-f1f1f1: #242424;
 $c-f2f2f2: #242424;
 $c-f3f3f3: #232323;
 $c-f4f4f4: #222;
@@ -55,7 +55,7 @@ $c-eee: #272727;
     || Name: OLX - Quite Dark                                 ||
     || Author: pawelos076232                                  ||
     || License: CC BY-ND                                      ||
-    || Version: 0.1.2                                         ||
+    || Version: 0.1.3                                         ||
     || Userstyles: https://userstyles.org/styles/138633       ||
     || Github: https://github.com/pawelos076232/OLX-QuiteDark ||
     */
@@ -65,15 +65,26 @@ $c-eee: #272727;
     color: #ddd; /* #3f4c52 */
     background: $c-fff;
   }
-  table.offers, form.search input[type=text], .locationrequest .distancelist dt a,
+  table.offers, form.search input[type=text],
   form.searchmain .input-container, form.searchmain input[type=text],
   .maincategories .maincategories-list .li .item .cat-icon,
   form.quickcontact input.light, form.quickcontact select.light, form.quickcontact textarea.light,
   .offer-user__address, .bgfff, .myaccountview #header-container .navi, .myaccountview .container .wrapper,
   .dropdown dd ul, .dropdown dt a.focus, .toplinks .all a,
   form.useranswer fieldset.editspace textarea, ul.categorySelectList li,
-  .gallerywide .courierbadge, .gallerywide > li, .gallerywide .gallerywide-item {
+  .gallerywide .courierbadge, .gallerywide > li, .gallerywide .gallerywide-item,
+  .proposals .location-info__features {
     background: $c-fff;
+  }
+  .locationrequest .distancelist dt a {
+    background-color: $c-fff;
+  }
+  .locationrequest .proposals {
+    color: $c-989898;
+    background-color: $c-fff;
+  }
+  .locationrequest .proposals .lastbox, .locationrequest .proposals .mapbox {
+    border-color: $c-eaeaea;
   }
   #searchbox, .thumb.scale1, .thumb.scale4, .t-new_sidebar .offer-section, .myaccountview, .popular-searches,
   table.priceoptions tbody .even td {
@@ -100,7 +111,7 @@ $c-eee: #272727;
   .brbott-5, .brtop-1, .homepage #footer-container .siteinfobox, #footer-container .siteinfobox .socialsbox+.text {
     border-color: $c-e3e3e3;
   }
-  .brbott-6, .brtope5, .userbox-dd h5 {
+  .brbott-6, .brtope5, .userbox-dd h5, .brlefte5 {
     border-color: #2c2c2c; /* #e5e5e5 */
   }
   .brbott-8, .maincategories .subcategories-title, .popular-headline {
@@ -238,6 +249,16 @@ $c-eee: #272727;
     background: $c-fff;
     border-color: $c-eee;
   }
+  .section .suggest {
+    background: $c-fff;
+    border-color: #424242; /* #c8ccd4 */
+  }
+  .section .left .item-header p {
+    background: #2e2e2e; /* #dfe6ed */
+  }
+  .proposals .location-info>a {
+    border-color: $c-fff;
+  }
 
   /* MY ACCOUNT */
   .accounthead {
@@ -367,6 +388,9 @@ $c-eee: #272727;
   .choosecat .categoryTitle {
     border-color: #3a3a3a; /* #d5d5d5 */
   }
+  .chooseway .box > div a.block:hover, .chooseway a.icon-list.selected {
+    background: #292929; /* #e5ecf8 */
+  }
 
   /* INVERTING COLORS */
   #fancybox-close, .icon.loupeplus,
@@ -374,7 +398,9 @@ $c-eee: #272727;
   .bottombox .submittarget, form.adding .submittarget, .userbox-dd .target,
   .subnav2 li .icon.abs, div.suggest .target, img.margintop40,
   .choosecat .box>div .categoryTitle .target, .offer-sidebar .price-label:before,
-  .pricelabel:before, div.suggesttitle:before, span.suggesttitle:before {
+  .pricelabel:before, div.suggesttitle:before, span.suggesttitle:before,
+  .icon.mini.down4, .icon.mini.up4, .choosecat .box > div .scrollbar,
+  .choosecat .box > div a.block:hover .target, .choosecat .box > div a.block.selected .target {
     filter: invert(.901) grayscale(1);
   }
   div.suggest.error .target {
@@ -470,8 +496,11 @@ $c-eee: #272727;
     background: #242424; /* #e8f4de */
     border-color: #3d3d3d; /* #c5d7b5 */
   }
-  .choosecat .box>div.selected .categoryTitle, .choosecat .box>div.selected .inner {
+  .choosecat .box > div.selected .categoryTitle, .choosecat .box > div.selected .inner {
     background: $c-f1f1f1;
+  }
+  #searchbox {
+    border-bottom-color: $c-f0f0f0;
   }
 
   /* OFFERS */
@@ -487,11 +516,17 @@ $c-eee: #272727;
   }
   ul.categorySelectList li a .counter,
   form.search .multifilters .category-item a.search-choose .counter {
-    color: #949494!important; /* #686666 */
+    color: #949494!important; /* #686666!important */
     background: #232323; /* #f4f3f1 */
+  }
+  .toplinks .counter {
+    background: $c-eee;
   }
   form.search .multifilters .button .icon.mini.clear {
     border-color: $c-fff;
+  }
+  .view-lists ul li {
+    border-color: $c-ddd;
   }
 
   /* OFFER */
@@ -521,7 +556,7 @@ $c-eee: #272727;
     text-shadow: 0 1px 0 $c-fff;
   }
   .detailpage .photo-glow {
-    background: #1d1d1d;
+    background-color: #1d1d1d!important;
   }
   .offer-titlebox__details a, .offer-titlebox__details {
     color: $c-434343;
@@ -537,6 +572,9 @@ $c-eee: #272727;
     background-color: $c-fff;
     border-color: $c-e7e7e7;
   }
+  .detailpage .offercontent table.details .item {
+    border-color: #2a2a2a; /* #ebeae9 */
+  }
 
   /* LOGIN / REGISTER */
   .login-tabs__navigation li a.active {
@@ -546,11 +584,20 @@ $c-eee: #272727;
     border-color: $c-fff;
     background: $c-fff;
   }
+  form.access input.light {
+    border-color: $c-d1d1d1;
+  }
   .login-form [type=text], .login-form [type=password] {
     border-color: $c-d2d2d2;
   }
   .login-tabs__navigation li a {
     background: $c-f6f6f6;
+  }
+  form.access fieldset {
+    background: $c-f7f7f7;
+  }
+  .accessgrid .bottominfobar {
+    border-color: $c-f7f7f7;
   }
 
   /* POPULAR & SITEMAP */

@@ -3,7 +3,7 @@
     || Name: OLX - Quite Dark                                 ||
     || Author: pawelos076232                                  ||
     || License: CC BY-ND                                      ||
-    || Version: 0.1.2                                         ||
+    || Version: 0.1.3                                         ||
     || Userstyles: https://userstyles.org/styles/138633       ||
     || Github: https://github.com/pawelos076232/OLX-QuiteDark ||
     */
@@ -13,15 +13,26 @@
     /* #3f4c52 */
     background: #191919; }
 
-  table.offers, form.search input[type=text], .locationrequest .distancelist dt a,
+  table.offers, form.search input[type=text],
   form.searchmain .input-container, form.searchmain input[type=text],
   .maincategories .maincategories-list .li .item .cat-icon,
   form.quickcontact input.light, form.quickcontact select.light, form.quickcontact textarea.light,
   .offer-user__address, .bgfff, .myaccountview #header-container .navi, .myaccountview .container .wrapper,
   .dropdown dd ul, .dropdown dt a.focus, .toplinks .all a,
   form.useranswer fieldset.editspace textarea, ul.categorySelectList li,
-  .gallerywide .courierbadge, .gallerywide > li, .gallerywide .gallerywide-item {
+  .gallerywide .courierbadge, .gallerywide > li, .gallerywide .gallerywide-item,
+  .proposals .location-info__features {
     background: #191919; }
+
+  .locationrequest .distancelist dt a {
+    background-color: #191919; }
+
+  .locationrequest .proposals {
+    color: #6c6c6c;
+    background-color: #191919; }
+
+  .locationrequest .proposals .lastbox, .locationrequest .proposals .mapbox {
+    border-color: #444; }
 
   #searchbox, .thumb.scale1, .thumb.scale4, .t-new_sidebar .offer-section, .myaccountview, .popular-searches,
   table.priceoptions tbody .even td {
@@ -49,7 +60,7 @@
   .brbott-5, .brtop-1, .homepage #footer-container .siteinfobox, #footer-container .siteinfobox .socialsbox + .text {
     border-color: #303030; }
 
-  .brbott-6, .brtope5, .userbox-dd h5 {
+  .brbott-6, .brtope5, .userbox-dd h5, .brlefte5 {
     border-color: #2c2c2c;
     /* #e5e5e5 */ }
 
@@ -205,6 +216,18 @@
     background: #191919;
     border-color: #272727; }
 
+  .section .suggest {
+    background: #191919;
+    border-color: #424242;
+    /* #c8ccd4 */ }
+
+  .section .left .item-header p {
+    background: #2e2e2e;
+    /* #dfe6ed */ }
+
+  .proposals .location-info > a {
+    border-color: #191919; }
+
   /* MY ACCOUNT */
   .accounthead {
     background: #1c1c1c; }
@@ -228,7 +251,7 @@
 
   table.adanswersnew thead th {
     color: #a5a5a5;
-    border-top-color: #212121;
+    border-top-color: #242424;
     border-bottom-color: #282828; }
 
   table.adanswersnew tbody tr.row-desc > td {
@@ -257,7 +280,7 @@
     /* #656565 */ }
 
   table.mywalletnew thead th {
-    border-color: #212121; }
+    border-color: #242424; }
 
   .whypromotelist > li, .halfgrid.whypromoteoptions {
     border-color: #383838;
@@ -271,10 +294,10 @@
     background: #191919; }
 
   #fancybox-content {
-    border-color: #212121 !important; }
+    border-color: #242424 !important; }
 
   #fancybox-title.fancybox-title-inside {
-    border-color: #212121;
+    border-color: #242424;
     background: #191919 !important; }
 
   #fancybox-title.fancybox-title-inside div {
@@ -342,13 +365,19 @@
     border-color: #3a3a3a;
     /* #d5d5d5 */ }
 
+  .chooseway .box > div a.block:hover, .chooseway a.icon-list.selected {
+    background: #292929;
+    /* #e5ecf8 */ }
+
   /* INVERTING COLORS */
   #fancybox-close, .icon.loupeplus,
   .maincategories .maincategories-list .li .item a.selected:before,
   .bottombox .submittarget, form.adding .submittarget, .userbox-dd .target,
   .subnav2 li .icon.abs, div.suggest .target, img.margintop40,
   .choosecat .box > div .categoryTitle .target, .offer-sidebar .price-label:before,
-  .pricelabel:before, div.suggesttitle:before, span.suggesttitle:before {
+  .pricelabel:before, div.suggesttitle:before, span.suggesttitle:before,
+  .icon.mini.down4, .icon.mini.up4, .choosecat .box > div .scrollbar,
+  .choosecat .box > div a.block:hover .target, .choosecat .box > div a.block.selected .target {
     filter: invert(0.901) grayscale(1); }
 
   div.suggest.error .target {
@@ -448,7 +477,10 @@
     /* #c5d7b5 */ }
 
   .choosecat .box > div.selected .categoryTitle, .choosecat .box > div.selected .inner {
-    background: #212121; }
+    background: #242424; }
+
+  #searchbox {
+    border-bottom-color: #333; }
 
   /* OFFERS */
   form.search .option-search-clear:hover, form.search .option-search-criteria a:hover {
@@ -464,12 +496,18 @@
   ul.categorySelectList li a .counter,
   form.search .multifilters .category-item a.search-choose .counter {
     color: #949494 !important;
-    /* #686666 */
+    /* #686666!important */
     background: #232323;
     /* #f4f3f1 */ }
 
+  .toplinks .counter {
+    background: #272727; }
+
   form.search .multifilters .button .icon.mini.clear {
     border-color: #191919; }
+
+  .view-lists ul li {
+    border-color: #353535; }
 
   /* OFFER */
   .offer-user__image {
@@ -501,7 +539,7 @@
     text-shadow: 0 1px 0 #191919; }
 
   .detailpage .photo-glow {
-    background: #1d1d1d; }
+    background-color: #1d1d1d !important; }
 
   .offer-titlebox__details a, .offer-titlebox__details {
     color: #b0b0b0; }
@@ -517,6 +555,10 @@
     background-color: #191919;
     border-color: #2c2c2c; }
 
+  .detailpage .offercontent table.details .item {
+    border-color: #2a2a2a;
+    /* #ebeae9 */ }
+
   /* LOGIN / REGISTER */
   .login-tabs__navigation li a.active {
     background: #191919; }
@@ -525,11 +567,20 @@
     border-color: #191919;
     background: #191919; }
 
+  form.access input.light {
+    border-color: #3e3e3e; }
+
   .login-form [type=text], .login-form [type=password] {
     border-color: #3d3d3d; }
 
   .login-tabs__navigation li a {
     background: #202020; }
+
+  form.access fieldset {
+    background: #202020; }
+
+  .accessgrid .bottominfobar {
+    border-color: #202020; }
 
   /* POPULAR & SITEMAP */
   .popular-map .col-regions {
