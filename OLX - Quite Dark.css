@@ -3,7 +3,7 @@
     || Name: OLX - Quite Dark                                 ||
     || Author: pawelos076232                                  ||
     || License: CC BY-ND                                      ||
-    || Version: 0.1.7                                         ||
+    || Version: 0.1.8                                         ||
     || Userstyles: https://userstyles.org/styles/138633       ||
     || Github: https://github.com/pawelos076232/OLX-QuiteDark ||
     */
@@ -769,7 +769,7 @@
 @-moz-document regexp("https?://(|www.)olx.(com|co)(.(gh|ke|ng|za|tz|ug))?/.*") {
   /* Ghana, Kenya, Nigeria, South Africa, Tanzania, Uganda */
   /* MAIN */
-  .categorySelectContainer {
+  .categorySelectContainer, form.search .combospace ul.categorySelectList li ul {
     background: #191919; }
 
   #footer-container .siteinfobox .socialsbox + .text {
@@ -787,9 +787,23 @@
   .locationrequest .proposals .lastbox, .locationrequest .proposals .mapbox {
     border-color: #444; }
 
+  ul.categorySelectList li ul {
+    border-color: #282828; }
+
   /* INVERTING COLORS */
-  .categorySelectContainer:before, .locationrequest .proposals:before {
+  .categorySelectContainer:before, .locationrequest .proposals:before, #choosecat + .categorySelectContainer .categorySelectList:before {
     filter: invert(0.901) grayscale(1); }
+
+  /* TEXT COLORS */
+  form.search a.select[class*='a-category'] #main-category-choose-label {
+    color: #fff; }
+
+  /* OFFERS */
+  form.search #searchList {
+    border-color: #333; }
+
+  #choosecat + .categorySelectContainer {
+    border-color: #282828 !important; }
 
   /* AD */
   .samurai-items .samurai-item {
@@ -829,6 +843,12 @@
     -ms-box-shadow: none;
     -o-box-shadow: none;
     box-shadow: none; }
+
+  .choosecat .box > div.selected .categoryTitle, .choosecat .box > div.selected .inner {
+    background: #191919; }
+
+  table.details td[style*="border-left: 1px solid #fff"] {
+    border-color: #191919 !important; }
 
   /* AD REMOVE */
   #promo_banner, #div-gpt-homepage-wideboard_top, .gpt {

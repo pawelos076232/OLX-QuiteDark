@@ -55,7 +55,7 @@ $c-eee: #272727;
     || Name: OLX - Quite Dark                                 ||
     || Author: pawelos076232                                  ||
     || License: CC BY-ND                                      ||
-    || Version: 0.1.7                                         ||
+    || Version: 0.1.8                                         ||
     || Userstyles: https://userstyles.org/styles/138633       ||
     || Github: https://github.com/pawelos076232/OLX-QuiteDark ||
     */
@@ -293,7 +293,7 @@ $c-eee: #272727;
   .brf3, form.settings.invoicedata .fblock.submit {
     border-color: $c-f3f3f3;
   }
-  .brbott-7, .choosecat .box>div .inner {
+  .brbott-7, .choosecat .box > div .inner {
     border-color: $c-dadada;
   }
   #answerMenu {
@@ -420,7 +420,7 @@ $c-eee: #272727;
   .maincategories .maincategories-list .li .item a.selected:before,
   .bottombox .submittarget, form.adding .submittarget, .userbox-dd .target,
   .subnav2 li .icon.abs, div.suggest .target, img.margintop40,
-  .choosecat .box>div .categoryTitle .target, .offer-sidebar .price-label:before,
+  .choosecat .box > div .categoryTitle .target, .offer-sidebar .price-label:before,
   .pricelabel:before, div.suggesttitle:before, span.suggesttitle:before,
   .icon.mini.down4, .icon.mini.up4, .choosecat .box > div .scrollbar,
   .choosecat .box > div a.block:hover .target, .choosecat .box > div a.block.selected .target,
@@ -793,7 +793,7 @@ $c-eee: #272727;
   /* Ghana, Kenya, Nigeria, South Africa, Tanzania, Uganda */
 
   /* MAIN */
-  .categorySelectContainer {
+  .categorySelectContainer, form.search .combospace ul.categorySelectList li ul {
     background: $c-fff;
   }
   #footer-container .siteinfobox .socialsbox+.text {
@@ -811,10 +811,26 @@ $c-eee: #272727;
   .locationrequest .proposals .lastbox, .locationrequest .proposals .mapbox {
     border-color: $c-eaeaea;
   }
+  ul.categorySelectList li ul {
+    border-color: $c-ececec;
+  }
 
   /* INVERTING COLORS */
-  .categorySelectContainer:before, .locationrequest .proposals:before {
+  .categorySelectContainer:before, .locationrequest .proposals:before, #choosecat + .categorySelectContainer .categorySelectList:before {
     filter: invert(.901) grayscale(1);
+  }
+
+  /* TEXT COLORS */
+  form.search a.select[class*='a-category'] #main-category-choose-label {
+    color: $c-000;
+  }
+
+  /* OFFERS */
+  form.search #searchList {
+    border-color: $c-f0f0f0;
+  }
+  #choosecat + .categorySelectContainer {
+    border-color: $c-ececec !important;
   }
 
   /* AD */
@@ -856,6 +872,12 @@ $c-eee: #272727;
     -ms-box-shadow: none;
     -o-box-shadow: none;
     box-shadow: none;
+  }
+  .choosecat .box > div.selected .categoryTitle, .choosecat .box > div.selected .inner {
+    background: $c-fff;
+  }
+  table.details td[style*="border-left: 1px solid #fff"] {
+    border-color: $c-fff!important;
   }
 
   /* AD REMOVE */
