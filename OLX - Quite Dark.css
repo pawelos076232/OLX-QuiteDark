@@ -3,7 +3,7 @@
     || Name: OLX - Quite Dark                                 ||
     || Author: pawelos076232                                  ||
     || License: CC BY-ND                                      ||
-    || Version: 0.1.4                                         ||
+    || Version: 0.1.5                                         ||
     || Userstyles: https://userstyles.org/styles/138633       ||
     || Github: https://github.com/pawelos076232/OLX-QuiteDark ||
     */
@@ -75,6 +75,7 @@
   .brbott-12 {
     border-color: #191919; }
 
+  /* REGIONS */
   .regions-layer {
     border-color: #585858;
     background: #191919; }
@@ -85,6 +86,17 @@
   .regions-layer .column li a > * {
     color: #8c8c8c;
     /* #707070 */ }
+
+  .regions-layer .column li a {
+    color: #313131;
+    /* #d8d8d8 */ }
+
+  .regions-layer .column .letter a:first-letter {
+    color: #fff; }
+
+  .regions-layer a {
+    color: #eee;
+    /* #808080 */ }
 
   .social-links, #footer-container .siteinfobox .socialsbox + .text > div {
     border-color: #353535;
