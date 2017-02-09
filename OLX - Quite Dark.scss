@@ -45,7 +45,7 @@ $c-e7e7e7: #2c2c2c;
     || Name: OLX - Quite Dark                                 ||
     || Author: pawelos076232                                  ||
     || License: CC BY-ND                                      ||
-    || Version: 0.0.8                                         ||
+    || Version: 0.0.9                                         ||
     || Userstyles: https://userstyles.org/styles/138633       ||
     || Github: https://github.com/pawelos076232/OLX-QuiteDark ||
     */
@@ -62,7 +62,7 @@ $c-e7e7e7: #2c2c2c;
   .offer-user__address, .bgfff, .myaccountview #header-container .navi, .myaccountview .container .wrapper,
   .dropdown dd ul, .dropdown dt a.focus, .toplinks .all a,
   form.useranswer fieldset.editspace textarea, ul.categorySelectList li,
-  .gallerywide .courierbadge {
+  .gallerywide .courierbadge, .gallerywide > li, .gallerywide .gallerywide-item {
     background: $c-fff;
   }
   #searchbox, .thumb.scale1, .thumb.scale4, .t-new_sidebar .offer-section, .myaccountview, .popular-searches,
@@ -223,13 +223,6 @@ $c-e7e7e7: #2c2c2c;
   }
   .br-1 {
     border-color: #575757; /* #d7d7d7 */
-  }
-  #footer-container .siteinfobox .socialsbox+.text {
-    border-color: $c-e3e3e3;
-  }
-  .homepage #body-container {
-    background-color: $c-f0f0f0;
-    border-color: $c-e7e7e7;
   }
 
   /* MY ACCOUNT */
@@ -640,6 +633,34 @@ $c-e7e7e7: #2c2c2c;
     display: none!important;
   }
 
+}
+@-moz-document regexp("https?://(|www.)olx.(com|co)(.(gh|ke|ng|za|tz|ug))?/.*") {
+  /* Ghana, Kenya, Nigeria, South Africa, Tanzania, Uganda */
+
+  /* MAIN */
+  #footer-container .siteinfobox .socialsbox+.text {
+    border-color: $c-e3e3e3;
+  }
+  #header-container .navi, .homepage #body-container {
+    background-color: $c-fff;
+    border-color: $c-e7e7e7;
+  }
+
+  /* FIXES */
+  .link:hover>*, a.tdnone:hover .link>* {
+    color: #fff;
+  }
+  .pricelabel {
+    background: #b9be10;
+  }
+  .pricelabel:before {
+    filter: none;
+  }
+
+  /* AD REMOVE */
+  #promo_banner, #div-gpt-homepage-wideboard_top {
+    display: none!important;
+  }
 }
 @-moz-document domain("olx.af") {
   /* Macedonia */
