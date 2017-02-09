@@ -90,8 +90,7 @@
 
   ul.tabs .tab.selected {
     background: #191919;
-    border-color: #323232;
-    /* #ececec */ }
+    border-color: #282828; }
 
   h1, h2, h3, h4, h5, h6,
   .quickcontact h3, .c2b {
@@ -614,16 +613,31 @@
 @-moz-document regexp("https?://(|www.)olx.(com|co)(.(gh|ke|ng|za|tz|ug))?/.*") {
   /* Ghana, Kenya, Nigeria, South Africa, Tanzania, Uganda */
   /* MAIN */
+  .categorySelectContainer {
+    background: #191919; }
+
   #footer-container .siteinfobox .socialsbox + .text {
     border-color: #303030; }
 
-  #header-container .navi {
+  #header-container .navi, .homepage #body-container {
     background-color: #191919;
     border-color: #2c2c2c; }
 
-  .homepage #body-container, form.quickcontact .inner {
-    background-color: #333;
+  form.quickcontact .inner {
+    background-color: #191919;
     border-color: #2c2c2c; }
+
+  .locationrequest .proposals {
+    color: #6c6c6c;
+    background-color: #191919;
+    border-color: #282828 !important; }
+
+  .locationrequest .proposals .lastbox, .locationrequest .proposals .mapbox {
+    border-color: #444; }
+
+  /* INVERTING COLORS */
+  .categorySelectContainer:before, .locationrequest .proposals:before {
+    filter: invert(0.901) grayscale(1); }
 
   /* AD */
   .samurai-items .samurai-item {
