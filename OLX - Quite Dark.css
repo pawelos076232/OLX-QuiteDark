@@ -3,7 +3,7 @@
     || Name: OLX - Quite Dark                                 ||
     || Author: pawelos076232                                  ||
     || License: CC BY-ND                                      ||
-    || Version: 0.0.9                                         ||
+    || Version: 0.1.0                                         ||
     || Userstyles: https://userstyles.org/styles/138633       ||
     || Github: https://github.com/pawelos076232/OLX-QuiteDark ||
     */
@@ -165,8 +165,7 @@
     border-color: #282828; }
 
   .t-new_sidebar .offercontent table.details {
-    border-color: #272727;
-    /* #ebeae9 */ }
+    border-color: #2a2a2a; }
 
   .t-new_sidebar .offercontent table.details td {
     border-left-color: #191919 !important; }
@@ -366,7 +365,7 @@
     color: #aaa; }
 
   .c27 {
-    color: #ebeae9;
+    color: #c6c6c6;
     /* #272727 */ }
 
   .color-1 {
@@ -618,9 +617,37 @@
   #footer-container .siteinfobox .socialsbox + .text {
     border-color: #303030; }
 
-  #header-container .navi, .homepage #body-container {
+  #header-container .navi {
     background-color: #191919;
     border-color: #2c2c2c; }
+
+  .homepage #body-container, form.quickcontact .inner {
+    background-color: #333;
+    border-color: #2c2c2c; }
+
+  /* AD */
+  .samurai-items .samurai-item {
+    border-color: #353535;
+    background: #1b1b1b; }
+
+  .samurai-items .samurai-item .title {
+    color: #fff;
+    border-color: #444; }
+
+  .samurai-items .samurai-item .samurai-image {
+    background-color: #282828; }
+
+  form.quickcontact input.light, form.quickcontact textarea.light, form.quickcontact select.light {
+    border-color: #2c2c2c; }
+
+  table.breadcrumb td {
+    border-color: #333; }
+
+  .detailpage .offercontent table.details .item {
+    border-color: #2a2a2a; }
+
+  .detailpage .adoptions {
+    border-color: #212121; }
 
   /* FIXES */
   .link:hover > *, a.tdnone:hover .link > * {
@@ -633,7 +660,7 @@
     filter: none; }
 
   /* AD REMOVE */
-  #promo_banner, #div-gpt-homepage-wideboard_top {
+  #promo_banner, #div-gpt-homepage-wideboard_top, .margintop10.gpt {
     display: none !important; } }
 @-moz-document domain("olx.af") {
   /* Macedonia */ }

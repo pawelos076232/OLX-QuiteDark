@@ -39,13 +39,14 @@ $c-e5e5e5: #2e2e2e;
 $c-434343: #b0b0b0;
 $c-e3e3e3: #303030;
 $c-e7e7e7: #2c2c2c;
+$c-ebeae9: #2a2a2a;
 
 @-moz-document regexp("https?://(|www.)olx(liban)?.([a-z]{2,3})(.[a-z]{2,3})?/((?!bezpieczenstwo|advertising|topfeature|payment|plata-prin-olx|livrare-cu-verificare|courier|safetyuser|mobil|mobile|mobilne).*)") {
   /*!
     || Name: OLX - Quite Dark                                 ||
     || Author: pawelos076232                                  ||
     || License: CC BY-ND                                      ||
-    || Version: 0.0.9                                         ||
+    || Version: 0.1.0                                         ||
     || Userstyles: https://userstyles.org/styles/138633       ||
     || Github: https://github.com/pawelos076232/OLX-QuiteDark ||
     */
@@ -195,7 +196,7 @@ $c-e7e7e7: #2c2c2c;
     border-color: $c-efefef;
   }
   .t-new_sidebar .offercontent table.details {
-    border-color: #272727; /* #ebeae9 */
+    border-color: $c-ebeae9;
   }
   .t-new_sidebar .offercontent table.details td {
     border-left-color: $c-fff!important;
@@ -380,7 +381,7 @@ $c-e7e7e7: #2c2c2c;
     color: $c-737373;
   }
   .c27 {
-    color: #ebeae9; /* #272727 */
+    color: #c6c6c6; /* #272727 */
   }
   .color-1 {
     color: $c-a0a0a0;
@@ -636,14 +637,45 @@ $c-e7e7e7: #2c2c2c;
 }
 @-moz-document regexp("https?://(|www.)olx.(com|co)(.(gh|ke|ng|za|tz|ug))?/.*") {
   /* Ghana, Kenya, Nigeria, South Africa, Tanzania, Uganda */
+  $c-ddd: #353535;
+  $c-f5f5f5: #212121;
 
   /* MAIN */
   #footer-container .siteinfobox .socialsbox+.text {
     border-color: $c-e3e3e3;
   }
-  #header-container .navi, .homepage #body-container {
+  #header-container .navi {
     background-color: $c-fff;
     border-color: $c-e7e7e7;
+  }
+  .homepage #body-container, form.quickcontact .inner {
+    background-color: $c-f0f0f0;
+    border-color: $c-e7e7e7;
+  }
+
+  /* AD */
+  .samurai-items .samurai-item {
+    border-color: $c-ddd;
+    background: $c-fdfdfd;
+  }
+  .samurai-items .samurai-item .title {
+    color: $c-000;
+    border-color: $c-eaeaea;
+  }
+  .samurai-items .samurai-item .samurai-image {
+    background-color: $c-efefef;
+  }
+  form.quickcontact input.light, form.quickcontact textarea.light, form.quickcontact select.light {
+    border-color: $c-e7e7e7;
+  }
+  table.breadcrumb td {
+    border-color: $c-f0f0f0;
+  }
+  .detailpage .offercontent table.details .item {
+    border-color: $c-ebeae9;
+  }
+  .detailpage .adoptions {
+    border-color: $c-f5f5f5;
   }
 
   /* FIXES */
@@ -658,7 +690,7 @@ $c-e7e7e7: #2c2c2c;
   }
 
   /* AD REMOVE */
-  #promo_banner, #div-gpt-homepage-wideboard_top {
+  #promo_banner, #div-gpt-homepage-wideboard_top, .margintop10.gpt {
     display: none!important;
   }
 }
