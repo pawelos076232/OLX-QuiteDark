@@ -55,7 +55,7 @@ $c-eee: #272727;
     || Name: OLX - Quite Dark                                 ||
     || Author: pawelos076232                                  ||
     || License: CC BY-ND                                      ||
-    || Version: 0.1.8                                         ||
+    || Version: 0.1.9                                         ||
     || Userstyles: https://userstyles.org/styles/138633       ||
     || Github: https://github.com/pawelos076232/OLX-QuiteDark ||
     */
@@ -626,6 +626,7 @@ $c-eee: #272727;
   }
   form.access fieldset {
     background: $c-f7f7f7;
+    border-color: $c-e7e7e7;
   }
   .accessgrid .bottominfobar {
     border-color: $c-f7f7f7;
@@ -806,13 +807,16 @@ $c-eee: #272727;
   .locationrequest .proposals {
     color: $c-989898;
     background-color: $c-fff;
-    border-color: $c-ececec !important;
+    border-color: $c-ececec!important;
   }
   .locationrequest .proposals .lastbox, .locationrequest .proposals .mapbox {
     border-color: $c-eaeaea;
   }
-  ul.categorySelectList li ul {
-    border-color: $c-ececec;
+  ul.categorySelectList li ul, .locationrequest .distancelist dd ul {
+    border-color: $c-ececec!important;
+  }
+  .accountview #footer-container > .wrapper, .accountview #footer-container-plain > .wrapper {
+    border-color: $c-f0f0f0;
   }
 
   /* INVERTING COLORS */
@@ -823,6 +827,10 @@ $c-eee: #272727;
   /* TEXT COLORS */
   form.search a.select[class*='a-category'] #main-category-choose-label {
     color: $c-000;
+  }
+  .accessbox h2,
+  #header-container #my-account-link .link > * {
+    color: $c-5b5b5b;
   }
 
   /* OFFERS */
@@ -878,6 +886,11 @@ $c-eee: #272727;
   }
   table.details td[style*="border-left: 1px solid #fff"] {
     border-color: $c-fff!important;
+  }
+  ul.tabs .tab.selected {
+    background: #202020; /* #e7e7e7 */
+    border-color: transparent;
+    border-bottom-color: #b9be10;
   }
 
   /* AD REMOVE */
