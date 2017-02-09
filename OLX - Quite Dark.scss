@@ -40,7 +40,7 @@ $c-434343: #b0b0b0;
 $c-e3e3e3: #303030;
 $c-e7e7e7: #2c2c2c;
 
-@-moz-document regexp("https?://www.olx.([a-z]{2})(.[a-z]{2})?/((?!bezpieczenstwo|advertising|topfeature|payment|plata-prin-olx|livrare-cu-verificare|courier|safetyuser|mobil|mobile|mobilne).*)") {
+@-moz-document regexp("https?://(|www.).olx(liban)?.([a-z]{2})(.[a-z]{2})?/((?!bezpieczenstwo|advertising|topfeature|payment|plata-prin-olx|livrare-cu-verificare|courier|safetyuser|mobil|mobile|mobilne).*)") {
   /*!
     || Name: OLX - Quite Dark                                 ||
     || Author: pawelos076232                                  ||
@@ -642,5 +642,9 @@ $c-e7e7e7: #2c2c2c;
 }
 @-moz-document domain("olx.com.pk") {
   /* Pakistan */
+
+}
+@-moz-document domain("olx.ph") {
+  /* Philippines */
 
 }
