@@ -3,7 +3,7 @@
     || Name: OLX - Quite Dark                                 ||
     || Author: pawelos076232                                  ||
     || License: CC BY-ND                                      ||
-    || Version: 0.1.9                                         ||
+    || Version: 0.2.0                                         ||
     || Userstyles: https://userstyles.org/styles/138633       ||
     || Github: https://github.com/pawelos076232/OLX-QuiteDark ||
     */
@@ -424,11 +424,11 @@
     color: #c6c6c6;
     /* #272727 */ }
 
-  .color-1 {
-    color: #595959; }
-
+  /*.color-1 {
+    color: $c-a0a0a0;
+  }*/
   .color-5 {
-    color: #a5a5a5; }
+    color: #a5a5a5 !important; }
 
   .c62, .content.text, .link.gray2 > *, .popular-headline h2, .sitemap-headline h2 {
     color: #bbb; }
@@ -803,7 +803,8 @@
     color: #fff; }
 
   .accessbox h2,
-  #header-container #my-account-link .link > * {
+  #header-container #my-account-link .link > *,
+  .detailpage .offercontent table.details .item th {
     color: #9d9d9d; }
 
   /* OFFERS */
@@ -812,6 +813,18 @@
 
   #choosecat + .categorySelectContainer {
     border-color: #282828 !important; }
+
+  .favbottombox, ul.tabs2, ul.tabs2 li {
+    border-color: #2c2c2c; }
+
+  .favgallerybox li, ul.tabs2 .tab.selected:after {
+    background-color: #191919; }
+
+  .pager .item a:hover {
+    background: #353535;
+    /* #dcdcdb */
+    color: #a2a2a2;
+    /* #545454 */ }
 
   /* AD */
   .samurai-items .samurai-item {
@@ -834,9 +847,16 @@
   .detailpage .offercontent table.details .item {
     border-color: #2a2a2a; }
 
+  /* Your favorites */
+  ul.tabs2 .tab {
+    background-color: #333; }
+
+  .observedview .container .wrapper {
+    border-color: #2c2c2c; }
+
   /* FIXES */
   .link:hover > *, a.tdnone:hover .link > * {
-    color: #fff; }
+    color: #147db1; }
 
   .pricelabel {
     background: #b9be10; }
@@ -845,7 +865,7 @@
     filter: none; }
 
   #gotop {
-    bottom: 0px !important;
+    bottom: 0 !important;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     -ms-box-shadow: none;
