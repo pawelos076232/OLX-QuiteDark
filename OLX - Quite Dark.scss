@@ -55,7 +55,7 @@ $c-eee: #272727;
     || Name: OLX - Quite Dark                                 ||
     || Author: pawelos076232                                  ||
     || License: CC BY-ND                                      ||
-    || Version: 0.2.0                                         ||
+    || Version: 0.2.1                                         ||
     || Userstyles: https://userstyles.org/styles/138633       ||
     || Github: https://github.com/pawelos076232/OLX-QuiteDark ||
     */
@@ -737,16 +737,14 @@ $c-eee: #272727;
   .footer-view .columns .column .column-links .column-item .modal-container .modal-column-item {
     border-color: $c-f3f3f3;
   }
-  .item_partials_location_view .action > p .show {
-    background-color: $c-eceff1;
-    color: #666; /* #666 */
-    border-color: #999; /* #999 */
-  }
 
   /* TEXT COLORS */
   .items-list .item .items-price, #listing-nav .title, #breadcrumb, #listing-breadcrumb, .listing-tabs .tabs li a:hover,
-  .partnerships-view .partner .partner-info h6 {
+  .partnerships-view .partner .partner-info h6, .items-list-ig .item .items-price, #listing-nav .title:hover .icons::before {
     color: $c-000;
+  }
+  a:hover {
+    color: #a1a1a1; /* #455a64 */
   }
 
   /* OFFER */
@@ -778,6 +776,88 @@ $c-eee: #272727;
   #breadcrumb .breadcrumb-pagination a[rel="prev"], #listing-breadcrumb .breadcrumb-pagination a[rel="prev"],
   #listing-nav .title.filter-title {
     border-color: $c-ccc;
+  }
+  #listing-filters .filter.check-box label, #listing-filters .filter.radio label, #listing-filters .filter.check-box .link-range, #listing-filters .filter.radio .link-range {
+    color: $c-607d8b;
+  }
+  .items-list-ig .item {
+    background: $c-fff;
+    border-color: $c-ccc;
+  }
+  .items-list-ig .item:hover, #seo-box .title,
+  #listing-nav .categories-link, #listing-nav .title:first-child,
+  #listing-nav .parent-categories {
+    border-color: $c-ccc;
+  }
+  #listing-nav .category-selected, #listing-nav .parent-categories li a:hover {
+    background: $c-607d8b;
+  }
+
+  /* MODAL */
+  .modal .modal-wrapper .modal-container {
+    background: $c-fff;
+    border-color: $c-ccc;
+  }
+  .modal#location-modal .modal-wrapper .modal-container .modal-header,
+  .modal .modal-wrapper .modal-container .modal-header {
+    background: $c-f5f5f5;
+    border-color: $c-ccc;
+  }
+  .modal .modal-wrapper .modal-container .modal-content {
+    background: $c-fff;
+  }
+  .modal .modal-wrapper .modal-container .modal-header .icon-material-close:hover::before {
+    color: $c-000;
+  }
+  .modal#location-modal .modal-wrapper .modal-container .location-content .column h4 {
+    border-color: $c-ccc;
+  }
+  #modal-flagitem-view .modal-container .modal-content form .formField .mandatory {
+    color: #bdbdbd; /* #333 */
+  }
+
+  /* INPUT */
+  input {
+    background: $c-fff;
+    color: $c-000;
+    border-radius: 3px;
+    border: 1px solid $c-ccc;
+  }
+  .text-field {
+    border-color: $c-ccc;
+    color: $c-000;
+  }
+  .text-field:focus {
+    color: $c-000;
+  }
+  .users_lostpassword_view form .text-field, .users_login_view form .text-field,
+  .users_register_view form .text-field {
+    background: $c-fff;
+    border-color: $c-ccc;
+    color: $c-000;
+  }
+
+  /* TEXTAREA */
+  textarea {
+    background: $c-fff;
+  }
+  .item_partials_reply_view fieldset input, .item_partials_reply_view fieldset textarea {
+    border-color: $c-ccc;
+    background-color: $c-fff;
+    color: $c-000;
+  }
+
+  /* BUTTONS */
+  #listing-filters .filter.range .button {
+    background: #494949; /* #b9c6cc */
+  }
+  .item_partials_location_view .action > p .show {
+    background-color: $c-eceff1;
+    color: #949494; /* #666 */
+    border-color: #6b6b6b; /* #999 */
+  }
+  .item_partials_location_view .action > p .show:hover {
+    background-color: #2e2e2e; /* #e2e6e9 */
   }
 
   /* AD REMOVE */

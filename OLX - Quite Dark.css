@@ -3,7 +3,7 @@
     || Name: OLX - Quite Dark                                 ||
     || Author: pawelos076232                                  ||
     || License: CC BY-ND                                      ||
-    || Version: 0.2.0                                         ||
+    || Version: 0.2.1                                         ||
     || Userstyles: https://userstyles.org/styles/138633       ||
     || Github: https://github.com/pawelos076232/OLX-QuiteDark ||
     */
@@ -718,17 +718,14 @@
   .footer-view .columns .column .column-links .column-item .modal-container .modal-column-item {
     border-color: #232323; }
 
-  .item_partials_location_view .action > p .show {
-    background-color: #262626;
-    color: #666;
-    /* #666 */
-    border-color: #999;
-    /* #999 */ }
-
   /* TEXT COLORS */
   .items-list .item .items-price, #listing-nav .title, #breadcrumb, #listing-breadcrumb, .listing-tabs .tabs li a:hover,
-  .partnerships-view .partner .partner-info h6 {
+  .partnerships-view .partner .partner-info h6, .items-list-ig .item .items-price, #listing-nav .title:hover .icons::before {
     color: #fff; }
+
+  a:hover {
+    color: #a1a1a1;
+    /* #455a64 */ }
 
   /* OFFER */
   .item_partials_location_view, .partnerships-view .partner {
@@ -759,6 +756,89 @@
   #breadcrumb .breadcrumb-pagination a[rel="prev"], #listing-breadcrumb .breadcrumb-pagination a[rel="prev"],
   #listing-nav .title.filter-title {
     border-color: #585858; }
+
+  #listing-filters .filter.check-box label, #listing-filters .filter.radio label, #listing-filters .filter.check-box .link-range, #listing-filters .filter.radio .link-range {
+    color: #868686; }
+
+  .items-list-ig .item {
+    background: #191919;
+    border-color: #585858; }
+
+  .items-list-ig .item:hover, #seo-box .title,
+  #listing-nav .categories-link, #listing-nav .title:first-child,
+  #listing-nav .parent-categories {
+    border-color: #585858; }
+
+  #listing-nav .category-selected, #listing-nav .parent-categories li a:hover {
+    background: #868686; }
+
+  /* MODAL */
+  .modal .modal-wrapper .modal-container {
+    background: #191919;
+    border-color: #585858; }
+
+  .modal#location-modal .modal-wrapper .modal-container .modal-header,
+  .modal .modal-wrapper .modal-container .modal-header {
+    background: #212121;
+    border-color: #585858; }
+
+  .modal .modal-wrapper .modal-container .modal-content {
+    background: #191919; }
+
+  .modal .modal-wrapper .modal-container .modal-header .icon-material-close:hover::before {
+    color: #fff; }
+
+  .modal#location-modal .modal-wrapper .modal-container .location-content .column h4 {
+    border-color: #585858; }
+
+  #modal-flagitem-view .modal-container .modal-content form .formField .mandatory {
+    color: #bdbdbd;
+    /* #333 */ }
+
+  /* INPUT */
+  input {
+    background: #191919;
+    color: #fff;
+    border-radius: 3px;
+    border: 1px solid #585858; }
+
+  .text-field {
+    border-color: #585858;
+    color: #fff; }
+
+  .text-field:focus {
+    color: #fff; }
+
+  .users_lostpassword_view form .text-field, .users_login_view form .text-field,
+  .users_register_view form .text-field {
+    background: #191919;
+    border-color: #585858;
+    color: #fff; }
+
+  /* TEXTAREA */
+  textarea {
+    background: #191919; }
+
+  .item_partials_reply_view fieldset input, .item_partials_reply_view fieldset textarea {
+    border-color: #585858;
+    background-color: #191919;
+    color: #fff; }
+
+  /* BUTTONS */
+  #listing-filters .filter.range .button {
+    background: #494949;
+    /* #b9c6cc */ }
+
+  .item_partials_location_view .action > p .show {
+    background-color: #262626;
+    color: #949494;
+    /* #666 */
+    border-color: #6b6b6b;
+    /* #999 */ }
+
+  .item_partials_location_view .action > p .show:hover {
+    background-color: #2e2e2e;
+    /* #e2e6e9 */ }
 
   /* AD REMOVE */
   .adserving .adserving-afs {
