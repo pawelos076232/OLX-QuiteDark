@@ -56,7 +56,7 @@ $c-333: #bdbdbd;
     || Name: OLX - Quite Dark                                 ||
     || Author: pawelos076232                                  ||
     || License: CC BY-ND                                      ||
-    || Version: 0.2.1                                         ||
+    || Version: 0.2.2                                         ||
     || Userstyles: https://userstyles.org/styles/138633       ||
     || Github: https://github.com/pawelos076232/OLX-QuiteDark ||
     */
@@ -1035,6 +1035,40 @@ $c-333: #bdbdbd;
   .site_header .login-box .login-msg-box.not-logged,
   .site_header .login-box .login-msg-box.not-logged:hover {
     background-color: $c-fff;
+  }
+
+  /* OFFERS */
+  .page_listing .site_sidebar .search-category .search-category-nav {
+    background-color: $c-fff;
+  }
+  .page_listing .site_sidebar .search-category .search-category-title {
+    background-color: $c-efefef;
+    color: $c-333;
+  }
+  .page_listing .site_sidebar .section-testimonial {
+    background-color: $c-efefef;
+    border-color: $c-ccc;
+  }
+  .page_listing .site_sidebar .section-testimonial .text,
+  .page_listing .site_sidebar .section-testimonial .info .from,
+  .page_listing .section_OLXad-list .list .item .col-3 .OLXad-list-price,
+  .module_gallery .list .item .col-2 .gallery-price {
+    color: $c-333;
+  }
+  .page_listing .site_sidebar .section_search-by-category,
+  .page_listing .section_OLXad-list .list .item .OLXad-list-link {
+    border-color: $c-ccc;
+  }
+  .page_listing .section_linkshelf .linkshelf-tabs .linkshelf-tabs-title .list .item {
+    background-color: $c-fff;
+    border-color: $c-ccc;
+  }
+
+  /* LOGIN / REGISTER */
+  .page_account .section_account-title .title,
+  .page_account .section_account-title .subtitle,
+  .page_account.login-register .section_user-signin .title {
+    color: $c-333;
   }
 
   /* FIXES */
