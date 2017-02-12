@@ -56,7 +56,7 @@ $c-333: #bdbdbd;
     || Name: OLX - Quite Dark                                 ||
     || Author: pawelos076232                                  ||
     || License: CC BY-ND                                      ||
-    || Version: 0.2.2                                         ||
+    || Version: 0.2.3                                         ||
     || Userstyles: https://userstyles.org/styles/138633       ||
     || Github: https://github.com/pawelos076232/OLX-QuiteDark ||
     */
@@ -1038,7 +1038,7 @@ $c-333: #bdbdbd;
   }
 
   /* OFFERS */
-  .page_listing .site_sidebar .search-category .search-category-nav {
+  .page_listing .site_sidebar .search-category .search-category-nav, .module_lightbox {
     background-color: $c-fff;
   }
   .page_listing .site_sidebar .search-category .search-category-title {
@@ -1052,7 +1052,8 @@ $c-333: #bdbdbd;
   .page_listing .site_sidebar .section-testimonial .text,
   .page_listing .site_sidebar .section-testimonial .info .from,
   .page_listing .section_OLXad-list .list .item .col-3 .OLXad-list-price,
-  .module_gallery .list .item .col-2 .gallery-price {
+  .module_gallery .list .item .col-2 .gallery-price, .form-label, .form-field-name, .form-text,
+  .page_listing .section_filter-order .section_filterby .list .item .text, .module_lightbox .lightbox-header .title {
     color: $c-333;
   }
   .page_listing .site_sidebar .section_search-by-category,
@@ -1063,17 +1064,82 @@ $c-333: #bdbdbd;
     background-color: $c-fff;
     border-color: $c-ccc;
   }
+  .page_listing .section_OLXad-list .list .item .OLXad-list-link:hover,
+  .module_gallery .list .item .gallery-link:hover {
+    background-color: #292929; /* #e3edf6 */
+  }
+  .page_listing .site_sidebar .save-favorite-search {
+    background-color: #1e1e1e; /* #f9f9f9 */
+    border-color: $c-ccc;
+  }
+  .page_listing .site_sidebar .save-favorite-search .save-search-link:hover {
+    background-color: #1f1f1f; /* #f4f8fb */
+  }
+  .page_listing .section_linkshelf .linkshelf-tabs .linkshelf-tabs-title .list .item .text{
+    color: $c-333;
+  }
+  .page_listing .section_linkshelf .linkshelf-tabs .linkshelf-tabs-title .list .item.active {
+    background-color: #252525; /* #fff4a6 */
+    border-bottom-color: #252525; /* #fff4a6 */
+  }
+  .page_listing .section_linkshelf .linkshelf-tabs:after,
+  .page_listing .section_linkshelf .linkshelf-tabs .linkshelf-tabs-title:after {
+    background-color: #252525; /* #fff4a6 */
+    border-color: $c-ccc;
+  }
+
+  /* OFFER */
+  .module_OLXad-photo .OLXad-photo-main {
+    border-color: $c-ccc;
+  }
+  .page_OLXad-view .section_OLXad-info .atributes .title {
+    color: $c-333;
+  }
+  .box.box-white, .tab-item {
+    background-color: $c-fff;
+    border-color: $c-ccc;
+  }
+  .tab-item.active {
+    border-bottom-color: $c-fff;
+  }
+  .panes, .tabs:after {
+    border-color: $c-ccc;
+  }
+
+  /* TOOLTIP */
+  .module_tooltip {
+    background: $c-fff;
+    border-color: $c-ccc;
+  }
+  .module_tooltip.bottom:before {
+    border-top-color: $c-ccc;
+  }
+  .module_tooltip.bottom:after {
+    border-top-color: $c-fff;
+  }
 
   /* LOGIN / REGISTER */
   .page_account .section_account-title .title,
   .page_account .section_account-title .subtitle,
-  .page_account.login-register .section_user-signin .title {
+  .page_account.login-register .section_user-signin .title,
+  .page_account.login-register .section_login .title {
+    color: $c-333;
+  }
+  .page_account.login-register .grid-row .grid-col.col-2 {
+    border-color: $c-ccc;
+  }
+  input[type='text'], input[type='email'], input[type='password'], select, textarea {
+    background: $c-fff;
+    border-color: $c-ccc;
     color: $c-333;
   }
 
   /* FIXES */
   .login-box {
     background: $c-ececec;
+  }
+  li.item.owner p.text {
+    color: #333;
   }
 
   /* AD REMOVE */
