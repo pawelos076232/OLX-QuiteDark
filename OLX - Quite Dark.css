@@ -354,8 +354,7 @@
     box-shadow: 0 0 0 2px #444; }
 
   .fancybox-title-inside {
-    color: #ccc;
-    /* #333 */
+    color: #bdbdbd;
     background: #191919; }
 
   .paybalance-box {
@@ -792,8 +791,7 @@
     border-color: #585858; }
 
   #modal-flagitem-view .modal-container .modal-content form .formField .mandatory {
-    color: #bdbdbd;
-    /* #333 */ }
+    color: #bdbdbd; }
 
   /* INPUT */
   input {
@@ -973,3 +971,35 @@
   /* Pakistan */ }
 @-moz-document domain("olx.ph") {
   /* Philippines */ }
+@-moz-document domain("olx.com.br") {
+  /* Brasil */
+  body, * {
+    color: #bdbdbd; }
+
+  body, .site_main, .module-gallery-premium .box-gallery-premium {
+    background: #191919; }
+
+  .site_header, .module-gallery-premium, .site_footer {
+    background-color: #282828; }
+
+  .page_home .section_main {
+    border-color: #585858; }
+
+  .module-gallery-premium .gallery-premium-item {
+    background: #191919;
+    border-color: #4a4a4a;
+    /* #c2c2c2 */ }
+
+  /* HOME BUTTONS */
+  .site_header .chat-link .box,
+  .site_header .login-box .login-msg-box.not-logged,
+  .site_header .login-box .login-msg-box.not-logged:hover {
+    background-color: #191919; }
+
+  /* FIXES */
+  .login-box {
+    background: #282828; }
+
+  /* AD REMOVE */
+  .module_advertising {
+    display: none !important; } }

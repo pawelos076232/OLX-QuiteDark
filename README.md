@@ -7,12 +7,12 @@
 * http://www.olx.af (Macedonia)
 * http://www.olx.com.pk (Pakistan), http://www.olx.in (India), http://olx.co.id (Indonesia)
 * http://www.olx.ba (Bosnia)
-* http://www.olx.com.br (Brasil)
 * http://www.olx.ph (Philippines)
 * http://www.olx.hn (Honduras) - mabye?
 
 ## In development:
 * http://www.olx.com.ar , etc (Argentina, Bolivia, Colombia, Costa Rica, Ecuador, El Salvador, Guatemala, Nicaragua, Panama, Paraguay, Peru, Uruguay, Venezuela)
+* http://www.olx.com.br (Brasil)
 
 ## Should works already nice on OLX sites:
 

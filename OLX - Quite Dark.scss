@@ -49,6 +49,7 @@ $c-e3e6e9: #2e2e2e;
 $c-c5c5c5: #484848;
 $c-607d8b: #868686;
 $c-eee: #272727;
+$c-333: #bdbdbd;
 
 @-moz-document regexp("https?://(|www.)olx(liban)?.([a-z]{2,3})(.[a-z]{2,3})?/((?!bezpieczenstwo|advertising|topfeature|payment|plata-prin-olx|livrare-cu-verificare|courier|safetyuser|mobil|mobile|mobilne).*)") {
   /*!
@@ -379,7 +380,7 @@ $c-eee: #272727;
     box-shadow: 0 0 0 2px $c-eaeaea;
   }
   .fancybox-title-inside {
-    color:  #ccc; /* #333 */
+    color:  $c-333;
     background: $c-fff;
   }
   .paybalance-box {
@@ -813,7 +814,7 @@ $c-eee: #272727;
     border-color: $c-ccc;
   }
   #modal-flagitem-view .modal-container .modal-content form .formField .mandatory {
-    color: #bdbdbd; /* #333 */
+    color: $c-333;
   }
 
   /* INPUT */
@@ -1009,4 +1010,40 @@ $c-eee: #272727;
 @-moz-document domain("olx.ph") {
   /* Philippines */
 
+}
+@-moz-document domain("olx.com.br") {
+  /* Brasil */
+  body, * {
+    color: $c-333;
+  }
+  body, .site_main, .module-gallery-premium .box-gallery-premium {
+    background: $c-fff;
+  }
+  .site_header, .module-gallery-premium, .site_footer {
+    background-color: $c-ececec;
+  }
+  .page_home .section_main {
+    border-color: $c-ccc;
+  }
+  .module-gallery-premium .gallery-premium-item {
+    background: $c-fff;
+    border-color: #4a4a4a; /* #c2c2c2 */
+  }
+
+  /* HOME BUTTONS */
+  .site_header .chat-link .box,
+  .site_header .login-box .login-msg-box.not-logged,
+  .site_header .login-box .login-msg-box.not-logged:hover {
+    background-color: $c-fff;
+  }
+
+  /* FIXES */
+  .login-box {
+    background: $c-ececec;
+  }
+
+  /* AD REMOVE */
+  .module_advertising {
+    display: none!important;
+  }
 }
