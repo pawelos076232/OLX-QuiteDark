@@ -12,7 +12,6 @@
 
 ## In development:
 * http://www.olx.com.ar , etc (Argentina, Bolivia, Colombia, Costa Rica, Ecuador, El Salvador, Guatemala, Nicaragua, Panama, Paraguay, Peru, Uruguay, Venezuela)
-* http://www.olx.com.br (Brasil)
 
 ## Should works already nice on OLX sites:
 
@@ -40,6 +39,8 @@
 | South Africa            | ![South Africa](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/za.png "South Africa")             | [OLX.co.za](https://www.olx.co.za "South Africa")   |
 | Tanzania                | ![Tanzania](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/tz.png "Tanzania")                     | [OLX.co.tz](https://www.olx.co.tz "Tanzania")       |
 | Uganda                  | ![Uganda](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ug.png "Uganda")                         | [OLX.co.ug](https://www.olx.co.ug "Uganda")         |
+||||
+|Brasil                   | ![Brasil](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/br.png "Brasil")                         | [OLX.com.br](http://www.olx.com.br "Brasil")         |
 
 Other are under construction :yum:
 
