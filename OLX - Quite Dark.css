@@ -3,7 +3,7 @@
     || Name: OLX - Quite Dark                                 ||
     || Author: pawelos076232                                  ||
     || License: CC BY-ND                                      ||
-    || Version: 0.2.3                                         ||
+    || Version: 0.2.4                                         ||
     || Userstyles: https://userstyles.org/styles/138633       ||
     || Github: https://github.com/pawelos076232/OLX-QuiteDark ||
     */
@@ -976,19 +976,27 @@
   body, * {
     color: #bdbdbd; }
 
-  body, .site_main, .module-gallery-premium .box-gallery-premium {
+  body, .site_main, .module-gallery-premium .box-gallery-premium,
+  .site_header .login-box .login-msg-box {
     background: #191919; }
 
   .site_header, .module-gallery-premium, .site_footer {
     background-color: #282828; }
 
-  .page_home .section_main {
+  .page_home .section_main,
+  .OLXcampaign.esquadrao-desapega .page_account.my-OLXads .no-OLXads-message {
     border-color: #585858; }
 
   .module-gallery-premium .gallery-premium-item {
     background: #191919;
     border-color: #4a4a4a;
     /* #c2c2c2 */ }
+
+  /* TEXT COLORS */
+  .phone-box__title, .code-box__title,
+  .phone-box__explanation, .phone-box__text, .code-box__explanation,
+  .help {
+    color: #bdbdbd; }
 
   /* HOME BUTTONS */
   .site_header .chat-link .box,
@@ -997,8 +1005,17 @@
     background-color: #191919; }
 
   /* OFFERS */
-  .page_listing .site_sidebar .search-category .search-category-nav, .module_lightbox {
+  .page_listing .site_sidebar .search-category .search-category-nav, .module_lightbox,
+  .page_listing .section_linkshelf .linkshelf-tabs .linkshelf-tabs-content .lightbox-neighborhood .form .list .item,
+  .module_pagination .list .item.number .link {
     background-color: #191919; }
+
+  .module_pagination .list .item.number {
+    border-color: #585858; }
+
+  .module_pagination .list .item.number .link:hover {
+    background-color: #262626;
+    /* #e8f0f8*/ }
 
   .page_listing .site_sidebar .search-category .search-category-title {
     background-color: #282828;
@@ -1012,11 +1029,19 @@
   .page_listing .site_sidebar .section-testimonial .info .from,
   .page_listing .section_OLXad-list .list .item .col-3 .OLXad-list-price,
   .module_gallery .list .item .col-2 .gallery-price, .form-label, .form-field-name, .form-text,
-  .page_listing .section_filter-order .section_filterby .list .item .text, .module_lightbox .lightbox-header .title {
+  .page_listing .section_filter-order .section_filterby .list .item .text, .module_lightbox .lightbox-header .title,
+  .page_listing .section_linkshelf .linkshelf-tabs .linkshelf-tabs-content.neighbourhood .neighbourhood-selected .list .item .text,
+  .page_listing .site_sidebar .search-category .search-subcategory-filter .title .text,
+  .page_listing .site_sidebar .search-category .search-subcategory-filter .subcategory-filters .featurebox .term,
+  .page_listing .site_sidebar .search-category .search-subcategory-filter .subcategory-filters .featurebox .ipt_label,
+  .page_listing .site_sidebar .search-category .search-subcategory-filter .subcategory-filters .featurebox .link,
+  .page_listing .section_linkshelf .linkshelf-tabs .linkshelf-tabs-content.zones .linkshelf-zone .linkshelf-zone-title,
+  .page_listing .section_linkshelf .linkshelf-tabs .linkshelf-tabs-content .lightbox-neighborhood .form .list .item .form-label {
     color: #bdbdbd; }
 
   .page_listing .site_sidebar .section_search-by-category,
-  .page_listing .section_OLXad-list .list .item .OLXad-list-link {
+  .page_listing .section_OLXad-list .list .item .OLXad-list-link,
+  .page_listing .section_google-adsense.listing-afs .list .item .listing-afs-wrapper {
     border-color: #585858; }
 
   .page_listing .section_linkshelf .linkshelf-tabs .linkshelf-tabs-title .list .item {
@@ -1047,10 +1072,19 @@
     /* #fff4a6 */ }
 
   .page_listing .section_linkshelf .linkshelf-tabs:after,
-  .page_listing .section_linkshelf .linkshelf-tabs .linkshelf-tabs-title:after {
+  .page_listing .section_linkshelf .linkshelf-tabs .linkshelf-tabs-title:after,
+  .page_listing .section_linkshelf .linkshelf-tabs .linkshelf-tabs-content {
     background-color: #252525;
     /* #fff4a6 */
     border-color: #585858; }
+
+  .btn-white {
+    background-color: #191919;
+    border-color: #585858;
+    color: #bdbdbd; }
+
+  .btn-white:hover {
+    background-color: #282828; }
 
   /* OFFER */
   .module_OLXad-photo .OLXad-photo-main {
@@ -1080,6 +1114,12 @@
   .module_tooltip.bottom:after {
     border-top-color: #191919; }
 
+  .module_tooltip.left:after {
+    border-color: transparent #191919; }
+
+  .module_tooltip.left:before {
+    border-color: transparent #585858; }
+
   /* LOGIN / REGISTER */
   .page_account .section_account-title .title,
   .page_account .section_account-title .subtitle,
@@ -1095,6 +1135,23 @@
     border-color: #585858;
     color: #bdbdbd; }
 
+  /* ACCOUNT */
+  .section_account-tabs .account-tabs-title .list .item.active .link {
+    color: #bdbdbd; }
+
+  .chat-container, .box.box-gray,
+  .page_account .section_account-title.with-border,
+  .section_account-tabs .account-tabs-title .list,
+  .page_account.my-favorites .OLXad-list-header,
+  .page_account.my-favorites .section_without-favorites .image-favorite-OLXads,
+  .page_account.my-info .section_user-info .section_my-data, .page_account.my-info .section_user-info .section_contact-info {
+    border-color: #585858; }
+
+  .box.box-blue {
+    background-color: #292929;
+    /* #e3edf6 */
+    border-color: #585858; }
+
   /* FIXES */
   .login-box {
     background: #282828; }
@@ -1103,5 +1160,5 @@
     color: #333; }
 
   /* AD REMOVE */
-  .module_advertising {
+  .module_advertising, .wrapper_advertisement {
     display: none !important; } }
