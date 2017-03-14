@@ -1,0 +1,9 @@
+@import "_variables.scss";
+
+@-moz-document domain("olx.bg") {
+  /* Bulgaria */
+  #footer-container {
+    border-color: #313131; /* #e2e2e2 */
+    background: url(https://goo.gl/x46bg3) bottom center no-repeat;
+  }
+}

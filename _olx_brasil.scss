@@ -1,0 +1,195 @@
+@import "variables.scss";
+
+@-moz-document domain("olx.com.br") {
+  /* Brasil */
+  body, * {
+    color: $c-333;
+  }
+  body, .site_main, .module-gallery-premium .box-gallery-premium,
+  .site_header .login-box .login-msg-box {
+    background: $c-fff;
+  }
+  .site_header, .module-gallery-premium, .site_footer {
+    background-color: $c-ececec;
+  }
+  .page_home .section_main,
+  .OLXcampaign.esquadrao-desapega .page_account.my-OLXads .no-OLXads-message {
+    border-color: $c-ccc;
+  }
+  .module-gallery-premium .gallery-premium-item {
+    background: $c-fff;
+    border-color: #4a4a4a; /* #c2c2c2 */
+  }
+
+  /* TEXT COLORS */
+  .phone-box__title, .code-box__title,
+  .phone-box__explanation, .phone-box__text, .code-box__explanation,
+  .help {
+    color: $c-333;
+  }
+
+  /* HOME BUTTONS */
+  .site_header .chat-link .box,
+  .site_header .login-box .login-msg-box.not-logged,
+  .site_header .login-box .login-msg-box.not-logged:hover {
+    background-color: $c-fff;
+  }
+
+  /* OFFERS */
+  .page_listing .site_sidebar .search-category .search-category-nav, .module_lightbox,
+  .page_listing .section_linkshelf .linkshelf-tabs .linkshelf-tabs-content .lightbox-neighborhood .form .list .item,
+  .module_pagination .list .item.number .link {
+    background-color: $c-fff;
+  }
+  .module_pagination .list .item.number {
+    border-color: $c-ccc;
+  }
+  .module_pagination .list .item.number .link:hover {
+    background-color: #262626; /* #e8f0f8*/
+  }
+  .page_listing .site_sidebar .search-category .search-category-title {
+    background-color: $c-efefef;
+    color: $c-333;
+  }
+  .page_listing .site_sidebar .section-testimonial {
+    background-color: $c-efefef;
+    border-color: $c-ccc;
+  }
+  .page_listing .site_sidebar .section-testimonial .text,
+  .page_listing .site_sidebar .section-testimonial .info .from,
+  .page_listing .section_OLXad-list .list .item .col-3 .OLXad-list-price,
+  .module_gallery .list .item .col-2 .gallery-price, .form-label, .form-field-name, .form-text,
+  .page_listing .section_filter-order .section_filterby .list .item .text, .module_lightbox .lightbox-header .title,
+  .page_listing .section_linkshelf .linkshelf-tabs .linkshelf-tabs-content.neighbourhood .neighbourhood-selected .list .item .text,
+  .page_listing .site_sidebar .search-category .search-subcategory-filter .title .text,
+  .page_listing .site_sidebar .search-category .search-subcategory-filter .subcategory-filters .featurebox .term,
+  .page_listing .site_sidebar .search-category .search-subcategory-filter .subcategory-filters .featurebox .ipt_label,
+  .page_listing .site_sidebar .search-category .search-subcategory-filter .subcategory-filters .featurebox .link,
+  .page_listing .section_linkshelf .linkshelf-tabs .linkshelf-tabs-content.zones .linkshelf-zone .linkshelf-zone-title,
+  .page_listing .section_linkshelf .linkshelf-tabs .linkshelf-tabs-content .lightbox-neighborhood .form .list .item .form-label {
+    color: $c-333;
+  }
+  .page_listing .site_sidebar .section_search-by-category,
+  .page_listing .section_OLXad-list .list .item .OLXad-list-link,
+  .page_listing .section_google-adsense.listing-afs .list .item .listing-afs-wrapper {
+    border-color: $c-ccc;
+  }
+  .page_listing .section_linkshelf .linkshelf-tabs .linkshelf-tabs-title .list .item {
+    background-color: $c-fff;
+    border-color: $c-ccc;
+  }
+  .page_listing .section_OLXad-list .list .item .OLXad-list-link:hover,
+  .module_gallery .list .item .gallery-link:hover {
+    background-color: #292929; /* #e3edf6 */
+  }
+  .page_listing .site_sidebar .save-favorite-search {
+    background-color: #1e1e1e; /* #f9f9f9 */
+    border-color: $c-ccc;
+  }
+  .page_listing .site_sidebar .save-favorite-search .save-search-link:hover {
+    background-color: #1f1f1f; /* #f4f8fb */
+  }
+  .page_listing .section_linkshelf .linkshelf-tabs .linkshelf-tabs-title .list .item .text{
+    color: $c-333;
+  }
+  .page_listing .section_linkshelf .linkshelf-tabs .linkshelf-tabs-title .list .item.active {
+    background-color: #252525; /* #fff4a6 */
+    border-bottom-color: #252525; /* #fff4a6 */
+  }
+  .page_listing .section_linkshelf .linkshelf-tabs:after,
+  .page_listing .section_linkshelf .linkshelf-tabs .linkshelf-tabs-title:after,
+  .page_listing .section_linkshelf .linkshelf-tabs .linkshelf-tabs-content {
+    background-color: #252525; /* #fff4a6 */
+    border-color: $c-ccc;
+  }
+  .btn-white {
+    background-color: $c-fff;
+    border-color: $c-ccc;
+    color: $c-333;
+  }
+  .btn-white:hover {
+    background-color: $c-efefef;
+  }
+
+  /* OFFER */
+  .module_OLXad-photo .OLXad-photo-main {
+    border-color: $c-ccc;
+  }
+  .page_OLXad-view .section_OLXad-info .atributes .title {
+    color: $c-333;
+  }
+  .box.box-white, .tab-item {
+    background-color: $c-fff;
+    border-color: $c-ccc;
+  }
+  .tab-item.active {
+    border-bottom-color: $c-fff;
+  }
+  .panes, .tabs:after {
+    border-color: $c-ccc;
+  }
+
+  /* TOOLTIP */
+  .module_tooltip {
+    background: $c-fff;
+    border-color: $c-ccc;
+  }
+  .module_tooltip.bottom:before {
+    border-top-color: $c-ccc;
+  }
+  .module_tooltip.bottom:after {
+    border-top-color: $c-fff;
+  }
+  .module_tooltip.left:after {
+    border-color: transparent $c-fff;
+  }
+  .module_tooltip.left:before {
+    border-color: transparent $c-ccc;
+  }
+
+  /* LOGIN / REGISTER */
+  .page_account .section_account-title .title,
+  .page_account .section_account-title .subtitle,
+  .page_account.login-register .section_user-signin .title,
+  .page_account.login-register .section_login .title {
+    color: $c-333;
+  }
+  .page_account.login-register .grid-row .grid-col.col-2 {
+    border-color: $c-ccc;
+  }
+  input[type='text'], input[type='email'], input[type='password'], select, textarea {
+    background: $c-fff;
+    border-color: $c-ccc;
+    color: $c-333;
+  }
+
+  /* ACCOUNT */
+  .section_account-tabs .account-tabs-title .list .item.active .link {
+    color: $c-333;
+  }
+  .chat-container, .box.box-gray,
+  .page_account .section_account-title.with-border,
+  .section_account-tabs .account-tabs-title .list,
+  .page_account.my-favorites .OLXad-list-header,
+  .page_account.my-favorites .section_without-favorites .image-favorite-OLXads,
+  .page_account.my-info .section_user-info .section_my-data, .page_account.my-info .section_user-info .section_contact-info {
+    border-color: $c-ccc;
+  }
+  .box.box-blue {
+    background-color: #292929; /* #e3edf6 */
+    border-color: $c-ccc;
+  }
+
+  /* FIXES */
+  .login-box {
+    background: $c-ececec;
+  }
+  li.item.owner p.text {
+    color: #333;
+  }
+
+  /* AD REMOVE */
+  .module_advertising, .wrapper_advertisement {
+    display: none!important;
+  }
+}

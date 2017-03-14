@@ -1,0 +1,130 @@
+@import "variables.scss";
+
+@-moz-document regexp("https?://(|www.)olx.(com|co)(.(gh|ke|ng|za|tz|ug))?/.*") {
+  /* Ghana, Kenya, Nigeria, South Africa, Tanzania, Uganda */
+
+  /* MAIN */
+  .categorySelectContainer, form.search .combospace ul.categorySelectList li ul {
+    background: $c-fff;
+  }
+  #footer-container .siteinfobox .socialsbox+.text {
+    border-color: $c-e3e3e3;
+  }
+  #header-container .navi, .homepage #body-container {
+    background-color: $c-fff;
+    border-color: $c-e7e7e7;
+  }
+  .locationrequest .proposals {
+    color: $c-989898;
+    background-color: $c-fff;
+    border-color: $c-ececec!important;
+  }
+  .locationrequest .proposals .lastbox, .locationrequest .proposals .mapbox {
+    border-color: $c-eaeaea;
+  }
+  ul.categorySelectList li ul, .locationrequest .distancelist dd ul {
+    border-color: $c-ececec!important;
+  }
+  .accountview #footer-container > .wrapper, .accountview #footer-container-plain > .wrapper {
+    border-color: $c-f0f0f0;
+  }
+
+  /* INVERTING COLORS */
+  .categorySelectContainer:before, .locationrequest .proposals:before, #choosecat + .categorySelectContainer .categorySelectList:before {
+    filter: invert(.901) grayscale(1);
+  }
+
+  /* TEXT COLORS */
+  form.search a.select[class*='a-category'] #main-category-choose-label {
+    color: $c-000;
+  }
+  .accessbox h2,
+  #header-container #my-account-link .link > *,
+  .detailpage .offercontent table.details .item th {
+    color: $c-5b5b5b;
+  }
+
+  /* OFFERS */
+  form.search #searchList {
+    border-color: $c-f0f0f0;
+  }
+  #choosecat + .categorySelectContainer {
+    border-color: $c-ececec !important;
+  }
+  .favbottombox, ul.tabs2, ul.tabs2 li {
+    border-color: $c-e7e7e7;
+  }
+  .favgallerybox li, ul.tabs2 .tab.selected:after {
+    background-color: $c-fff;
+  }
+
+  .pager .item a:hover {
+    background: #353535; /* #dcdcdb */
+    color: #a2a2a2; /* #545454 */
+  }
+
+  /* AD */
+  .samurai-items .samurai-item {
+    border-color: $c-ddd;
+    background: $c-fdfdfd;
+  }
+  .samurai-items .samurai-item .title {
+    color: $c-000;
+    border-color: $c-eaeaea;
+  }
+  .samurai-items .samurai-item .samurai-image {
+    background-color: $c-efefef;
+  }
+  form.quickcontact input.light, form.quickcontact textarea.light, form.quickcontact select.light {
+    border-color: $c-e7e7e7;
+  }
+  table.breadcrumb td {
+    border-color: $c-f0f0f0;
+  }
+  .detailpage .offercontent table.details .item {
+    border-color: $c-ebeae9;
+  }
+
+  /* Your favorites */
+  ul.tabs2 .tab {
+    background-color: $c-f0f0f0;
+  }
+  .observedview .container .wrapper {
+    border-color: $c-e7e7e7;
+  }
+
+  /* FIXES */
+  .link:hover>*, a.tdnone:hover .link>* {
+    color: #147db1;
+  }
+  .pricelabel {
+    background: #b9be10;
+  }
+  .pricelabel:before {
+    filter: none;
+  }
+  #gotop {
+    bottom: 0 !important;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+  }
+  .choosecat .box > div.selected .categoryTitle, .choosecat .box > div.selected .inner {
+    background: $c-fff;
+  }
+  table.details td[style*="border-left: 1px solid #fff"] {
+    border-color: $c-fff!important;
+  }
+  ul.tabs .tab.selected {
+    background: #202020; /* #e7e7e7 */
+    border-color: transparent;
+    border-bottom-color: #b9be10;
+  }
+
+  /* AD REMOVE */
+  #promo_banner, #div-gpt-homepage-wideboard_top, .gpt {
+    display: none!important;
+  }
+}

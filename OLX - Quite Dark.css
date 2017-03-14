@@ -197,6 +197,7 @@
   .offer-titlebox, .offer-titlebox__details em {
     border-color: #282828; }
 
+  +
   .t-new_sidebar .offercontent table.details {
     border-color: #2a2a2a; }
 
@@ -641,9 +642,7 @@
   #cookiesBar, #mobileAppsbadge, .delivery-sticky, .dfp-db-wallpaper__bg, #wrapperpolko,
   div[id^=div-gpt-ad], .adsbygoogle, #div-gpt-homepage-wideboard_bottom, #div-gpt-ad-wideboard_bottom,
   .leftBranding, .rightBranding, .header-ad, .gpt {
-    display: none !important; }
-
-  /* http://www.olx.hn (Honduras) */ }
+    display: none !important; } }
 @-moz-document domain("olx.bg") {
   /* Bulgaria */
   #footer-container {
@@ -965,10 +964,10 @@
   /* AD REMOVE */
   #promo_banner, #div-gpt-homepage-wideboard_top, .gpt {
     display: none !important; } }
-@-moz-document domain("olx.af") {
-  /* Macedonia */ }
-@-moz-document domain("olx.com.pk") {
-  /* Pakistan */ }
+@-moz-document domain("olx.com.pk"), domain("olx.in"), domain("olx.co.id") {
+  /* Pakistan, India, Indonesia */ }
+@-moz-document domain("olx.ba") {
+  /* Bosnia */ }
 @-moz-document domain("olx.ph") {
   /* Philippines */ }
 @-moz-document domain("olx.com.br") {
