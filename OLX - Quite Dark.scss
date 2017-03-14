@@ -5,7 +5,7 @@
     || Name: OLX - Quite Dark                                 ||
     || Author: pawelos076232                                  ||
     || License: CC BY-ND                                      ||
-    || Version: 0.2.4                                         ||
+    || Version: 0.2.5                                         ||
     || Userstyles: https://userstyles.org/styles/138633       ||
     || Github: https://github.com/pawelos076232/OLX-QuiteDark ||
     */
@@ -187,7 +187,7 @@
   }
   .offer-titlebox, .offer-titlebox__details em {
     border-color: $c-efefef;
-  }+
+  }
   .t-new_sidebar .offercontent table.details {
     border-color: $c-ebeae9;
   }
@@ -606,7 +606,7 @@
   /* AD REMOVE */
   #cookiesBar, #mobileAppsbadge, .delivery-sticky, .dfp-db-wallpaper__bg, #wrapperpolko,
   div[id^=div-gpt-ad], .adsbygoogle, #div-gpt-homepage-wideboard_bottom, #div-gpt-ad-wideboard_bottom,
-  .leftBranding, .rightBranding, .header-ad, .gpt {
+  .leftBranding, .rightBranding, .header-ad, .gpt, .login-page__video {
     display: none!important;
   }
 
