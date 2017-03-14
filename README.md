@@ -4,11 +4,9 @@
 
 ## TO DO LIST:
 
-* http://www.olx.af (Macedonia)
 * http://www.olx.com.pk (Pakistan), http://www.olx.in (India), http://olx.co.id (Indonesia)
 * http://www.olx.ba (Bosnia)
 * http://www.olx.ph (Philippines)
-<s>* http://www.olx.hn (Honduras) - mabye?</s>
 
 ## In development:
 * http://www.olx.com.ar , etc (Argentina, Bolivia, Colombia, Costa Rica, Ecuador, El Salvador, Guatemala, Nicaragua, Panama, Paraguay, Peru, Uruguay, Venezuela)
