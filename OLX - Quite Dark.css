@@ -3,7 +3,7 @@
     || Name: OLX - Quite Dark                                 ||
     || Author: pawelos076232                                  ||
     || License: CC BY-ND                                      ||
-    || Version: 0.2.5                                         ||
+    || Version: 0.2.6                                         ||
     || Userstyles: https://userstyles.org/styles/138633       ||
     || Github: https://github.com/pawelos076232/OLX-QuiteDark ||
     */
@@ -313,6 +313,26 @@
   .halfgrid.whypromoteoptions .half:first-child > div.inner:before {
     background: #202020; }
 
+  #body-container div.content .table-div {
+    background: #1c1c1c; }
+
+  table.myoffersnew thead th {
+    border-top-color: #242424;
+    background: #191919; }
+
+  table.myoffersnew tbody tr.row-elem > td {
+    background: #191919;
+    border-top-color: #282828;
+    border-bottom-color: #282828; }
+
+  table.myoffersnew tbody tr.row-stats > td {
+    border-bottom-color: #454545;
+    background: #191919;
+    border-color: #414141 !important; }
+
+  table.myoffersnew tbody tr.row-stats > td .table-stats td {
+    border-left-color: #2c2c2c; }
+
   /* FANCY BOX */
   .moreLevels, .moreLevels > div {
     background: #191919; }
@@ -505,6 +525,51 @@
 
   #searchbox {
     border-bottom-color: #333; }
+
+  .autosuggest-geo-adding .suggestgeo li ul {
+    border-color: #585858;
+    background: #191919; }
+
+  .br-3, .brtop-5 {
+    border-color: #585858; }
+
+  .previewlayer {
+    -webkit-box-shadow: 0 -2px 10px 0 rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 -2px 10px 0 rgba(0, 0, 0, 0.5);
+    -ms-box-shadow: 0 -2px 10px 0 rgba(0, 0, 0, 0.5);
+    -o-box-shadow: 0 -2px 10px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 -2px 10px 0 rgba(0, 0, 0, 0.5);
+    background: rgba(25, 25, 25, 0.9); }
+
+  .multipay h3.title .point {
+    border-color: #303030;
+    text-shadow: 0 1px 0 #191919;
+    -webkit-box-shadow: 0 1px 0 0 #191919, inset 0 1px 0 0 #191919;
+    box-shadow: 0 1px 0 0 #191919, inset 0 1px 0 0 #191919; }
+
+  .multipay .layer {
+    background: #191919;
+    border-color: #282828; }
+
+  .multipay .layer .head {
+    border-bottom-color: #313131; }
+
+  .multipay .descrambler, .multipay .items tr td.border,
+  .multipay .systems .box .title {
+    border-top-color: #282828; }
+
+  .multipay .layer .head .target {
+    filter: invert(0.9); }
+
+  .multipay .systems .box {
+    color: #fff;
+    background: #191919; }
+
+  .multipay .submitbox .price .inner {
+    border-bottom-color: #333; }
+
+  .multipay .submitbox .price {
+    border-bottom-color: #191919; }
 
   /* OFFERS */
   form.search .option-search-clear:hover, form.search .option-search-criteria a:hover {
