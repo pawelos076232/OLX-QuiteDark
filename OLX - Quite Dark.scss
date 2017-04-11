@@ -5,7 +5,7 @@
     || Name: OLX - Quite Dark                                 ||
     || Author: pawelos076232                                  ||
     || License: CC BY-ND                                      ||
-    || Version: 0.2.6                                         ||
+    || Version: 0.2.7                                         ||
     || Userstyles: https://userstyles.org/styles/138633       ||
     || Github: https://github.com/pawelos076232/OLX-QuiteDark ||
     */
@@ -234,7 +234,7 @@
   }
 
   /* MY ACCOUNT */
-  .accounthead {
+  .accounthead, #body-container div.content .table-div, .paybalance-box__dropdown ul li:nth-child(even) {
     background: $c-fafafa;
   }
   .bgf3 {
@@ -287,11 +287,11 @@
   .whypromotelist>li, .halfgrid.whypromoteoptions {
     border-color: #383838; /* #d9d9d9 */
   }
-  .halfgrid.whypromoteoptions .half:first-child>div.inner:before {
+  .halfgrid.whypromoteoptions .half:first-child>div.inner:before, .reason-simple__info {
     background: $c-f7f7f7;
   }
-  #body-container div.content .table-div {
-    background: $c-fafafa;
+  .reason-simple__info:before {
+    border-color: transparent transparent $c-f7f7f7;
   }
   table.myoffersnew thead th {
     border-top-color: $c-f1f1f1;
@@ -309,6 +309,23 @@
   }
   table.myoffersnew tbody tr.row-stats>td .table-stats td {
     border-left-color: $c-e7e7e7;
+  }
+  .paybalance-box__dropdown ul {
+    background: $c-fff;
+    box-shadow: rgba(216,220,224,.2) 0 0 30px;
+    border-color: $c-e3e3e3;
+  }
+  .paybalance-box__dropdown ul:after {
+    filter: invert(.901);
+  }
+  table.myoffersnew tbody tr.row-shadow>td {
+    background: #171717; // #f2f2f2
+  }
+  .reason-simple {
+    background: $c-fff;
+  }
+  #fancybox-overlay {
+    background-color: #000!important;
   }
 
   /* FANCY BOX */
@@ -547,6 +564,50 @@
   }
   .multipay .submitbox .price {
     border-bottom-color: $c-fff;
+  }
+  .paymentpackets .box {
+    background: $c-fdfdfd;
+  }
+  div.successbox-light {
+    background: $c-fff;
+    -moz-box-shadow: 0 1px 30px 0 rgba(216,220,224,.3);
+    -ms-box-shadow: 0 1px 30px 0 rgba(216,220,224,.3);
+    -o-box-shadow: 0 1px 30px 0 rgba(216,220,224,.3);
+    box-shadow: 0 1px 30px 0 rgba(216,220,224,.3);
+  }
+  .confirm-promo .paymentpackets .box {
+    margin-left: 0;
+    -webkit-box-shadow: 0 15px 30px 0 rgba(255,255,255,.05);
+    -moz-box-shadow: 0 15px 30px 0 rgba(255,255,255,.05);
+    -ms-box-shadow: 0 15px 30px 0 rgba(255,255,255,.05);
+    -o-box-shadow: 0 15px 30px 0 rgba(255,255,255,.05);
+    box-shadow: 0 15px 30px 0 rgba(255,255,255,.05);
+  }
+  .confirm-promo .paymentpackets .box.selected {
+    -webkit-box-shadow: 0 15px 30px 0 rgba(236,238,240,.2);
+    -moz-box-shadow: 0 15px 30px 0 rgba(236,238,240,.2);
+    -ms-box-shadow: 0 15px 30px 0 rgba(236,238,240,.2);
+    -o-box-shadow: 0 15px 30px 0 rgba(236,238,240,.2);
+    box-shadow: 0 15px 30px 0 rgba(236,238,240,.2);
+  }
+  table.myoffersnew tbody tr.row-elem.removedbymod>td {
+    background-color: $c-fff4d9;
+  }
+  .paymentpackets .box .head {
+    border-color: $c-dbdbdb;
+    border-bottom-color: $c-dbdbdb;
+  }
+  .paymentpackets .box.type1 .head {
+    background: $c-f0fecc;
+  }
+  .confirm-promo__links a {
+    background: $c-f0f0f0;
+  }
+  .paymentpackets .box .head strong {
+    text-shadow: 0 1px 0 $c-fff;
+  }
+  .confirm-promo .paymentpackets .box.type2 .head {
+    background: $c-f0fdce;
   }
 
   /* OFFERS */
