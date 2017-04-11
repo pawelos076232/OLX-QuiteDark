@@ -327,6 +327,11 @@
   #fancybox-overlay {
     background-color: #000!important;
   }
+  table.myoffersnew .refresh_price--action .button.disabled, table.myoffersnew .refresh_price--action .button.disabled>* { // odśwież za darmo button
+    background-color: $c-f3f3f3;
+    border-color: $c-e5e5e5;
+    color: $c-727272;
+  }
 
   /* FANCY BOX */
   .moreLevels, .moreLevels>div {

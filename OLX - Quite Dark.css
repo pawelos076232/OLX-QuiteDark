@@ -350,6 +350,11 @@
   #fancybox-overlay {
     background-color: #000 !important; }
 
+  table.myoffersnew .refresh_price--action .button.disabled, table.myoffersnew .refresh_price--action .button.disabled > * {
+    background-color: #232323;
+    border-color: #2e2e2e;
+    color: #8a8a8a; }
+
   /* FANCY BOX */
   .moreLevels, .moreLevels > div {
     background: #191919; }
