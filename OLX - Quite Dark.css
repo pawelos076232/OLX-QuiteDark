@@ -1,9 +1,9 @@
-@-moz-document regexp("https?://(|www.)olx(liban)?.([a-z]{2,3})(.[a-z]{2,3})?/((?!bezpieczenstwo|advertising|topfeature|payment|plata-prin-olx|livrare-cu-verificare|courier|safetyuser|mobil|mobile|mobilne).*)") {
+@-moz-document regexp("https?://(|www.)olx(liban)?.([a-z]{2,3})(.[a-z]{2,3})?/((?!bezpieczenstwo|advertising|topfeature|payment|plata-prin-olx|livrare-cu-verificare|courier|safetyuser|mobile|mobilne).*)") {
   /*!
     || Name: OLX - Quite Dark                                 ||
     || Author: pawelos076232                                  ||
     || License: CC BY-ND                                      ||
-    || Version: 0.2.7                                         ||
+    || Version: 0.2.8                                         ||
     || Userstyles: https://userstyles.org/styles/138633       ||
     || Github: https://github.com/pawelos076232/OLX-QuiteDark ||
     */
@@ -732,6 +732,11 @@
     color: #9a9a9a;
     /* #5e5e5d */ }
 
+  .olx-vas-button {
+    border-color: #2e2e2e;
+    background: #191919;
+    box-shadow: 0 0 0 2px #191919; }
+
   /* LOGIN / REGISTER */
   .login-tabs__navigation li a.active {
     background: #191919; }
@@ -958,6 +963,13 @@
     background-color: #191919;
     color: #fff; }
 
+  /* SELECT */
+  .posting-view .type-select, .users-edituserprofile-view .type-select, .users-editpersonalinfo-view .type-select, .users_myolx_view .type-select {
+    background: #191919; }
+
+  .posting-view .text-field, .users-edituserprofile-view .text-field, .users-editpersonalinfo-view .text-field, .users_myolx_view .text-field {
+    color: #fff; }
+
   /* BUTTONS */
   #listing-filters .filter.range .button {
     background: #494949;
@@ -973,6 +985,32 @@
   .item_partials_location_view .action > p .show:hover {
     background-color: #2e2e2e;
     /* #e2e6e9 */ }
+
+  /* Safety */
+  .pages_safety_view .st-panel-body, .pages_safety_view .st-panel-body ul {
+    background: #191919; }
+
+  .pages_safety_view .safety-tips-collapse-group, .pages_safety_view .safety-tips {
+    background: #2f2f2f; }
+
+  .pages_safety_view .exitoriales-wrapper .exitoriales-action a {
+    background-color: #585858;
+    color: #202020; }
+
+  .pages_safety_view .exitoriales-wrapper .exitoriales-action a.exitoriales-prev {
+    -webkit-box-shadow: 2px 2px 2px #262626;
+    -moz-box-shadow: 2px 2px 2px #262626;
+    box-shadow: 2px 2px 2px #262626; }
+
+  .pages_safety_view .exitoriales-wrapper .exitoriales-action a.exitoriales-next {
+    -webkit-box-shadow: -2px 2px 2px #262626;
+    -moz-box-shadow: -2px 2px 2px #262626;
+    box-shadow: -2px 2px 2px #262626; }
+
+  /* Search results */
+  .noresults {
+    background: #22221c;
+    border-color: #666600; }
 
   /* AD REMOVE */
   .adserving .adserving-afs {
