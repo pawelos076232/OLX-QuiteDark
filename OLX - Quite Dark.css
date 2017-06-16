@@ -1140,7 +1140,142 @@
   #promo_banner, #div-gpt-homepage-wideboard_top, .gpt {
     display: none !important; } }
 @-moz-document domain("olx.com.pk"), domain("olx.in"), domain("olx.co.id") {
-  /* Pakistan, India, Indonesia */ }
+  /* Pakistan, India, Indonesia */
+  form.searchmain {
+    background: #2c505e; }
+
+  .button {
+    border-color: #163769;
+    background-color: #163769;
+    -webkit-box-shadow: 0px 0px 0px 2px #191919;
+    -moz-box-shadow: 0px 0px 0px 2px #191919;
+    box-shadow: 0px 0px 0px 2px #191919; }
+
+  form.searchmain .button {
+    -webkit-box-shadow: 0px 0px 0px 3px #191919;
+    -moz-box-shadow: 0px 0px 0px 3px #191919;
+    box-shadow: 0px 0px 0px 3px #191919; }
+
+  /* MY ACCOUNT BUTTON*/
+  ul.userbox .userbox-account {
+    border-color: #272727; }
+
+  .link:hover > *, a.tdnone:hover .link > * {
+    color: #f70; }
+
+  /* MAIN PAGE GRID*/
+  .icongrid td {
+    border-left: 1px solid #1d1d1d;
+    border-top: 1px solid #1d1d1d; }
+
+  .icongrid td:first-child {
+    border-left: none; }
+
+  .icongrid td.vtop {
+    border-top: none; }
+
+  .icongrid tr:first-child td {
+    border-top: none; }
+
+  /* OTHER */
+  .imgframe {
+    border-color: #212121; }
+
+  #gotop {
+    box-shadow: 0 0 3px #303030; }
+
+  #gotop:hover {
+    border-color: #3a3a3a; }
+
+  #goback {
+    -webkit-box-shadow: 0 0 3px #303030;
+    -moz-box-shadow: 0 0 3px #303030;
+    box-shadow: 0 0 3px #303030; }
+
+  #goback:hover {
+    border-color: #3a3a3a; }
+
+  #pageview {
+    background: #222;
+    background: rgba(38, 38, 38, 0.5); }
+
+  #searchbox {
+    background: transparent; }
+
+  /* SEPARATORS */
+  .bre3 {
+    border-color: #303030; }
+
+  /* FOOTER */
+  #footer-container {
+    background: #191919;
+    border-top-color: #272727; }
+
+  #footer-container:before {
+    filter: invert(0.9); }
+
+  /* LOGIN PAGE */
+  .accessbox {
+    border-color: #313131;
+    background: #191919; }
+
+  form.access fieldset {
+    background: transparent;
+    border-color: transparent; }
+
+  .accessbox .bottominfobar {
+    background: #1c1c1c;
+    border-top-color: #242424; }
+
+  form.default.login .fblock.active .focusbox,
+  form.default .fblock.active .focusbox {
+    background: #232323; }
+
+  form.default .fblock.active .focusbox.smallshadow {
+    -webkit-box-shadow: 0px 0px 0px 6px #232323;
+    -moz-box-shadow: 0px 0px 0px 6px #232323;
+    box-shadow: 0px 0px 0px 6px #232323; }
+
+  /* MODALS */
+  #noAccountDiv .inner {
+    background: #202020; }
+
+  form.sendmail2 .fblock input.light {
+    background: #191919; }
+
+  /* POSTING ADS */
+  .container .wrapper {
+    background: #191919; }
+
+  #newOffer {
+    border-color: #303030; }
+
+  .fb-login-wrapper {
+    background-color: #191919;
+    border-color: #353535; }
+
+  #phone .cntrycod {
+    color: inherit; }
+
+  form.adding div.suggest {
+    color: #fff;
+    border-color: #363636; }
+
+  form.adding .fblock.active,
+  form.adding.default .fblock.active .focusbox {
+    background: #424200; }
+
+  form.adding div.suggest .icon.target {
+    height: 11px; }
+
+  /* QR CODE */
+  .qr-code-placeholder {
+    background: #272727;
+    border-color: #353535;
+    box-shadow: 0 0 8px #353535; }
+
+  .qr-code-placeholder:before {
+    border-bottom: 10px solid #464646; } }
 @-moz-document domain("olx.ba") {
   /* Bosnia */ }
 @-moz-document domain("olx.ph") {
