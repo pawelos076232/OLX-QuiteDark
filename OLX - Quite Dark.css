@@ -3,7 +3,7 @@
     || Name: OLX - Quite Dark                                 ||
     || Author: pawelos076232                                  ||
     || License: CC BY-ND                                      ||
-    || Version: 0.2.8                                         ||
+    || Version: 0.2.9                                         ||
     || Userstyles: https://userstyles.org/styles/138633       ||
     || Github: https://github.com/pawelos076232/OLX-QuiteDark ||
     */
@@ -21,7 +21,7 @@
   .dropdown dd ul, .dropdown dt a.focus, .toplinks .all a,
   form.useranswer fieldset.editspace textarea, ul.categorySelectList li,
   .gallerywide .courierbadge, .gallerywide > li, .gallerywide .gallerywide-item,
-  .proposals .location-info__features {
+  .proposals .location-info__features, form.otokredyt.htmlmodule, .recommended-distance-with-ads .inner {
     background: #191919; }
 
   .locationrequest .distancelist dt a {
@@ -671,6 +671,22 @@
 
   .view-lists ul li {
     border-color: #353535; }
+
+  .recommended-distance-with-ads .line {
+    border-top-color: #333;
+    border-bottom-color: #191919; }
+
+  .recommended-distance-with-ads .text {
+    background: #191919;
+    text-shadow: 0 1px 0 #191919; }
+
+  .thumb.scale4.nophoto {
+    background: #191919;
+    color: #3d3d3d;
+    border-color: #333; }
+
+  .thumb.scale4.nophoto .alt-text {
+    border-bottom-color: #303030; }
 
   /* OFFER */
   .offer-user__image {

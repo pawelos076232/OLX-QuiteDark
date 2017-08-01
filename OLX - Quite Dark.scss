@@ -5,7 +5,7 @@
     || Name: OLX - Quite Dark                                 ||
     || Author: pawelos076232                                  ||
     || License: CC BY-ND                                      ||
-    || Version: 0.2.8                                         ||
+    || Version: 0.2.9                                         ||
     || Userstyles: https://userstyles.org/styles/138633       ||
     || Github: https://github.com/pawelos076232/OLX-QuiteDark ||
     */
@@ -23,7 +23,7 @@
   .dropdown dd ul, .dropdown dt a.focus, .toplinks .all a,
   form.useranswer fieldset.editspace textarea, ul.categorySelectList li,
   .gallerywide .courierbadge, .gallerywide > li, .gallerywide .gallerywide-item,
-  .proposals .location-info__features {
+  .proposals .location-info__features, form.otokredyt.htmlmodule, .recommended-distance-with-ads .inner {
     background: $c-fff;
   }
   .locationrequest .distancelist dt a {
@@ -639,6 +639,22 @@
   }
   .view-lists ul li {
     border-color: $c-ddd;
+  }
+  .recommended-distance-with-ads .line {
+    border-top-color: $c-f0f0f0;
+    border-bottom-color: $c-fff;
+  }
+  .recommended-distance-with-ads .text {
+    background: $c-fff;
+    text-shadow: 0 1px 0 $c-fff;
+  }
+  .thumb.scale4.nophoto {
+    background: $c-fff;
+    color: $c-d2d2d2; // #d7d7d7
+    border-color: $c-f0f0f0;
+  }
+  .thumb.scale4.nophoto .alt-text {
+    border-bottom-color: $c-e8e8e8;
   }
 
   /* OFFER */
