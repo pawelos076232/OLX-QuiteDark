@@ -3,7 +3,7 @@
     || Name: OLX - Quite Dark                                 ||
     || Author: pawelos076232                                  ||
     || License: CC BY-ND                                      ||
-    || Version: 0.2.9                                         ||
+    || Version: 0.3.0                                         ||
     || Userstyles: https://userstyles.org/styles/138633       ||
     || Github: https://github.com/pawelos076232/OLX-QuiteDark ||
     */
@@ -355,6 +355,12 @@
     border-color: #2e2e2e;
     color: #8a8a8a; }
 
+  ul.conversationnew > li.my .cloud {
+    background: #516330; }
+
+  ul.conversationnew > li.unread .cloud {
+    background: #615e30; }
+
   /* FANCY BOX */
   .moreLevels, .moreLevels > div {
     background: #191919; }
@@ -443,7 +449,9 @@
   .pricelabel:before, div.suggesttitle:before, span.suggesttitle:before,
   .icon.mini.down4, .icon.mini.up4, .choosecat .box > div .scrollbar,
   .choosecat .box > div a.block:hover .target, .choosecat .box > div a.block.selected .target,
-  .regions-layer:before {
+  .regions-layer:before,
+  .securitybox,
+  .addetails {
     filter: invert(0.901) grayscale(1); }
 
   div.suggest.error .target {
@@ -455,7 +463,8 @@
   .view-lists ul li, form.adding, .dropdown a, .dropdown a:visited, .headlinebox .icon-slide:after,
   .otokredytbox-vivus-ui form.otokredyt fieldset input[type="text"], .locationrequest .cityfield.bold,
   form.search .multifilters a.button.fbold, .locationrequest .distancelist.bold dt a,
-  .locationrequest .distancelist.bold dd ul a {
+  .locationrequest .distancelist.bold dd ul a,
+  .salary-label .value-human {
     color: #fff; }
 
   .c73, .link.gray3 {
@@ -688,6 +697,19 @@
   .thumb.scale4.nophoto .alt-text {
     border-bottom-color: #303030; }
 
+  .list-item {
+    border-top-color: #282828; }
+
+  table.offers--new.offers--top .list-item {
+    border-bottom-color: #282828; }
+
+  .promoted .list-item {
+    background: #fff6c7;
+    background: #2a2300; }
+
+  .promoted .list-item:before {
+    background: #5f3b00; }
+
   /* OFFER */
   .offer-user__image {
     border-color: #191919;
@@ -752,6 +774,44 @@
     border-color: #2e2e2e;
     background: #191919;
     box-shadow: 0 0 0 2px #191919; }
+
+  .offer-parameters {
+    border-bottom-color: #2a2a2a; }
+
+  .offer-message {
+    background: #2e3233;
+    border-color: #3a3f42; }
+
+  .flagged-offers__list li h4 {
+    color: #eee; }
+
+  /* OFFER CONTACT FORM */
+  .contact-grid .offer-contact {
+    border-top-color: #2e2e2e; }
+
+  .dborder.top {
+    border-top-color: #333; }
+
+  .dborder.top > div {
+    border-top-color: #191919; }
+
+  .brbottdash-1 {
+    border-bottom-color: #303030; }
+
+  #addetails .c2b {
+    color: #2b2b2b; }
+
+  #addetails .c62 {
+    color: #626262; }
+
+  /* OFFER OBSERVE MESSAGE */
+  .messagesystem.success {
+    border-color: #191e12;
+    /* #f8feef */
+    background: rgba(30, 37, 20, 0.8);
+    /* rgba(238,247,226,.8) */
+    color: #98b36f;
+    /* #657c42 */ }
 
   /* LOGIN / REGISTER */
   .login-tabs__navigation li a.active {
