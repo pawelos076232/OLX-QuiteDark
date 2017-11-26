@@ -680,6 +680,13 @@
   .thumb.scale4.nophoto .alt-text {
     border-bottom-color: $c-e8e8e8;
   }
+  .thumb.scale1.nophoto--job {
+    background: $c-f9f9f9;
+    border-color: $c-f6f6f6;
+  }
+  .thumb.scale1.nophoto--job:before {
+    background: $c-fff;
+  }
   .list-item {
     border-top-color: $c-ebebeb;
   }

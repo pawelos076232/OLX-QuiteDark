@@ -711,6 +711,13 @@
   .thumb.scale4.nophoto .alt-text {
     border-bottom-color: #303030; }
 
+  .thumb.scale1.nophoto--job {
+    background: #1e1e1e;
+    border-color: #202020; }
+
+  .thumb.scale1.nophoto--job:before {
+    background: #191919; }
+
   .list-item {
     border-top-color: #282828; }
 
