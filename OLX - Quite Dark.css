@@ -75,6 +75,20 @@
   .brbott-12 {
     border-color: #191919; }
 
+  .footerapps .icon {
+    -webkit-filter: grayscale(100%) invert(0.9);
+    -moz-filter: grayscale(100%) invert(0.9);
+    -ms-filter: grayscale(100%) invert(0.9);
+    -o-filter: grayscale(100%) invert(0.9);
+    filter: grayscale(100%) invert(0.9); }
+
+  .footerapps a:hover .icon {
+    -webkit-filter: grayscale(0) invert(0.9) hue-rotate(180deg);
+    -moz-filter: grayscale(0) invert(0.9) hue-rotate(180deg);
+    -ms-filter: grayscale(0) invert(0.9) hue-rotate(180deg);
+    -o-filter: grayscale(0) invert(0.9) hue-rotate(180deg);
+    filter: grayscale(0) invert(0.9) hue-rotate(180deg); }
+
   /* REGIONS */
   .regions-layer {
     border-color: #585858;

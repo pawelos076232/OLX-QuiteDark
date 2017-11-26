@@ -74,6 +74,20 @@
   .brbott-12 {
     border-color: $c-fff;
   }
+  .footerapps .icon {
+    -webkit-filter: grayscale(100%) invert(.9);
+    -moz-filter: grayscale(100%) invert(.9);
+    -ms-filter: grayscale(100%) invert(.9);
+    -o-filter: grayscale(100%) invert(.9);
+    filter: grayscale(100%) invert(.9);
+  }
+  .footerapps a:hover .icon {
+    -webkit-filter: grayscale(0) invert(.9) hue-rotate(180deg);
+    -moz-filter: grayscale(0) invert(.9) hue-rotate(180deg);
+    -ms-filter: grayscale(0) invert(.9) hue-rotate(180deg);
+    -o-filter: grayscale(0) invert(.9) hue-rotate(180deg);
+    filter: grayscale(0) invert(.9) hue-rotate(180deg);
+  }
 
   /* REGIONS */
   .regions-layer {
