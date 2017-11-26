@@ -208,6 +208,9 @@
     border-color: #282828;
     background: #191919; }
 
+  .offer-user__address:after {
+    border-color: #191919 transparent transparent; }
+
   .offer-titlebox, .offer-titlebox__details em {
     border-color: #282828; }
 
@@ -269,6 +272,9 @@
   /* MY ACCOUNT */
   .accounthead, #body-container div.content .table-div, .paybalance-box__dropdown ul li:nth-child(even) {
     background: #1c1c1c; }
+
+  .accounthead {
+    border-bottom-color: #242424; }
 
   .bgf3 {
     background: #232323; }
@@ -374,6 +380,17 @@
 
   ul.conversationnew > li.unread .cloud {
     background: #615e30; }
+
+  table.mywalletnew tbody tr.row-elem > td {
+    border-top: 1px solid #282828;
+    border-bottom: 1px solid #282828; }
+
+  .mywalletnew-showmore {
+    border-bottom: 1px solid #282828;
+    background: #1c1c1c; }
+
+  .mywalletnew-showmore:after {
+    border-color: #1c1c1c transparent transparent; }
 
   /* FANCY BOX */
   .moreLevels, .moreLevels > div {
@@ -711,11 +728,13 @@
   .thumb.scale4.nophoto .alt-text {
     border-bottom-color: #303030; }
 
-  .thumb.scale1.nophoto--job {
+  .thumb.scale1.nophoto--job,
+  .thumb.scale4.nophoto--job {
     background: #1e1e1e;
     border-color: #202020; }
 
-  .thumb.scale1.nophoto--job:before {
+  .thumb.scale1.nophoto--job:before,
+  .thumb.scale4.nophoto--job:before {
     background: #191919; }
 
   .list-item {

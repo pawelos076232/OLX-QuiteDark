@@ -199,6 +199,9 @@
     border-color: $c-efefef;
     background: $c-fff;
   }
+  .offer-user__address:after {
+    border-color: $c-fff transparent transparent;
+  }
   .offer-titlebox, .offer-titlebox__details em {
     border-color: $c-efefef;
   }
@@ -250,6 +253,9 @@
   /* MY ACCOUNT */
   .accounthead, #body-container div.content .table-div, .paybalance-box__dropdown ul li:nth-child(even) {
     background: $c-fafafa;
+  }
+  .accounthead {
+    border-bottom-color: $c-f1f1f1;
   }
   .bgf3 {
     background: $c-f3f3f3;
@@ -352,6 +358,17 @@
 
   ul.conversationnew>li.unread .cloud {
     background: #615e30 // #fbf47b
+  }
+  table.mywalletnew tbody tr.row-elem>td {
+    border-top: 1px solid $c-ebebeb;
+    border-bottom: 1px solid $c-ebebeb;
+  }
+  .mywalletnew-showmore {
+    border-bottom: 1px solid $c-ebebeb;
+    background: $c-fafafa;
+  }
+  .mywalletnew-showmore:after {
+    border-color: $c-fafafa transparent transparent;
   }
 
   /* FANCY BOX */
@@ -680,11 +697,13 @@
   .thumb.scale4.nophoto .alt-text {
     border-bottom-color: $c-e8e8e8;
   }
-  .thumb.scale1.nophoto--job {
+  .thumb.scale1.nophoto--job,
+  .thumb.scale4.nophoto--job{
     background: $c-f9f9f9;
     border-color: $c-f6f6f6;
   }
-  .thumb.scale1.nophoto--job:before {
+  .thumb.scale1.nophoto--job:before,
+  .thumb.scale4.nophoto--job:before {
     background: $c-fff;
   }
   .list-item {
