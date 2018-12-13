@@ -14,7 +14,7 @@
 
 | Country                 | Flag                                                                                                                                    | URL                                                 |
 | ----------------------- |:---------------------------------------------------------------------------------------------------------------------------------------:| ---------------------------------------------------:|
-| Romania      | ![Romania](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ro.png "Romania") | [OLX.ro](https://www.olx.ro "Russian Federation")   |
+| Romania      | ![Romania](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ro.png "Romania") | [OLX.ro](https://www.olx.ro "Romania")   |
 | Poland                  | ![Poland](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/pl.png "Poland")                         | [OLX.pl](https://www.olx.pl "Poland")               |
 | Ukraine                 | ![Ukraine](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ua.png "Ukraine")                       | [OLX.ua](https://www.olx.ua "Ukraine")              |
 | Bulgaria                | ![Bulgaria](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/bg.png "Bulgaria")                     | [OLX.bg](https://www.olx.bg "Bulgaria")             |
