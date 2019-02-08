@@ -3,7 +3,7 @@
     || Name: OLX - Quite Dark                                 ||
     || Author: pawelos076232                                  ||
     || License: CC BY-ND                                      ||
-    || Version: 0.3.3                                         ||
+    || Version: 0.3.4                                         ||
     || Userstyles: https://userstyles.org/styles/138633       ||
     || Github: https://github.com/pawelos076232/OLX-QuiteDark ||
     */
@@ -682,6 +682,39 @@
 
   .confirm-promo .paymentpackets .box.type2 .head {
     background: #202020; }
+
+  .olx-multipay__bundle {
+    border-color: #282828;
+    background: #1b1b1b; }
+
+  .olx-multipay__single-vas {
+    border-color: #444;
+    background: #1b1b1b; }
+
+  .olx-price {
+    color: #fff; }
+
+  .olx-multipay__bundle.selected, .olx-multipay__bundle.selected:hover {
+    box-shadow: 0 0 25px 10px #303030; }
+
+  .olx-multipay__bundle.selected,
+  .olx-multipay__bundle:hover:not(.disabled):not(.selected),
+  .olx-multipay__single-vas:hover:not(.selected) {
+    background: #191919; }
+
+  .olx-multipay__bundle .components-list li.disabled {
+    color: rgba(238, 238, 238, 0.3); }
+
+  .olx-multipay__bundle h4 {
+    text-shadow: -1px -1px 0 #191919;
+    color: #eee; }
+
+  .olx-confirm {
+    background: #1b1b1b;
+    border-color: #444; }
+
+  .olx-confirm h3 {
+    color: #fff; }
 
   /* OFFERS */
   form.search .option-search-clear:hover, form.search .option-search-criteria a:hover {

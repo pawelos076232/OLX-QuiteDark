@@ -5,7 +5,7 @@
     || Name: OLX - Quite Dark                                 ||
     || Author: pawelos076232                                  ||
     || License: CC BY-ND                                      ||
-    || Version: 0.3.3                                         ||
+    || Version: 0.3.4                                         ||
     || Userstyles: https://userstyles.org/styles/138633       ||
     || Github: https://github.com/pawelos076232/OLX-QuiteDark ||
     */
@@ -653,6 +653,39 @@
   }
   .confirm-promo .paymentpackets .box.type2 .head {
     background: $c-f0fdce;
+  }
+  .olx-multipay__bundle {
+    border-color: $c-ebebeb;
+    background: $c-fdfdfd; // #fbfbfb
+  }
+  .olx-multipay__single-vas {
+    border-color: $c-eaeaea;
+    background: $c-fdfdfd; //fbfbfb
+  }
+  .olx-price {
+    color: $c-000;
+  }
+  .olx-multipay__bundle.selected, .olx-multipay__bundle.selected:hover {
+    box-shadow: 0 0 25px 10px $c-dedede; // #dee7ea
+  }
+  .olx-multipay__bundle.selected,
+  .olx-multipay__bundle:hover:not(.disabled):not(.selected),
+  .olx-multipay__single-vas:hover:not(.selected) {
+    background: $c-fff;
+  }
+  .olx-multipay__bundle .components-list li.disabled {
+    color: rgba(238,238,238,.3);
+  }
+  .olx-multipay__bundle h4 {
+    text-shadow: -1px -1px 0 $c-fff;
+    color: $c-2b2b2b; // #2f2f2f
+  }
+  .olx-confirm {
+    background: $c-fdfdfd; // #fbfbfb
+    border-color: $c-eaeaea;
+  }
+  .olx-confirm h3 {
+    color: $c-000; // #191919
   }
 
   /* OFFERS */
