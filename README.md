@@ -12,14 +12,14 @@
 | Ukraine                 | ![Ukraine](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ua.png "Ukraine")                       | [OLX.ua](https://www.olx.ua "Ukraine")              |
 | | | |
 | Egypt                   | ![Egypt](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/eg.png "Egypt")                           | [OLX.com.eg](https://www.olx.com.eg "Egypt")        |
-| Lebanon                 | ![Lebanon](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/li.png "Lebanon")                       | [OLXliban.com](https://olxliban.com "Lebanon")      |
+| Lebanon                 | ![Lebanon](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/li.png "Lebanon")                       | [OLX.com,lb](https://www.olx.com.lb "Lebanon")      |
 | Oman                    | ![Oman](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/om.png "Oman OLX.com.om")                  | [OLX.com.om](https://www.olx.com.om "Oman")         |
 | | | |
 |Argentina                | ![Argentina](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ar.png "Argentina")                   | [OLX.com.ar](http://www.olx.com.ar "Argentina")     |
 |Colombia                 | ![Colombia](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/co.png "Colombia")                     | [OLX.com.co](http://www.olx.com.co "Colombia")      |
 |Costa Rica               | ![Costa Rica](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/cr.png "Costa Rica")                 | [OLX.co.cr](http://www.olx.co.cr "Costa Rica")      |
 |Ecuador                  | ![Ecuador](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ec.png "Ecuador")                       | [OLX.com.ec](http://www.olx.com.ec "Ecuador")       |
-|El Salvador              | ![El Salvador ](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/sv.png "El Salvador")              | [OLX.com.sv](http://www.olx.com.sv "El Salvador")   |
+|El Salvador              | ![El Salvador](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/sv.png "El Salvador")              | [OLX.com.sv](http://www.olx.com.sv "El Salvador")   |
 |Guatemala                | ![Guatemala](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/gt.png "Guatemala")                   | [OLX.com.gt](http://www.olx.com.gt "Guatemala")     |
 |India                    | ![India](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/in.png "India")                           | [OLX.in](http://www.olx.in "India")                 |
 |Indonesia                | ![Indonesia](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/id.png "Indonesia")                   | [OLX.co.id](http://www.olx.co.id "Indonesia")       |
