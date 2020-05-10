@@ -1,6 +1,6 @@
 @import "_variables.scss";
 
-@-moz-document regexp("https?://(|www.)olx(liban)?.([a-z]{2,3})(.[a-z]{2,3})?/((?!bezpieczenstwo|advertising|topfeature|payment|plata-prin-olx|livrare-cu-verificare|courier|safetyuser|mobile|mobilne).*)") {
+@-moz-document regexp("https?://(|www.)olx.([a-z]{2,3})(.[a-z]{2,3})?/((?!bezpieczenstwo|advertising|topfeature|payment|plata-prin-olx|livrare-cu-verificare|courier|safetyuser|mobile|mobilne).*)") {
   /*!
     || Name: OLX - Quite Dark                                 ||
     || Author: pawelos076232                                  ||
@@ -905,10 +905,7 @@
 
 }
 
-@import "_olx_bulgaria.scss";
 @import "_olx_argentina_bolivia_colombia_etc.scss";
-@import "_olx_ghana_kenya_nigeria_etc.scss";
-@import "_olx_pakistan_india_indonesia.scss";
 @import "_olx_bosnia.scss";
-@import "_olx_philippines.scss";
 @import "_olx_brasil.scss";
+@import "_olx_bulgaria.scss";
