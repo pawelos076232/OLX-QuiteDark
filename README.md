@@ -12,7 +12,7 @@
 | Ukraine                 | ![Ukraine](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ua.png "Ukraine")                       | [OLX.ua](https://www.olx.ua "Ukraine")              |
 | | | |
 | Egypt                   | ![Egypt](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/eg.png "Egypt")                           | [OLX.com.eg](https://www.olx.com.eg "Egypt")        |
-| Lebanon                 | ![Lebanon](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/li.png "Lebanon")                       | [OLX.com,lb](https://www.olx.com.lb "Lebanon")      |
+| Lebanon                 | ![Lebanon](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/li.png "Lebanon")                       | [OLX.com.lb](https://www.olx.com.lb "Lebanon")      |
 | Oman                    | ![Oman](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/om.png "Oman OLX.com.om")                  | [OLX.com.om](https://www.olx.com.om "Oman")         |
 | | | |
 |Argentina                | ![Argentina](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ar.png "Argentina")                   | [OLX.com.ar](http://www.olx.com.ar "Argentina")     |
