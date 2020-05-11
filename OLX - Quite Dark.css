@@ -3,13 +3,13 @@
     || Name: OLX - Quite Dark                                 ||
     || Author: pawelos076232                                  ||
     || License: CC BY-ND                                      ||
-    || Version: 1.0.0                                         ||
+    || Version: 1.0.1                                         ||
     || Userstyles: https://userstyles.org/styles/138633       ||
     || Github: https://github.com/pawelos076232/OLX-QuiteDark ||
     */
   /* MAIN */
   body {
-    color: #00a2b4;
+    color: #00909f;
     background: #202020; }
 
   .bgfff,
@@ -18,7 +18,14 @@
     background: #191919; }
 
   a, h1, h2, h3, h4, h5, h6 {
-    color: #00a2b4; }
+    color: #00909f; }
+
+  .c000,
+  .locationrequest .distancelist.bold dt a {
+    color: #fff; }
+
+  .c41 {
+    color: #ccc; }
 
   /* NEW REBRAND WELCOME MESSAGE */
   .olx-rebranded-welcome__wrapper,
@@ -31,24 +38,45 @@
   form.searchmain input[type="text"] {
     background: #191919; }
 
+  form.searchmain .button,
+  form.searchmain [data-icon="search"],
+  form.searchmain [data-icon="location"],
+  form.searchmain .clearbox [data-icon="close"],
+  form.searchmain .locationrequest [data-icon="close"],
+  form.searchmain input.queryfield,
+  .suggestsearchmain li a.title {
+    color: #00909f; }
+
   form.searchmain .input-container {
     background: #191919;
     border-right-color: #202020; }
 
-  .suggestsearchmain li a.title:hover, .suggestsearchmain li a.search-choose-selected {
-    background: #00a2b4; }
+  form.searchmain .button:hover, form.searchmain .button.is-focused {
+    background-color: #00909f;
+    border-color: #00909f;
+    color: #191919; }
 
-  /* LINKI */
+  .suggestsearchmain li a.title:hover, .suggestsearchmain li a.search-choose-selected {
+    background: #00909f; }
+
+  .suggestsearchmain li a.title {
+    border-bottom-color: #2e383a; }
+
+  .suggestsearchmain {
+    border-color: #202020 !important;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.34); }
+
+  /* LINKS */
   .link,
   #footer-container .sitepopularbox__item h3, #footer-container .sitepopularbox__item .link.gray2, #footer-container .sitepopularbox__item .link.gray2 > span,
   .link.gray:hover > *, a.tdnone:hover .link.gray > *,
   #footer-container .static.box ul li .link.gray, #footer-container .static.box ul li .link.gray > *,
   table.offers.redesigned .space h3 a:hover, table.offers.redesigned.userobserved-list .space h3 a:hover, listHandler table.offers.redesigned .space h3 a:hover {
-    color: #00a2b4; }
+    color: #00909f; }
 
   .link:hover > *, a.tdnone:hover .link > * {
     color: #191919;
-    background-color: #00a2b4; }
+    background-color: #00909f; }
 
   /* MAIN CATEGORIES */
   .maincategories .subcategories-list {
@@ -62,22 +90,14 @@
     border-bottom-color: #303030; }
 
   .gallerywide [data-icon^="star"]:hover, .gallerywide [data-icon^="star"].selected {
-    color: #00a2b4; }
+    color: #00909f; }
 
   /* BUTTONS */
   .mainpage-gallery .more-link a {
-    -webkit-box-shadow: inset 0 0 0 2px #00a2b4;
-    -moz-box-shadow: inset 0 0 0 2px #00a2b4;
-    -ms-box-shadow: inset 0 0 0 2px #00a2b4;
-    -o-box-shadow: inset 0 0 0 2px #00a2b4;
-    box-shadow: inset 0 0 0 2px #00a2b4; }
+    box-shadow: inset 0 0 0 2px #00909f; }
 
   .mainpage-gallery .more-link a:hover {
-    -webkit-box-shadow: inset 0 0 0 5px #00a2b4;
-    -moz-box-shadow: inset 0 0 0 5px #00a2b4;
-    -ms-box-shadow: inset 0 0 0 5px #00a2b4;
-    -o-box-shadow: inset 0 0 0 5px #00a2b4;
-    box-shadow: inset 0 0 0 5px #00a2b4; }
+    box-shadow: inset 0 0 0 5px #00909f; }
 
   /* FOOTER */
   #footer-container .footer-bottom {
@@ -87,18 +107,69 @@
     color: #ccc; }
 
   /* OFFER LIST */
-  table.offers.redesigned .offer-wrapper, table.offers.redesigned.userobserved-list .offer-wrapper, listHandler table.offers.redesigned .offer-wrapper {
+  form.search .clearbox {
+    background: #191919;
+    box-shadow: -1px 0 0px 0 inset #202020; }
+
+  form.search input[type="text"],
+  .locationrequest .input-container,
+  .locationrequest .distancelist dt a,
+  table.offers.redesigned .offer-wrapper, table.offers.redesigned.userobserved-list .offer-wrapper, listHandler table.offers.redesigned .offer-wrapper,
+  .favgallerybox > li .card {
     background: #191919; }
 
-  .offersview div.section h2 {
-    color: #00a2b4; }
+  form.search .clearbox [data-icon="close"],
+  .locationrequest [data-icon="location"],
+  .locationrequest .cityfield.bold,
+  form.search .button.search,
+  a.link.hn:hover > *, a.tdnone:hover .link.hn > *,
+  .offersview div.section h2,
+  .offersview div.section p,
+  table.offers.redesigned tr .observelinkinfo [data-icon^=star], table.offers.redesigned.userobserved-list tr .observelinkinfo [data-icon^=star], listHandler table.offers.redesigned tr .observelinkinfo [data-icon^=star],
+  #categoryLinksHeader .breaklist .link.gray, #categoryLinksHeader .breaklist .link.gray > *,
+  .locationlinks ul li .link.gray {
+    color: #00909f; }
+
+  form.search .button.search:hover, form.search .button.search.is-focused {
+    background-color: #00909f;
+    border-color: #00909f;
+    color: #191919; }
+
+  form.search .option-search-criteria a {
+    box-shadow: inset 0 0 0 2px #00909f; }
+
+  form.search .option-search-criteria a:hover {
+    box-shadow: inset 0 0 0 5px #00909f; }
+
+  .view-lists .view__icon:not(.is-active) {
+    color: #00909f !important; }
+
+  .locationrequest.smallBox .distanceseparator {
+    background: #202020; }
+
+  form.search .locationrequest {
+    box-shadow: -1px 0 0px 0 inset #202020; }
+
+  ul.tabs .tab.selected,
+  ul.tabsfav .tab.selected {
+    color: #00909f;
+    box-shadow: inset 0 -2px 0 0 #002e33, 0 1px 0 0 #008f9e; }
+
+  .pager .item span.current {
+    border-color: #00909f; }
+
+  .brtop-1 {
+    border-top-color: #303030; }
 
   /* OFFER - ITEM */
-  .descgallery {
+  .descgallery,
+  .offer-sidebar__box,
+  .offer__innerbox,
+  .t-new_sidebar .quickcontact {
     background: #191919; }
 
   .descgallery__navi {
-    color: #00a2b4; }
+    color: #00909f; }
 
   /* LOGIN / REGISTER POPUP */
   .mandatory-login {
@@ -115,10 +186,10 @@
     background: #191919; }
 
   .login-tabs__navigation li a {
-    color: #00a2b4; }
+    color: #00909f; }
 
   .login-tabs__navigation li a:before {
-    background: #00a2b4; } }
+    background: #00909f; } }
 @-moz-document regexp("https?://(www|(?!help).*)?.olx.(com|co)(.(ar|co|cr|ec|sv|gt|in|id|pk|pa|pe|za))/(?!payment).*"),
 domain("olx.in") {
   /* Argentina, Colombia, Costa Rica, Ecuador, El Salvador, Guatemala, India, Indonesia, Pakistan, Panama, Peru, South Africa */ }
